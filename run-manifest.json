@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260909-144653+0800",
+  "generatedAt": "2026-09-09T14:46:53+08:00",
+  "latestDate": "2026-09-02",
+  "historyDates": [
+    "2026-07-02",
+    "2026-07-06",
+    "2026-07-09",
+    "2026-07-13",
+    "2026-07-16"
+  ],
+  "sourceRepo": "EvanYFM/macro-workstation"
+}
