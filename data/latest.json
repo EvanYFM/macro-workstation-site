@@ -1,41 +1,46 @@
 {
   "title": "宏观交易工作台",
-  "asOf": "2026-09-09T15:45:22+08:00",
+  "asOf": "2026-09-09T16:43:21+08:00",
   "comparisonDate": "2026-09-02",
   "confidence": "中",
   "staleCount": 7,
   "regime": "能源强 · 亚洲科技弱 · 2Y与10Y利率同步上行，曲线趋平",
   "mainConflict": "能源领涨、亚洲科技走弱，但2Y与10Y利率同步上行，曲线趋平",
-  "summary": "纳指100 -0.12%、SOXX +1.64%；科创50 -0.69%、恒生科技 -0.81%、KOSPI +1.40%。黄金 +1.30%、白银 +1.89%、Brent +2.01%。美国 2Y +2.0bp 至 4.390%，10Y +2.0bp 至 4.800%，3M SOFR 隐含利率 -0.2bp；DXY -0.14%。当前由能源领涨，亚洲科技走弱，同时2Y与10Y利率同步上行，曲线趋平。",
+  "summary": "纳指100 -0.12%、SOXX +1.64%；科创50 -0.69%、恒生科技 -0.76%、KOSPI +1.40%。黄金 +1.19%、白银 +1.48%、Brent +1.88%。美国 2Y +2.0bp 至 4.390%，10Y +2.0bp 至 4.800%，3M SOFR 隐含利率 -0.0bp；DXY -0.09%。当前由能源领涨，亚洲科技走弱，同时2Y与10Y利率同步上行，曲线趋平。",
   "keyChanges": [
     {
       "title": "能源领涨，亚洲科技落后",
-      "detail": "美股科技均值 +0.76%，亚洲科技均值 -0.03%，贵金属均值 +1.60%。",
+      "detail": "美股科技均值 +0.76%，亚洲科技均值 -0.02%，贵金属均值 +1.33%。",
       "tone": "loose"
     },
     {
       "title": "商品方向分化，驱动需要拆分",
-      "detail": "黄金 +1.30%、白银 +1.89%、Brent +2.01%、伦敦锡 -0.14%；贵金属、能源和工业金属不可归为同一需求信号。",
+      "detail": "黄金 +1.19%、白银 +1.48%、Brent +1.88%、伦敦锡 -0.14%；贵金属、能源和工业金属不可归为同一需求信号。",
       "tone": "warning"
     },
     {
       "title": "2Y与10Y利率同步上行，曲线趋平",
       "detail": "2Y +2.0bp 至 4.390%，10Y +2.0bp 至 4.800%，10Y TIPS 最新 2.43%。",
       "tone": "tight"
+    },
+    {
+      "title": "周度与月度视角：宏观变化看周期",
+      "detail": "纳斯达克100 周+0.17%、月-0.39%；韩国综合 周+7.45%、月+11.13%；COMEX 黄金 周+2.26%、月+1.44%；COMEX 白银 周+4.11%、月+3.87%；BRN 原油 周+5.40%、月+12.20%；DXY 周-0.93%、月-1.07%；USDJPY 周-4.11%、月-3.55%；美国 2Y 国债利率 周+5.0bp、月+14.0bp；美国 10Y 国债利率 周+5.0bp、月+8.0bp。日变动更多是噪音，方向与持续性按周和月确认；科创50、恒生科技、USDCNH、3M SOFR 隐含利率与伦敦锡的源不提供可用历史，不做周月外推。",
+      "tone": "warning"
     }
   ],
   "assetDirections": {
     "gold": {
       "direction": "中性",
-      "reason": "黄金上涨 +1.30%，10Y TIPS 0bp 至 2.43%；价格方向仍需美元、通胀和持仓确认。"
+      "reason": "黄金上涨 +1.19%，10Y TIPS 0bp 至 2.43%；价格方向仍需美元、通胀和持仓确认。"
     },
     "silver": {
       "direction": "中性偏空",
-      "reason": "白银上涨 +1.89%，与黄金同向；工业需求与风险偏好仍需确认。"
+      "reason": "白银上涨 +1.48%，与黄金同向；工业需求与风险偏好仍需确认。"
     },
     "oil": {
       "direction": "中性偏多",
-      "reason": "Brent上涨 +2.01% 至 $99.89；供给风险、库存与月差仍需确认。"
+      "reason": "Brent上涨 +1.88% 至 $99.76；供给风险、库存与月差仍需确认。"
     },
     "stocks": {
       "direction": "中性偏多",
@@ -47,7 +52,7 @@
     },
     "usd": {
       "direction": "中性",
-      "reason": "DXY下跌 -0.14%；2Y +2.0bp、10Y +2.0bp，利差与风险偏好需共同确认。"
+      "reason": "DXY下跌 -0.09%；2Y +2.0bp、10Y +2.0bp，利差与风险偏好需共同确认。"
     }
   },
   "indicators": [
@@ -275,10 +280,10 @@
     {
       "id": "brent",
       "name": "Brent",
-      "value": 99.88999938964844,
-      "displayValue": "$99.89",
+      "value": 99.76000213623048,
+      "displayValue": "$99.76",
       "previous": 97.91999816894533,
-      "change": "+$1.97",
+      "change": "+$1.84",
       "frequency": "日频",
       "dataDate": "2026-09-09",
       "lag": "最新可得",
@@ -369,7 +374,7 @@
       "pricing": "名义与实际长端利率同步上行，绝对水平仍高。",
       "transmission": "黄金、长债和高估值权益的贴现压力略缓和，尚未反转。",
       "support": "10Y Treasury 同期 +2bp 至 4.80%。",
-      "counterEvidence": "黄金 +1.30%、白银 +1.89%，贵金属内部出现同向。",
+      "counterEvidence": "黄金 +1.19%、白银 +1.48%，贵金属内部出现同向。",
       "conclusion": "实际贴现压力未变，但贵金属仍需美元、通胀和持仓共同确认。",
       "validation": "TIPS 跌破 2.30% 且美元不走强。",
       "invalidation": "TIPS 回到 2.40% 上方。"
@@ -421,14 +426,14 @@
     },
     {
       "indicatorId": "brent",
-      "fact": "Brent +2.01% 至 $99.89，数据日 2026-09-09。",
+      "fact": "Brent +1.88% 至 $99.76，数据日 2026-09-09。",
       "actor": "产油国、炼厂、运输与能源消费者",
       "shockType": "能源供给冲击",
       "horizon": "数日至数月",
       "policyResponse": "若油价传导到核心通胀，美联储转鸽门槛上升。",
       "pricing": "能源风险溢价快速回补。",
       "transmission": "利多油气链和通胀对冲，未必利多铜等需求型商品。",
-      "support": "黄金 +1.30%、白银 +1.89%、实际利率持平，商品内部并非一致的宽松交易。",
+      "support": "黄金 +1.19%、白银 +1.48%、实际利率持平，商品内部并非一致的宽松交易。",
       "counterEvidence": "EIA 库存细项本次未可靠读取。",
       "conclusion": "原油偏多，但必须等待库存与月差确认。",
       "validation": "Brent 守住 95 美元且 EIA 去库或近月升水扩大。",
@@ -596,17 +601,17 @@
     {
       "market": "美元利率",
       "direction": "2Y与10Y利率同步上行，曲线趋平",
-      "rationale": "2Y +2.0bp、10Y +2.0bp、3M SOFR 隐含利率 -0.2bp；融资价格顺畅，但利率约束增强。"
+      "rationale": "2Y +2.0bp、10Y +2.0bp、3M SOFR 隐含利率 -0.0bp；融资价格顺畅，但利率约束增强。"
     },
     {
       "market": "美元",
       "direction": "高位震荡",
-      "rationale": "DXY -0.14%，USDJPY -0.43%，USDCNH -0.02%；美元指数回落但对日元和人民币仍偏强。"
+      "rationale": "DXY -0.09%，USDJPY -0.16%，USDCNH +0.00%；美元指数回落但对日元和人民币仍偏强。"
     },
     {
       "market": "商品",
       "direction": "贵金属与能源共同走强",
-      "rationale": "黄金 +1.30%、白银 +1.89%、Brent +2.01%；需分别核对美元、实际利率、供给和工业需求。"
+      "rationale": "黄金 +1.19%、白银 +1.48%、Brent +1.88%；需分别核对美元、实际利率、供给和工业需求。"
     },
     {
       "market": "股票与信用",
@@ -617,19 +622,19 @@
   "commodities": [
     {
       "name": "黄金",
-      "change": "黄金 +1.30%，10Y TIPS 0bp 至 2.43%，价格方向仍需实际利率确认。",
+      "change": "黄金 +1.19%，10Y TIPS 0bp 至 2.43%，价格方向仍需实际利率确认。",
       "trigger": "TIPS < 2.30%，美元不走强，MOVE 不突破 80；反证为 TIPS > 2.40% 或 DXY 转强。",
       "direction": "中性偏多"
     },
     {
       "name": "白银",
-      "change": "白银 +1.89%，与黄金同向；科技和工业金属信号仍需确认。",
+      "change": "白银 +1.48%，与黄金同向；科技和工业金属信号仍需确认。",
       "trigger": "金银继续同涨、工业金属企稳且 TIPS 下行；反证为银强金弱或风险资产转跌。",
       "direction": "中性偏多"
     },
     {
       "name": "原油",
-      "change": "Brent +2.01% 至 $99.89，库存与月差仍需新增确认。",
+      "change": "Brent +1.88% 至 $99.76，库存与月差仍需新增确认。",
       "trigger": "EIA 去库或近月升水扩大且 Brent 守住 95；反证为跌回 98 下方并累库。",
       "direction": "中性偏多"
     },
@@ -666,7 +671,7 @@
     {
       "label": "AI vs 黄金",
       "status": "贵金属占优",
-      "meaning": "美股科技均值 +0.76%，贵金属均值 +1.60%；实际利率持平，黄金机会成本未变。"
+      "meaning": "美股科技均值 +0.76%，贵金属均值 +1.33%；实际利率持平，黄金机会成本未变。"
     },
     {
       "label": "就业结构",
@@ -676,7 +681,7 @@
     {
       "label": "AI 回撤三分法",
       "status": "地域分化",
-      "meaning": "SOXX +1.64%，恒生科技 -0.81%、科创50 -0.69%，当前不是全球科技一致交易。"
+      "meaning": "SOXX +1.64%，恒生科技 -0.76%、科创50 -0.69%，当前不是全球科技一致交易。"
     }
   ],
   "triggers": [
@@ -712,7 +717,7 @@
     },
     {
       "indicator": "Brent",
-      "current": "$99.89",
+      "current": "$99.76",
       "threshold": "守住 $80",
       "meaning": "确认能源供给风险仍在。"
     },
@@ -838,27 +843,27 @@
     {
       "meetingDate": "9月15–16日（SEP）",
       "decisionDate": "2026-09-16",
-      "hikeProbability": 53,
-      "displayProbability": "53.0%",
-      "dataDate": "2026-09-09 15:42 CST",
+      "hikeProbability": 53.1,
+      "displayProbability": "53.1%",
+      "dataDate": "2026-09-09 16:42 CST",
       "source": {
         "label": "Polymarket",
         "url": "https://polymarket.com/event/fed-decision-in-september-762"
       },
       "confidence": "高",
-      "interpretation": "本次会议加息概率53.0%（25bp 52.5%，50bp以上 0.5%）；按兵不动46.5%，降息0.6%。",
+      "interpretation": "本次会议加息概率53.1%（25bp 52.5%，50bp以上 0.6%）；按兵不动46.5%，降息0.6%。",
       "probabilityBasis": "single_meeting_change",
       "holdProbability": 46.5,
       "cutProbability": 0.6,
       "hike25Probability": 52.5,
-      "hike50PlusProbability": 0.5
+      "hike50PlusProbability": 0.6
     },
     {
       "meetingDate": "10月27–28日",
       "decisionDate": "2026-10-28",
       "hikeProbability": 31.4,
       "displayProbability": "31.4%",
-      "dataDate": "2026-09-09 15:40 CST",
+      "dataDate": "2026-09-09 16:42 CST",
       "source": {
         "label": "Polymarket",
         "url": "https://polymarket.com/event/fed-decision-in-october-20260617190323537"
@@ -876,16 +881,16 @@
       "decisionDate": "2026-12-09",
       "hikeProbability": 45.9,
       "displayProbability": "45.9%",
-      "dataDate": "2026-09-09 15:42 CST",
+      "dataDate": "2026-09-09 16:38 CST",
       "source": {
         "label": "Polymarket",
         "url": "https://polymarket.com/event/fed-decision-in-december-20260729232808632"
       },
       "confidence": "高",
-      "interpretation": "本次会议加息概率45.9%（25bp 43.5%，50bp以上 2.4%）；按兵不动48.5%，降息6.9%。",
+      "interpretation": "本次会议加息概率45.9%（25bp 43.5%，50bp以上 2.4%）；按兵不动47.5%，降息6.4%。",
       "probabilityBasis": "single_meeting_change",
-      "holdProbability": 48.5,
-      "cutProbability": 6.9,
+      "holdProbability": 47.5,
+      "cutProbability": 6.4,
       "hike25Probability": 43.5,
       "hike50PlusProbability": 2.4
     }
@@ -1097,6 +1102,10 @@
           "previous": 29544.150390625,
           "change": "-0.12%",
           "pctChange": -0.12337864312580384,
+          "change5d": "+0.17%",
+          "change20d": "-0.39%",
+          "pctChange5d": 0.17221226220528632,
+          "pctChange20d": -0.38519455094108923,
           "dataDate": "2026-09-08",
           "status": "fresh",
           "source": {
@@ -1114,6 +1123,10 @@
           "previous": 519.8599853515625,
           "change": "+1.64%",
           "pctChange": 1.6427575314773804,
+          "change5d": "+3.40%",
+          "change20d": "-0.19%",
+          "pctChange5d": 3.3969974128972,
+          "pctChange20d": -0.18700583822542297,
           "dataDate": "2026-09-08",
           "status": "fresh",
           "source": {
@@ -1131,6 +1144,10 @@
           "previous": 1590.9954,
           "change": "-0.69%",
           "pctChange": -0.6874037542393283,
+          "change5d": "—",
+          "change20d": "—",
+          "pctChange5d": null,
+          "pctChange20d": null,
           "dataDate": "2026-09-09",
           "status": "fresh",
           "source": {
@@ -1143,11 +1160,15 @@
           "id": "hstech",
           "name": "恒生科技",
           "symbol": "HSTECH.HK",
-          "value": 4418.60009765625,
-          "displayValue": "4,418.60",
+          "value": 4420.7900390625,
+          "displayValue": "4,420.79",
           "previous": 4454.85,
-          "change": "-0.81%",
-          "pctChange": -0.8137176862015637,
+          "change": "-0.76%",
+          "pctChange": -0.7645590971076548,
+          "change5d": "—",
+          "change20d": "—",
+          "pctChange5d": null,
+          "pctChange20d": null,
           "dataDate": "2026-09-09",
           "status": "fresh",
           "source": {
@@ -1165,6 +1186,10 @@
           "previous": 6954.52001953125,
           "change": "+1.40%",
           "pctChange": 1.3965035245386512,
+          "change5d": "+7.45%",
+          "change20d": "+11.13%",
+          "pctChange5d": 7.449958338451588,
+          "pctChange20d": 11.127681619496377,
           "dataDate": "2026-09-09",
           "status": "fresh",
           "source": {
@@ -1183,11 +1208,15 @@
           "id": "gold",
           "name": "COMEX 黄金",
           "symbol": "GC=F",
-          "value": 4451.10009765625,
-          "displayValue": "$4,451.10",
+          "value": 4446.2001953125,
+          "displayValue": "$4,446.20",
           "previous": 4393.89990234375,
-          "change": "+1.30%",
-          "pctChange": 1.3018092488176358,
+          "change": "+1.19%",
+          "pctChange": 1.1902932276825993,
+          "change5d": "+2.26%",
+          "change20d": "+1.44%",
+          "pctChange5d": 2.2585141516214353,
+          "pctChange20d": 1.441939204026922,
           "dataDate": "2026-09-09",
           "status": "fresh",
           "source": {
@@ -1201,11 +1230,15 @@
           "id": "silver",
           "name": "COMEX 白银",
           "symbol": "SI=F",
-          "value": 67.55000305175781,
-          "displayValue": "$67.550",
+          "value": 67.2750015258789,
+          "displayValue": "$67.275",
           "previous": 66.2969970703125,
-          "change": "+1.89%",
-          "pctChange": 1.889989044475746,
+          "change": "+1.48%",
+          "pctChange": 1.4751866581968496,
+          "change5d": "+4.11%",
+          "change20d": "+3.87%",
+          "pctChange5d": 4.111865835616988,
+          "pctChange20d": 3.8691417840738365,
           "dataDate": "2026-09-09",
           "status": "fresh",
           "source": {
@@ -1219,11 +1252,15 @@
           "id": "brent",
           "name": "BRN 原油",
           "symbol": "BZ=F",
-          "value": 99.88999938964844,
-          "displayValue": "$99.89",
+          "value": 99.76000213623048,
+          "displayValue": "$99.76",
           "previous": 97.91999816894533,
-          "change": "+2.01%",
-          "pctChange": 2.011847689482375,
+          "change": "+1.88%",
+          "pctChange": 1.8790890540158336,
+          "change5d": "+5.40%",
+          "change20d": "+12.20%",
+          "pctChange5d": 5.398838381375426,
+          "pctChange20d": 12.203349485121024,
           "dataDate": "2026-09-09",
           "status": "fresh",
           "source": {
@@ -1242,13 +1279,17 @@
           "previous": 55300,
           "change": "-0.14%",
           "pctChange": -0.13562386980108498,
+          "change5d": "—",
+          "change20d": "—",
+          "pctChange5d": null,
+          "pctChange20d": null,
           "dataDate": "2026-09-08",
           "status": "fresh",
           "source": {
             "label": "Westmetall / LME delayed data",
             "url": "https://www.westmetall.com/en/markdaten.php?action=table&field=LME_Sn_cash"
           },
-          "interpretation": "锡价与亚洲科技同向，电子需求信号有所共振；仍需库存和现货升贴水确认。",
+          "interpretation": "锡价与亚洲科技同向，电子需求信号有所共振；仍需库存和现货升贴水确认，该源只有最近两个交易日，不计算周与月变动。",
           "opportunity": "机会：守住 55,000 美元并与库存下降共振。反证：库存回升且亚洲科技转弱。"
         }
       ]
@@ -1266,6 +1307,10 @@
           "previous": 4.37,
           "change": "+2.0bp",
           "pctChange": 0.4576659038901504,
+          "change5d": "+5.0bp",
+          "change20d": "+14.0bp",
+          "pctChange5d": 4.999999999999982,
+          "pctChange20d": 13.999999999999968,
           "dataDate": "2026-09-08",
           "status": "fresh",
           "source": {
@@ -1283,6 +1328,10 @@
           "previous": 4.78,
           "change": "+2.0bp",
           "pctChange": 0.41841004184099523,
+          "change5d": "+5.0bp",
+          "change20d": "+8.0bp",
+          "pctChange5d": 4.999999999999982,
+          "pctChange20d": 8.000000000000007,
           "dataDate": "2026-09-08",
           "status": "fresh",
           "source": {
@@ -1295,11 +1344,15 @@
           "id": "sofr3m",
           "name": "三个月 SOFR 隐含利率",
           "symbol": "SR3=F",
-          "value": 3.8625030517577983,
-          "displayValue": "3.863%",
+          "value": 3.864997863769517,
+          "displayValue": "3.865%",
           "previous": 3.864999999999995,
-          "change": "-0.2bp",
-          "pctChange": -0.0646040942353583,
+          "change": "-0.0bp",
+          "pctChange": -0.00005527116372173221,
+          "change5d": "—",
+          "change20d": "—",
+          "pctChange5d": null,
+          "pctChange20d": null,
           "dataDate": "2026-09-09",
           "status": "fresh",
           "source": {
@@ -1318,11 +1371,15 @@
           "id": "dxy",
           "name": "DXY",
           "symbol": "DX-Y.NYB",
-          "value": 98.70099639892578,
-          "displayValue": "98.701",
+          "value": 98.7480010986328,
+          "displayValue": "98.748",
           "previous": 98.83999633789062,
-          "change": "-0.14%",
-          "pctChange": -0.1406312668099095,
+          "change": "-0.09%",
+          "pctChange": -0.09307491164137169,
+          "change5d": "-0.93%",
+          "change20d": "-1.07%",
+          "pctChange5d": -0.9250497514304155,
+          "pctChange20d": -1.0739316764864755,
           "dataDate": "2026-09-09",
           "status": "fresh",
           "source": {
@@ -1335,11 +1392,15 @@
           "id": "usdjpy",
           "name": "USDJPY",
           "symbol": "JPY=X",
-          "value": 153.1909942626953,
-          "displayValue": "153.191",
+          "value": 153.60400390625,
+          "displayValue": "153.604",
           "previous": 153.85499572753906,
-          "change": "-0.43%",
-          "pctChange": -0.431576148505198,
+          "change": "-0.16%",
+          "pctChange": -0.16313530808810556,
+          "change5d": "-4.11%",
+          "change20d": "-3.55%",
+          "pctChange5d": -4.114956225136577,
+          "pctChange20d": -3.5544504474260394,
           "dataDate": "2026-09-09",
           "status": "fresh",
           "source": {
@@ -1352,11 +1413,15 @@
           "id": "usdcnh",
           "name": "USDCNH",
           "symbol": "CNH=X",
-          "value": 6.7041401863098145,
-          "displayValue": "6.7041",
+          "value": 6.705570220947266,
+          "displayValue": "6.7056",
           "previous": 6.7054,
-          "change": "-0.02%",
-          "pctChange": -0.01878804680087055,
+          "change": "+0.00%",
+          "pctChange": 0.002538565145488681,
+          "change5d": "—",
+          "change20d": "—",
+          "pctChange5d": null,
+          "pctChange20d": null,
           "dataDate": "2026-09-09",
           "status": "fresh",
           "source": {
@@ -1371,17 +1436,17 @@
   "crossAssetRelations": [
     {
       "title": "金银 vs 美元/实际利率",
-      "evidence": "黄金 +1.30%、白银 +1.89%，DXY -0.14%；10Y TIPS 0bp 至 2.43%。",
+      "evidence": "黄金 +1.19%、白银 +1.48%，DXY -0.09%；10Y TIPS 0bp 至 2.43%。",
       "implication": "金银方向与美元、实际利率是否一致，决定行情更偏宏观驱动还是品种自身驱动。"
     },
     {
       "title": "亚洲科技 vs 美股科技",
-      "evidence": "纳指100 -0.12%、SOXX +1.64%；科创50 -0.69%、恒生科技 -0.81%、KOSPI +1.40%。",
+      "evidence": "纳指100 -0.12%、SOXX +1.64%；科创50 -0.69%、恒生科技 -0.76%、KOSPI +1.40%。",
       "implication": "科技风险偏好存在明显地域分化，不能把美股半导体强势外推至全部亚洲科技。"
     },
     {
       "title": "利率曲线 vs 风险资产",
-      "evidence": "2Y +2.0bp、10Y +2.0bp，3M SOFR 隐含利率 -0.2bp 至 3.863%。",
+      "evidence": "2Y +2.0bp、10Y +2.0bp，3M SOFR 隐含利率 -0.0bp 至 3.865%。",
       "implication": "风险资产内部明显分化，利率上行也不支持把局部上涨归因于降息或全面宽松。"
     }
   ],
@@ -1432,7 +1497,7 @@
       "date": "09-09",
       "ust2": null,
       "ust10": null,
-      "sofr3m": 3.8625030517577983
+      "sofr3m": 3.864997863769517
     }
   ],
   "treasuryObservations": [
