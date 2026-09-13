@@ -8,10 +8,7 @@
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <meta property="og:title" content="宏观交易工作台">
 <meta property="og:description" content="从宏观六变量到跨资产结果与下一验证点。">
-<meta property="og:image" content="og.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600&family=Noto+Sans+SC:wght@300;400;500&display=swap" rel="stylesheet">
+<meta property="og:image" content="https://evanyfm.github.io/macro-workstation-site/og.png">
 <style>
 /* ============ 花园 Tokens（明暗两套同步维护） ============ */
 :root{
@@ -970,6 +967,10 @@ observeAll();
   var hash = (location.hash || '').replace('#','');
   var ok = TABS.some(function(t){ return t.id === hash; });
   go(ok ? hash : 'overview');
+  window.addEventListener('hashchange', function(){
+    var h = (location.hash || '').replace('#','');
+    if (TABS.some(function(t){ return t.id === h; })) go(h);
+  });
 })();
 </script>
 </body>
