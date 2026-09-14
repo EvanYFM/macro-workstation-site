@@ -29,7 +29,7 @@ html[data-theme="dark"]{
 }
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-weight:300;
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-weight:400;
   letter-spacing:.02em;transition:background .9s var(--ease),color .9s var(--ease);
   -webkit-font-smoothing:antialiased}
 ::selection{background:var(--ink);color:var(--paper)}
@@ -74,7 +74,7 @@ html[data-theme="dark"] .taiji .disc{transform:rotate(180deg)}
 .tab-row{display:flex;gap:26px;overflow-x:auto;scrollbar-width:none;-ms-overflow-style:none}
 .tab-row::-webkit-scrollbar{display:none}
 .tab{border:none;background:transparent;cursor:pointer;color:var(--gray);
-  font-family:var(--sans);font-size:14.5px;letter-spacing:.1em;font-weight:300;
+  font-family:var(--sans);font-size:14.5px;letter-spacing:.1em;font-weight:400;
   padding:11px 0 13px;position:relative;white-space:nowrap;transition:color .4s}
 .tab:focus-visible{outline:1px solid var(--cinnabar);outline-offset:2px}
 .tab::after{content:"";position:absolute;left:0;bottom:7px;width:100%;height:1px;background:var(--ink);
@@ -91,7 +91,7 @@ main{max-width:1120px;margin:0 auto;padding:138px 48px 0}
 .blk{margin-top:56px}
 .line-head{display:flex;align-items:baseline;gap:13px;flex-wrap:wrap;
   border-bottom:1px solid var(--line-strong);padding-bottom:11px}
-.line-head h2{font-family:var(--serif);font-size:17.0px;font-weight:600;letter-spacing:.06em}
+.line-head h2{font-family:var(--serif);font-size:19.0px;font-weight:600;letter-spacing:.06em}
 .line-head .en{font-family:var(--sans);font-size:11.0px;letter-spacing:.3em;color:var(--gray);
   text-transform:uppercase;font-weight:400}
 .line-head .note{margin-left:auto;font-size:13.0px;color:var(--gray)}
@@ -105,7 +105,7 @@ main{max-width:1120px;margin:0 auto;padding:138px 48px 0}
 .thesis h1{font-family:var(--serif);font-size:clamp(21px,3.4vw,30px);font-weight:600;
   letter-spacing:.03em;line-height:1.5;margin-top:16px;max-width:34ch}
 .thesis .sum{font-size:15.0px;line-height:1.95;color:var(--charcoal);margin-top:16px;max-width:72ch}
-.thesis .regime{display:flex;align-items:center;flex-wrap:wrap;margin-top:22px;font-size:14.0px;color:var(--charcoal)}
+.thesis .regime{display:flex;align-items:center;flex-wrap:wrap;margin-top:22px;font-size:15.0px;color:var(--charcoal)}
 .thesis .regime .tag{padding:0 14px;border-left:1px solid var(--line-strong);letter-spacing:.06em}
 .thesis .regime .tag:first-child{padding-left:0;border-left:none}
 .thesis .meta{display:flex;gap:22px;flex-wrap:wrap;margin-top:24px;font-size:13.0px;color:var(--gray)}
@@ -138,13 +138,13 @@ main{max-width:1120px;margin:0 auto;padding:138px 48px 0}
 .rel-grid{display:grid;grid-template-columns:repeat(3,1fr)}
 .rel-grid article{padding:24px 26px 28px;border-right:1px solid var(--line)}
 .rel-grid article:last-child{border-right:none}
-.rel-grid h3{font-family:var(--serif);font-size:16.0px;font-weight:600;letter-spacing:.04em}
+.rel-grid h3{font-family:var(--serif);font-size:17.0px;font-weight:600;letter-spacing:.04em}
 .rel-grid .ev{font-size:14.5px;color:var(--charcoal);line-height:1.85;margin-top:13px}
 .rel-grid .imp{font-size:13.5px;color:var(--gray);line-height:1.8;margin-top:11px}
 
 .mgroup{margin-top:42px}
 .mgroup .gh{display:flex;align-items:baseline;gap:12px;margin-bottom:4px}
-.mgroup .gh h3{font-family:var(--serif);font-size:16.0px;font-weight:600;letter-spacing:.06em}
+.mgroup .gh h3{font-family:var(--serif);font-size:17.0px;font-weight:600;letter-spacing:.06em}
 .mgroup .gh .en{font-size:10.5px;letter-spacing:.28em;color:var(--gray);text-transform:uppercase}
 .mrow{display:grid;grid-template-columns:1.35fr 108px 78px 78px 78px 1.5fr;gap:14px;align-items:baseline;
   padding:17px 0;border-bottom:1px solid var(--line)}
@@ -160,10 +160,10 @@ main{max-width:1120px;margin:0 auto;padding:138px 48px 0}
 .opp p{font-size:13.5px;color:var(--gray);line-height:1.8;margin-top:7px;padding-left:13px;
   border-left:1px solid var(--line-strong);max-width:82ch}
 
-.krow{display:grid;grid-template-columns:46px 1fr;gap:16px;padding:20px 0;border-bottom:1px solid var(--line)}
+.krow{display:grid;grid-template-columns:46px 1fr;gap:18px;padding:26px 0;border-bottom:1px solid var(--line)}
 .krow .kno{font-family:var(--serif);font-size:17.0px;font-weight:600;color:var(--cinnabar)}
-.krow h3{font-family:var(--serif);font-size:16.0px;font-weight:600;letter-spacing:.04em}
-.krow p{font-size:14.5px;color:var(--charcoal);line-height:1.9;margin-top:9px;max-width:76ch}
+.krow h3{font-family:var(--serif);font-size:17.0px;font-weight:600;letter-spacing:.04em;line-height:1.5}
+.krow p{font-size:14.5px;color:var(--charcoal);line-height:1.9;margin-top:10px;max-width:76ch}
 
 /* ============ 变量页 ============ */
 .plead{margin-top:48px}
@@ -173,7 +173,7 @@ main{max-width:1120px;margin:0 auto;padding:138px 48px 0}
 .plead .eyebrow .en{font-size:11.0px;letter-spacing:.3em;color:var(--gray);text-transform:uppercase}
 .plead h1{font-family:var(--serif);font-size:clamp(20px,3vw,26px);font-weight:600;
   letter-spacing:.04em;margin-top:16px}
-.plead .q{font-family:var(--serif);font-size:18.0px;font-weight:400;color:var(--charcoal);
+.plead .q{font-family:var(--serif);font-size:16.5px;font-weight:400;color:var(--charcoal);
   letter-spacing:.02em;margin-top:14px;padding-bottom:20px;border-bottom:1px solid var(--line-strong)}
 .plead .pm{display:flex;gap:34px;flex-wrap:wrap;margin-top:16px;font-size:13.0px;color:var(--gray)}
 .plead .pm b{font-size:14.5px;color:var(--ink);font-weight:400;display:block;margin-top:4px}
@@ -181,7 +181,7 @@ main{max-width:1120px;margin:0 auto;padding:138px 48px 0}
 .vlogic .arr{font-style:normal;color:var(--gray);text-align:center;padding-top:26px;font-size:15.0px}
 .vlogic article{padding-top:18px}
 .vlogic article .no{font-family:var(--serif);font-size:14.0px;font-weight:600;color:var(--cinnabar)}
-.vlogic article .tt{font-family:var(--serif);font-size:15.0px;font-weight:600;letter-spacing:.14em;margin-left:8px}
+.vlogic article .tt{font-family:var(--serif);font-size:16.0px;font-weight:600;letter-spacing:.14em;margin-left:8px}
 .vlogic article p{font-size:14.5px;color:var(--charcoal);line-height:1.9;margin-top:12px;
   border-top:1px solid var(--line);padding-top:12px}
 
@@ -343,7 +343,7 @@ footer .fb{color:var(--charcoal)}
 .vrow .vst small{color:var(--up)}
 .line-head .note{font-weight:500;color:var(--charcoal)}
 .plead .pm b{display:inline;margin:0 0 0 10px}
-.kgrid{display:grid;grid-template-columns:1fr 1fr}
+.kgrid{display:grid;grid-template-columns:1fr 1fr;column-gap:48px;row-gap:6px}
 .kgrid .krow:nth-child(odd){border-right:1px solid var(--line);padding-right:30px}
 .kgrid .krow:nth-child(even){padding-left:30px}
 .kgrid .krow p{max-width:none}

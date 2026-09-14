@@ -41,4 +41,3 @@ jobs:
           assert(existsSync('.nojekyll') && existsSync('404.html') && existsSync('robots.txt'), 'missing pages plumbing (.nojekyll/404/robots)');
           console.log('site-check OK · data ' + manifest.latestDate + ' · ui=' + manifest.ui);
           EOF
-
