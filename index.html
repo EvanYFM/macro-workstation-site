@@ -85,7 +85,7 @@ html[data-theme="dark"] .taiji .disc{transform:rotate(180deg)}
 .tab.on::after{transform:scaleX(1)}
 
 /* ============ 主体 ============ */
-main{max-width:1120px;margin:0 auto;padding:138px 48px 0}
+main{max-width:1120px;margin:0 auto;padding:116px 48px 0}
 .view{display:none}
 .view.on{display:block}
 .blk{margin-top:56px}
@@ -98,12 +98,12 @@ main{max-width:1120px;margin:0 auto;padding:138px 48px 0}
 .blk > .lead-note{font-size:14.0px;color:var(--gray);margin-top:12px;line-height:1.8}
 
 /* ============ 主论断 ============ */
-.thesis{margin-top:44px}
+.thesis{margin-top:28px}
 .thesis .eyebrow{display:flex;align-items:baseline;gap:12px}
 .thesis .eyebrow .no{font-family:var(--serif);font-size:15.0px;font-weight:600;color:var(--cinnabar)}
 .thesis .eyebrow .en{font-family:var(--sans);font-size:11.0px;letter-spacing:.3em;color:var(--gray);text-transform:uppercase}
 .thesis h1{font-family:var(--serif);font-size:clamp(21px,3.4vw,30px);font-weight:600;
-  letter-spacing:.03em;line-height:1.5;margin-top:16px;max-width:34ch}
+  letter-spacing:.03em;line-height:1.5;margin-top:0;max-width:34ch}
 .thesis .sum{font-size:15.0px;line-height:1.95;color:var(--charcoal);margin-top:16px;max-width:72ch}
 .thesis .regime{display:flex;align-items:center;flex-wrap:wrap;margin-top:22px;font-size:15.0px;color:var(--charcoal)}
 .thesis .regime .tag{padding:0 14px;border-left:1px solid var(--line-strong);letter-spacing:.06em}
@@ -160,13 +160,13 @@ main{max-width:1120px;margin:0 auto;padding:138px 48px 0}
 .opp p{font-size:13.5px;color:var(--gray);line-height:1.8;margin-top:7px;padding-left:13px;
   border-left:1px solid var(--line-strong);max-width:82ch}
 
-.krow{display:grid;grid-template-columns:46px 1fr;gap:18px;padding:26px 0;border-bottom:1px solid var(--line)}
-.krow .kno{font-family:var(--serif);font-size:17.0px;font-weight:600;color:var(--cinnabar)}
-.krow h3{font-family:var(--serif);font-size:17.0px;font-weight:600;letter-spacing:.04em;line-height:1.5}
-.krow p{font-size:14.5px;color:var(--charcoal);line-height:1.9;margin-top:10px;max-width:76ch}
+.krow{display:grid;grid-template-columns:46px 1fr;gap:16px;padding:20px 0;border-bottom:1px solid var(--line)}
+.krow .kno{font-family:var(--serif);font-size:15px;font-weight:600;color:var(--cinnabar)}
+.krow h3{font-family:var(--serif);font-size:14px;font-weight:600;letter-spacing:.04em}
+.krow p{font-size:12.5px;color:var(--charcoal);line-height:1.9;margin-top:9px;max-width:76ch}
 
 /* ============ 变量页 ============ */
-.plead{margin-top:48px}
+.plead{margin-top:28px}
 .plead .eyebrow{display:flex;align-items:baseline;gap:12px}
 .plead .eyebrow .no{font-family:var(--serif);font-size:16.0px;font-weight:600;color:var(--cinnabar)}
 .plead .eyebrow .nm{font-family:var(--serif);font-size:16.0px;font-weight:600;letter-spacing:.1em}
@@ -315,7 +315,7 @@ footer .fb{color:var(--charcoal)}
 @media (max-width:900px){
   .head-in{padding:14px 22px 0}
   .head-meta .hm-hide{display:none}
-  main{padding:132px 22px 0}
+  main{padding:110px 22px 0}
   footer{padding:24px 22px 40px}
   .matrix-cols{display:none}
   .vrow{grid-template-columns:1fr;gap:12px;padding:20px 0}
@@ -343,7 +343,7 @@ footer .fb{color:var(--charcoal)}
 .vrow .vst small{color:var(--up)}
 .line-head .note{font-weight:500;color:var(--charcoal)}
 .plead .pm b{display:inline;margin:0 0 0 10px}
-.kgrid{display:grid;grid-template-columns:1fr 1fr;column-gap:48px;row-gap:6px}
+.kgrid{display:grid;grid-template-columns:1fr 1fr}
 .kgrid .krow:nth-child(odd){border-right:1px solid var(--line);padding-right:30px}
 .kgrid .krow:nth-child(even){padding-left:30px}
 .kgrid .krow p{max-width:none}
@@ -353,7 +353,7 @@ footer .fb{color:var(--charcoal)}
   .kgrid .krow:nth-child(even){padding-left:0}
 }
 
-.thesis{padding-top:24px;padding-bottom:12px}.thesis h1{font-size:26px}.blk{margin-top:28px}
+.thesis{padding-bottom:12px}.thesis h1{font-size:26px}.blk{margin-top:28px}
 .health-panel{padding:12px 0;border-bottom:1px solid var(--line);font-size:14px}.health-panel summary{cursor:pointer}.health-panel p{margin:8px 0}
 .next-event{padding:12px 0;font-size:14px}.rule-alert{padding:12px;border-left:3px solid var(--up);font-size:14px}.fed-comparison,.quote-basis{font-size:14px;color:var(--gray)}
 .vrow{padding-top:14px;padding-bottom:14px}.vst small{font-size:14px}.evrow{font-size:14px}.kgrid article{padding:10px 0}
