@@ -63,6 +63,14 @@
       "relativeChange": "留存现有快照；各字段以原始数据日期为准",
       "directionChange": "详见当次快照",
       "markdownPath": "/reports/2026-09-15.md"
+    },
+    {
+      "date": "2026-09-17",
+      "mainConflict": "美股科技领涨、能源走弱，但2Y +7.0bp、10Y +1.0bp，曲线趋平",
+      "confidence": "中",
+      "relativeChange": "留存现有快照；各字段以原始数据日期为准",
+      "directionChange": "详见当次快照",
+      "markdownPath": "/reports/2026-09-17.md"
     }
   ]
 }

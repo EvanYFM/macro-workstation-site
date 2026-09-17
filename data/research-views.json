@@ -1,0 +1,51 @@
+{
+  "reviewedAt": "2026-09-16",
+  "snapshotAsOf": "2026-09-15T17:42:54+08:00",
+  "cards": [
+    {
+      "id": "rates",
+      "title": "短端领涨，政策路径值得优先跟踪",
+      "conclusion": "收益率上行且短端升幅更大，呈现熊市趋平。仅用长债供给压力解释这轮变化不充分，应优先核对政策路径是否被上修。",
+      "evidence": "9月4日至14日，2Y从4.37%升至4.65%（+28bp），10Y从4.78%升至4.97%（+19bp）；10Y−2Y利差由41bp收窄至32bp。",
+      "limit": "2Y并非纯政策预期，会议定价仍有采集失败记录；不能据此断言市场已确定预期加息。",
+      "watch": "核验联邦基金期货是否同步上修；若长端转为领涨，再提高期限溢价与供给因素的解释权重。",
+      "sources": [{"label": "美国财政部 · 收益率曲线", "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve"}]
+    },
+    {
+      "id": "credit",
+      "title": "低评级信用承压，尚未广泛扩散",
+      "conclusion": "风险补偿上升集中在低评级债券，投资级债券没有同步恶化。现有证据更符合信用分层，尚不支持全面信用收缩。",
+      "evidence": "9月2日至11日，CCC及以下OAS由10.53%升至10.76%（+23bp），BBB由0.99%降至0.97%（−2bp）；两者之差扩大25bp至9.79%。",
+      "limit": "结论截至9月11日，后续数据未确认；评级指数构成变化也可能影响比较。",
+      "watch": "观察BBB是否持续走阔，并与HY利差及融资压力交叉验证；若共同恶化，再判断压力是否扩散。",
+      "sources": [{"label": "FRED · CCC及以下OAS", "url": "https://fred.stlouisfed.org/series/BAMLH0A3HYC"}, {"label": "FRED · BBB OAS", "url": "https://fred.stlouisfed.org/series/BAMLC0A4CBBB"}]
+    },
+    {
+      "id": "liquidity",
+      "title": "准备金改善，利率约束仍在上升",
+      "conclusion": "银行体系准备金数量改善，却没有伴随收益率同步下降。资金数量与资产贴现率给出不同信号，不能由准备金增加直接推出风险资产上涨。",
+      "evidence": "9月2日至9日，准备金从2.8945升至2.9913万亿美元（约+968亿美元），TGA从9679降至8833亿美元（约−846亿美元）；9月4日至14日，2Y与10Y收益率均上升。",
+      "limit": "周频资金与日频利率的观察窗口不同；TGA变化不能解释全部准备金增量，也不代表QE。",
+      "watch": "跟踪TGA回补是否伴随准备金回落，并核对同日SOFR−IORB与实际利率，区分资金数量和融资价格。",
+      "sources": [{"label": "FRED · 银行准备金", "url": "https://fred.stlouisfed.org/series/WRESBAL"}, {"label": "FRED · TGA", "url": "https://fred.stlouisfed.org/series/WTREGEN"}]
+    },
+    {
+      "id": "growth",
+      "title": "就业暂稳，增长来源仍有分歧",
+      "conclusion": "已有就业观测暂未呈现明显恶化；GDPNow偏强，但最近一期实际消费近乎停滞，不能将增长韧性解释为居民需求全面加速。",
+      "evidence": "8月非农新增16.2万人，失业率4.1%且环比不变；截至9月5日初请四周均值20.6万人，较前期降1500人。9月10日GDPNow预测第三季度年化增长4.4%，7月实际消费环比仅+0.01%。",
+      "limit": "月份与频率不同，GDPNow属于模型预测；服务业PMI缺失，统计数据仍可能修订。",
+      "watch": "核对消费、投资、库存、净出口和政府支出的增长贡献，并观察后续就业与实际消费是否同向。",
+      "sources": [{"label": "FRED · 非农就业", "url": "https://fred.stlouisfed.org/series/PAYEMS"}, {"label": "FRED · 实际消费", "url": "https://fred.stlouisfed.org/series/PCEC96"}, {"label": "Atlanta Fed · GDPNow", "url": "https://www.atlantafed.org/research-and-data/data/gdpnow"}]
+    },
+    {
+      "id": "inflation",
+      "title": "能源成本升温，核心通胀尚未一致加速",
+      "conclusion": "能源涨价构成后续成本压力，但核心CPI与核心PCE的短期趋势尚不一致。既不足以宣布通胀问题解决，也不足以确认核心通胀全面再加速。",
+      "evidence": "8月总体/核心CPI同比3.4%/约2.4%，核心CPI三个月年化约1.97%、单月环比约0.29%；7月核心PCE同比约3.3%、三个月年化约3.05%。截至9月7日，柴油零售价周涨6.57%。",
+      "limit": "CPI与PCE的月份、权重和口径不同；柴油只是成本验证项，三个月年化采用快照计算值，本次未独立重算原始序列。",
+      "watch": "验证能源涨价是否持续及是否向核心分项传导；以后续官方数据核对，不将Nowcast预估当作已发布事实。",
+      "sources": [{"label": "FRED · 核心CPI", "url": "https://fred.stlouisfed.org/series/CPILFESL"}, {"label": "FRED · 核心PCE", "url": "https://fred.stlouisfed.org/series/PCEPILFE"}, {"label": "EIA · 柴油零售价", "url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?f=W&n=PET&s=EMD_EPD2D_PTE_NUS_DPG"}]
+    }
+  ]
+}
