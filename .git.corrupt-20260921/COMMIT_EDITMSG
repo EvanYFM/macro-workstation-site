@@ -1,9 +1,0 @@
-publish: data 2026-09-21 (20260921-110432+0800) — six-variable analysis layer, observation-period freshness, bank credit, services PMI
-
-Six variables no longer render a '证据不足' placeholder: each carries a state built
-from the readings actually available plus a 350-470 character data read, with
-off-window evidence disclosed as an explicit currency caveat. Also fixes a
-pre-existing defect where the analysis read .displayValue off evidence objects
-that only expose .value, rendering '… undefined …' in several sentences.
-
-dataHealth fresh 50 / stale 5 / missing 2 / failed 0 / manual 1 (58).
