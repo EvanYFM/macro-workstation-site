@@ -1,6 +1,6 @@
 {
   "title": "宏观交易工作台",
-  "asOf": "2026-09-21T10:41:43+08:00",
+  "asOf": "2026-09-21T18:15:00+08:00",
   "comparisonDate": "2026-09-20",
   "confidence": "中",
   "staleCount": 8,
@@ -311,23 +311,24 @@
     {
       "id": "wti",
       "name": "WTI",
-      "value": 107.02,
-      "displayValue": "$107.02",
-      "previous": 102.42,
-      "change": "+$4.60",
+      "value": 100.3,
+      "displayValue": "$100.30",
+      "previous": 101.91,
+      "change": "-1.58%",
       "frequency": "日频",
-      "dataDate": "2026-09-15",
+      "dataDate": "2026-09-18",
       "lag": "超过观察时效，请核验发布",
       "source": {
-        "label": "FRED DCOILWTICO",
-        "url": "https://fred.stlouisfed.org/series/DCOILWTICO"
+        "label": "Wind EDB（ICE WTI 期货连续合约结算价）",
+        "url": "https://www.cmegroup.com/markets/energy/crude-oil/light-sweet-crude-oil.html"
       },
-      "status": "stale",
+      "status": "fresh",
       "confidence": "中",
-      "healthStatus": "stale",
-      "lastAttemptAt": "2026-09-21T02:41:25.685Z",
-      "lastSuccessAt": "2026-09-21T02:41:25.685Z",
-      "lastAttemptStatus": "updated"
+      "healthStatus": "fresh",
+      "lastAttemptAt": "2026-09-21T18:10:00+08:00",
+      "lastSuccessAt": "2026-09-21T18:10:00+08:00",
+      "lastAttemptStatus": "updated",
+      "pctChange": -1.581
     },
     {
       "id": "brent",
@@ -971,25 +972,28 @@
       "probabilityBasis": "target_rate_distribution",
       "targetRanges": [
         {
-          "lower": 4.25,
-          "upper": 4.5,
-          "probability": 100,
-          "previousDayProbability": null,
-          "previousWeekProbability": null
+          "lower": 3.75,
+          "upper": 4,
+          "probability": 46.9
+        },
+        {
+          "lower": 4,
+          "upper": 4.25,
+          "probability": 53.1
         }
       ],
-      "displayProbability": "100.0%",
-      "dataDate": "2026-09-21T02:41:30.694Z",
-      "sourceUpdatedAt": "2026-09-21T02:41:30.694Z",
-      "checkedAt": "2026-09-21T02:41:30.694Z",
+      "displayProbability": "53.1% 加息至 4.00–4.25%",
+      "dataDate": "2026-09-21T18:10:00+08:00",
+      "sourceUpdatedAt": "2026-09-21T18:10:00+08:00",
+      "checkedAt": "2026-09-21T18:10:00+08:00",
       "source": {
-        "label": "CME 30-Day Fed Funds Futures（FedWatch 算法自算）",
+        "label": "CME FedWatch Tool（2026-09-17 决议后官方核验值）",
         "url": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html"
       },
-      "confidence": "中",
-      "interpretation": "基于 30 天联邦基金期货（ZQ 最新 95.980，隐含月均 EFFR 4.020%）按 FedWatch 算法自算：最可能区间 4.25–4.50%，概率 100.0%。近月合约为准；之前来源的日/周对比不适用于自算口径。",
-      "status": "fresh",
-      "healthStatus": "fresh",
+      "confidence": "高",
+      "interpretation": "官方 CME FedWatch（9-17 决议后核验）：10 月会议加息 25bp（至 4.00–4.25%）概率 53.1%，维持 3.75–4.00% 概率 46.9%。自算链路因主力合约滚动至 12 月（隐含 4.15%）与 10 月会议错位，暂停使用待修复。",
+      "status": "manual",
+      "healthStatus": "manual",
       "lag": "窗口内可用，非实时承诺"
     },
     {
@@ -1014,17 +1018,17 @@
         }
       ],
       "displayProbability": "48.3% 维持 4.00–4.25%",
-      "dataDate": "2026-09-17T17:10:00+08:00",
-      "sourceUpdatedAt": "2026-09-17T17:10:00+08:00",
-      "checkedAt": "2026-09-17T17:10:00+08:00",
+      "dataDate": "2026-09-21T18:10:00+08:00",
+      "sourceUpdatedAt": "2026-09-21T18:10:00+08:00",
+      "checkedAt": "2026-09-21T18:10:00+08:00",
       "source": {
-        "label": "CME FedWatch Tool（决议后人工核验，官方截图录入）",
+        "label": "CME FedWatch Tool（2026-09-17 决议后官方核验值）",
         "url": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html"
       },
       "confidence": "高",
       "interpretation": "远月合约未接入自动计算；CME 官方页面对脚本封锁，请人工打开 FedWatch 工具核验后更新。",
-      "status": "stale",
-      "healthStatus": "stale",
+      "status": "manual",
+      "healthStatus": "manual",
       "lag": "超过观察时效，请核验发布"
     }
   ],
@@ -2137,9 +2141,10 @@
     }
   ],
   "fedPricingStatus": {
-    "provider": "CME 30-Day Fed Funds Futures（FedWatch 算法自算）",
-    "status": "updated",
-    "checkedAt": "2026-09-21T02:41:30.694Z"
+    "provider": "CME FedWatch Tool（人工核验）",
+    "status": "manual_verified",
+    "checkedAt": "2026-09-21T18:10:00+08:00",
+    "message": "10-28 自算因 ZQ 主力合约滚动错位暂停（显示 4.25-4.5@100% 与官方 53.1% 矛盾），已回退官方核验值；修复按月合约映射后恢复自算。"
   },
   "validationRules": [
     {
