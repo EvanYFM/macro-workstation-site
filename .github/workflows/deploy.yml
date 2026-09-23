@@ -1,0 +1,64 @@
+name: verified-pages
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: verified-pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    if: vars.PAGES_DEPLOY_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: 20
+      - name: Verify before publishing
+        run: |
+          node <<'EOF'
+          const { readFileSync, existsSync, readdirSync } = require('fs');
+          function assert(c, m) { if (!c) { console.error('pre-publish FAIL: ' + m); process.exit(1); } }
+          const html = readFileSync('index.html', 'utf8');
+          const manifest = JSON.parse(readFileSync('run-manifest.json', 'utf8'));
+          assert(!html.includes('fonts.googleapis'), 'render-blocking Google Fonts found');
+          assert(!html.includes('fonts.gstatic'), 'fonts.gstatic reference found');
+          assert(!html.includes('__SNAP__'), 'unreplaced __SNAP__ placeholder');
+          assert(!html.includes('__HEALTH__'), 'unreplaced __HEALTH__ placeholder');
+          assert(/property="og:image" content="https:\/\//.test(html), 'og:image is not an absolute URL');
+          if (manifest.ui === 'garden') {
+            const snap = html.match(/<script type="application\/json" id="snap">([\s\S]*?)<\/script>/);
+            assert(snap, 'snap data script missing');
+            JSON.parse(snap[1].replaceAll('<\\/', '</'));
+            const js = html.match(/<script>([\s\S]*?)<\/script>\s*<\/body>/);
+            assert(js, 'inline app script missing');
+            try { new Function(js[1]); } catch (e) { assert(false, 'inline app script syntax error: ' + e.message); }
+          }
+          const latest = JSON.parse(readFileSync('data/latest.json', 'utf8'));
+          assert(manifest.checkedAt === latest.asOf, 'manifest.latestDate does not match data/latest.json');
+          const hist = readdirSync('data/history').filter(f => f.endsWith('.json') && f !== 'index.json').sort();
+          assert(JSON.stringify(manifest.historyDates) === JSON.stringify(hist.map(f => f.replace(/\.json$/, ''))), 'history files out of sync with manifest');
+          for (const d of manifest.historyDates) assert(existsSync('reports/' + d + '.md'), 'missing report for ' + d);
+          assert(existsSync('.nojekyll') && existsSync('404.html') && existsSync('robots.txt'), 'missing pages plumbing (.nojekyll/404/robots)');
+          console.log('pre-publish OK · data ' + manifest.latestDate + ' · ui=' + manifest.ui);
+          EOF
+      - uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa
+        with:
+          path: .
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e
+        id: deployment
