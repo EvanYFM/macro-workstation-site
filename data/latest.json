@@ -1,6 +1,6 @@
 {
   "title": "宏观交易工作台",
-  "asOf": "2026-09-28T18:15:12+08:00",
+  "asOf": "2026-09-28T19:12:17+08:00",
   "comparisonDate": "2026-09-23",
   "confidence": "中",
   "staleCount": 10,
@@ -991,7 +991,7 @@
         "url": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html"
       },
       "confidence": "高",
-      "interpretation": "官方 CME FedWatch（9-17 决议后核验）：10 月会议加息 25bp（至 4.00–4.25%）概率 53.1%，维持 3.75–4.00% 概率 46.9%。自算链路因主力合约滚动至 12 月（隐含 4.15%）与 10 月会议错位，暂停使用待修复。",
+      "interpretation": "决议尚有 30 天，超出自算窗口（决议前 14 天内 ZQ 主连才锚定会议月；Yahoo 无月合约，2026-09-28 实测 ZQV26.CME 等全部 404）。保留人工核验官方值，待窗口内自算或再次人工核验。",
       "status": "stale",
       "healthStatus": "stale",
       "lag": "超过观察时效，请核验发布"
@@ -2143,8 +2143,8 @@
   "fedPricingStatus": {
     "provider": "CME FedWatch Tool（2026-09-17 决议后官方核验值）",
     "status": "manual_verified",
-    "checkedAt": "2026-09-28T10:15:09.955Z",
-    "message": "近端会议为人工核验官方 FedWatch 值；自算按月合约映射修复前不覆盖（AGENTS.md 待办）。"
+    "checkedAt": "2026-09-28T11:12:17.112Z",
+    "message": "决议前 30 天超出 14 天自算窗口（主连锚定月不可靠），保留现值。"
   },
   "validationRules": [
     {
@@ -2160,7 +2160,7 @@
     }
   ],
   "dataHealth": {
-    "evaluatedAt": "2026-09-28T10:15:12.620Z",
+    "evaluatedAt": "2026-09-28T11:12:17.114Z",
     "counts": {
       "fresh": 48,
       "stale": 7,
