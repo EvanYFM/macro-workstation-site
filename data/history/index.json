@@ -103,6 +103,14 @@
       "relativeChange": "留存现有快照；各字段以原始数据日期为准",
       "directionChange": "详见当次快照",
       "markdownPath": "/reports/2026-09-23.md"
+    },
+    {
+      "date": "2026-09-28",
+      "mainConflict": "美股科技领涨、贵金属走弱，但2Y -6.0bp、10Y -1.0bp，曲线趋陡",
+      "confidence": "中",
+      "relativeChange": "留存现有快照；各字段以原始数据日期为准",
+      "directionChange": "详见当次快照",
+      "markdownPath": "/reports/2026-09-28.md"
     }
   ]
 }
