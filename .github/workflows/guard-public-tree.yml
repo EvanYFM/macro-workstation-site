@@ -1,0 +1,70 @@
+name: guard-public-tree
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: 20
+      - name: 公开仓产物白名单 + manifest 一致性守门
+        run: |
+          node <<'EOF'
+          // 移植自私有源码仓 macro-workstation/scripts/publish-guards.mjs 的
+          // validatePublicTree + AGENTS.md 的 republish manifest 同步规则。
+          //
+          // 为什么在公开仓再守一道（2026-10-03）：源码仓 publish-pages.mjs 的白名单
+          // 只能拦住走脚本的发布；网页端 "Add files via upload" 旁路会全部跳过它
+          // （2026-09-22/09-23 实例：CI_GATES_PATCH.md、.git.corrupt 碎片、
+          // 6933887 网页上传提交）。本守门让任何越界文件进入 main 即 CI 红灯。
+          const { readdirSync, lstatSync, readFileSync } = require('fs');
+          const path = require('path');
+
+          function fail(msg) {
+            console.error('guard-public-tree FAIL: ' + msg);
+            process.exit(1);
+          }
+
+          const allow = /^(?:index\.html|404\.html|README\.md|robots\.txt|favicon\.svg|og\.png|run-manifest\.json|\.nojekyll|\.gitignore|\.github\/workflows\/(?:site-check|deploy|guard-public-tree)\.yml|data\/(?:latest\.json|research-views\.json|history\/(?:index|\d{4}-\d{2}-\d{2})\.json)|reports\/(?:market-brief-)?\d{4}-\d{2}-\d{2}\.md|assets\/[A-Za-z0-9_.\/-]+)$/;
+
+          function walk(dir) {
+            for (const name of readdirSync(dir)) {
+              if (name === '.git') continue;
+              const f = path.join(dir, name);
+              const rel = path.relative(process.cwd(), f).split(path.sep).join('/');
+              const st = lstatSync(f);
+              if (st.isSymbolicLink()) fail('Symlink prohibited: ' + rel);
+              if (st.isDirectory()) { walk(f); continue; }
+              if (!allow.test(rel)) fail('Not in public artifact allowlist: ' + rel);
+              if (/\.(?:html|js|json|md|yml|txt|css|svg)$/.test(rel)) {
+                const text = readFileSync(f, 'utf8');
+                if (/github_pat_[A-Za-z0-9_]{30,}|gh[pousr]_[A-Za-z0-9]{30,}|-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----/.test(text))
+                  fail('Credential pattern found: ' + rel);
+              }
+            }
+          }
+          walk(process.cwd());
+
+          // manifest 三字段一致性（AGENTS.md republish 铁律，2026-09-25 事故后固化）：
+          // snapshotDates/snapshotCount 必须等于 data/history/index.json 的日期列表；
+          // latestDate 必须等于列表末值。手工网页上传的 data/ 与陈旧 manifest 会在此暴露。
+          const manifest = JSON.parse(readFileSync('run-manifest.json', 'utf8'));
+          const idx = JSON.parse(readFileSync('data/history/index.json', 'utf8'));
+          const dates = (idx.entries || []).map((e) => e.date).sort();
+          const snapDates = [...(manifest.snapshotDates || [])].sort();
+          if (JSON.stringify(snapDates) !== JSON.stringify(dates))
+            fail('manifest.snapshotDates != data/history/index.json entries (' + snapDates.slice(-1) + ' vs ' + dates.slice(-1) + ')');
+          if ((manifest.snapshotCount || 0) !== dates.length)
+            fail('manifest.snapshotCount=' + manifest.snapshotCount + ' != history entries ' + dates.length);
+          if (manifest.latestDate !== dates[dates.length - 1])
+            fail('manifest.latestDate=' + manifest.latestDate + ' != latest history date ' + dates[dates.length - 1]);
+
+          console.log('guard-public-tree OK · ' + dates.length + ' snapshots · latest ' + dates[dates.length - 1]);
+          EOF
