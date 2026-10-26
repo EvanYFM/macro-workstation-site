@@ -1,6 +1,6 @@
 {
   "title": "宏观交易工作台",
-  "asOf": "2026-10-26T11:48:38+08:00",
+  "asOf": "2026-10-26T14:19:01+08:00",
   "comparisonDate": "2026-10-19",
   "confidence": "中",
   "staleCount": 7,
@@ -1076,7 +1076,7 @@
           "status": "fresh",
           "healthStatus": "manual",
           "lag": "待人工核验",
-          "lastAttemptAt": "2026-10-26T03:48:36.344Z",
+          "lastAttemptAt": "2026-10-26T06:18:59.480Z",
           "lastError": "FRED path: 400 Bad Request | Current ISM report link missing"
         },
         {
@@ -1096,7 +1096,7 @@
           "status": "fresh",
           "healthStatus": "fresh",
           "lag": "窗口内可用，非实时承诺",
-          "lastAttemptAt": "2026-10-26T03:48:21.115Z",
+          "lastAttemptAt": "2026-10-26T06:18:44.418Z",
           "value": 53.9,
           "lastSuccessAt": "2026-09-28T10:15:10.783Z"
         },
@@ -1117,7 +1117,7 @@
           "status": "missing",
           "healthStatus": "missing",
           "lag": "未接入",
-          "lastAttemptAt": "2026-10-26T03:48:36.344Z",
+          "lastAttemptAt": "2026-10-26T06:18:59.480Z",
           "lastError": "FRED path: 400 Bad Request | Current ISM report link missing"
         },
         {
@@ -1131,7 +1131,7 @@
             "label": "BEA via FRED · PCEC96",
             "url": "https://fred.stlouisfed.org/series/PCEC96"
           },
-          "lastAttemptAt": "2026-10-26T03:48:35.133Z",
+          "lastAttemptAt": "2026-10-26T06:18:57.140Z",
           "value": 16955.3,
           "dateBasis": "observation_period",
           "frequencyKey": "monthly",
@@ -1142,7 +1142,7 @@
           "publishedAt": null,
           "nextExpectedRelease": null,
           "lastAttemptStatus": "updated",
-          "lastSuccessAt": "2026-10-26T03:48:35.133Z",
+          "lastSuccessAt": "2026-10-26T06:18:57.140Z",
           "revised": false,
           "status": "fresh",
           "healthStatus": "fresh",
@@ -1151,7 +1151,7 @@
         {
           "id": "usServicesPmi",
           "name": "美国服务业PMI(S&P Global)",
-          "lastAttemptAt": "2026-10-26T03:48:21.116Z",
+          "lastAttemptAt": "2026-10-26T06:18:44.456Z",
           "displayValue": "56.5",
           "value": 56.5,
           "change": "50 为荣枯线",
@@ -1191,7 +1191,7 @@
             "label": "BLS via FRED · PAYEMS",
             "url": "https://fred.stlouisfed.org/series/PAYEMS"
           },
-          "lastAttemptAt": "2026-10-26T03:48:35.133Z",
+          "lastAttemptAt": "2026-10-26T06:18:57.140Z",
           "value": 159044,
           "dateBasis": "observation_period",
           "frequencyKey": "monthly",
@@ -1200,7 +1200,7 @@
           "publishedAt": null,
           "nextExpectedRelease": null,
           "lastAttemptStatus": "updated",
-          "lastSuccessAt": "2026-10-26T03:48:35.133Z",
+          "lastSuccessAt": "2026-10-26T06:18:57.140Z",
           "revised": false,
           "status": "fresh",
           "healthStatus": "fresh",
@@ -1219,7 +1219,7 @@
             "label": "BLS / Sahm via FRED · UNRATE/SAHMREALTIME",
             "url": "https://fred.stlouisfed.org/series/UNRATE"
           },
-          "lastAttemptAt": "2026-10-26T03:48:35.133Z",
+          "lastAttemptAt": "2026-10-26T06:18:57.140Z",
           "value": 4.2,
           "dateBasis": "observation_period",
           "frequencyKey": "monthly",
@@ -1228,7 +1228,7 @@
           "publishedAt": null,
           "nextExpectedRelease": null,
           "lastAttemptStatus": "updated",
-          "lastSuccessAt": "2026-10-26T03:48:35.133Z",
+          "lastSuccessAt": "2026-10-26T06:18:57.140Z",
           "revised": false,
           "status": "fresh",
           "healthStatus": "fresh",
@@ -1247,7 +1247,7 @@
             "label": "BLS via FRED · JTSJOL",
             "url": "https://fred.stlouisfed.org/series/JTSJOL"
           },
-          "lastAttemptAt": "2026-10-26T03:48:35.133Z",
+          "lastAttemptAt": "2026-10-26T06:18:57.140Z",
           "value": 7079,
           "dateBasis": "observation_period",
           "frequencyKey": "monthly",
@@ -1256,7 +1256,7 @@
           "publishedAt": null,
           "nextExpectedRelease": null,
           "lastAttemptStatus": "updated",
-          "lastSuccessAt": "2026-10-26T03:48:35.133Z",
+          "lastSuccessAt": "2026-10-26T06:18:57.140Z",
           "revised": false,
           "status": "fresh",
           "healthStatus": "fresh",
@@ -1298,7 +1298,7 @@
     {
       "id": "inflation",
       "name": "通胀",
-      "conclusion": "CPI / 核心CPI 3.7% / 2.6%（2026-09）；PCE / 核心PCE 3.4% / 3.0%（2026-08）；EIA全美公路柴油零售价 $6.276/gal（2026-10-19）；CPI 即时预估(Nowcast) +0.25%（October 2026）；PCE 即时预估(Nowcast) +0.27%（October 2026）",
+      "conclusion": "CPI / 核心CPI 3.7% / 2.6%（2026-09）；PCE / 核心PCE 3.4% / 3.0%（2026-08）；EIA全美公路柴油零售价 $6.276/gal（2026-10-19）；CPI 即时预估(Nowcast) +0.25%（October 2026）；PCE 即时预估(Nowcast) +0.27%（October 2026）；CPI 分项贡献 权重合计 2.91pp + 残差 0.80pp = 总 3.72%（2026-09）",
       "metrics": [
         {
           "id": "cpi",
@@ -1313,7 +1313,7 @@
             "label": "BLS via FRED · CPIAUCSL/CPILFESL/CPIAUCNS/CPILFENS",
             "url": "https://fred.stlouisfed.org/series/CPIAUCSL"
           },
-          "lastAttemptAt": "2026-10-26T03:48:35.133Z",
+          "lastAttemptAt": "2026-10-26T06:18:57.140Z",
           "value": 336.298,
           "dateBasis": "observation_period",
           "frequencyKey": "monthly",
@@ -1332,7 +1332,7 @@
           "publishedAt": null,
           "nextExpectedRelease": null,
           "lastAttemptStatus": "updated",
-          "lastSuccessAt": "2026-10-26T03:48:35.133Z",
+          "lastSuccessAt": "2026-10-26T06:18:57.140Z",
           "revised": false,
           "status": "fresh",
           "healthStatus": "fresh",
@@ -1351,7 +1351,7 @@
             "label": "BEA via FRED · PCEPI/PCEPILFE",
             "url": "https://fred.stlouisfed.org/series/PCEPI"
           },
-          "lastAttemptAt": "2026-10-26T03:48:35.133Z",
+          "lastAttemptAt": "2026-10-26T06:18:57.140Z",
           "value": 131.579,
           "dateBasis": "observation_period",
           "frequencyKey": "monthly",
@@ -1370,7 +1370,7 @@
           "publishedAt": null,
           "nextExpectedRelease": null,
           "lastAttemptStatus": "updated",
-          "lastSuccessAt": "2026-10-26T03:48:35.133Z",
+          "lastSuccessAt": "2026-10-26T06:18:57.140Z",
           "revised": false,
           "status": "fresh",
           "healthStatus": "fresh",
@@ -1432,9 +1432,89 @@
           "status": "fresh",
           "healthStatus": "fresh",
           "lag": "窗口内可用，非实时承诺"
+        },
+        {
+          "id": "cpiBreakdown",
+          "name": "CPI 分项贡献",
+          "displayValue": "权重合计 2.91pp + 残差 0.80pp = 总 3.72%",
+          "dataDate": "2026-09-01",
+          "period": "2026-09",
+          "change": "核心3M年化 3.41%",
+          "source": {
+            "label": "BLS via FRED · CPIAUCSL/CPIFABSL/CPIENGSL/CUSR0000SACL1E/CUSR0000SAH1/CPILFESL",
+            "url": "https://fred.stlouisfed.org/series/CPIAUCSL"
+          },
+          "lastAttemptAt": "2026-10-26T06:18:57.140Z",
+          "value": 3.7172508442689933,
+          "dateBasis": "observation_period",
+          "frequencyKey": "monthly",
+          "details": {
+            "totalYoy": 3.7172508442689933,
+            "breakdown": [
+              {
+                "name": "食品",
+                "note": "",
+                "yoy": 2.393371566734004,
+                "weight": 13.719,
+                "contrib": 0.328346645240238,
+                "residual": false
+              },
+              {
+                "name": "能源",
+                "note": "",
+                "yoy": 20.35411471321695,
+                "weight": 6.378,
+                "contrib": 1.2981854364089773,
+                "residual": false
+              },
+              {
+                "name": "核心商品",
+                "note": "",
+                "yoy": 0.7124484058144365,
+                "weight": 19.29,
+                "contrib": 0.1374312974816048,
+                "residual": false
+              },
+              {
+                "name": "住房",
+                "note": "",
+                "yoy": 3.2230618848913206,
+                "weight": 35.68,
+                "contrib": 1.1499884805292233,
+                "residual": false
+              },
+              {
+                "name": "核心服务 ex 住房",
+                "note": "残差推算 · BLS 无直接指数，含权重年度差异",
+                "yoy": 3.21666994197313,
+                "weight": 24.973,
+                "contrib": 0.8032989846089498,
+                "residual": true
+              }
+            ],
+            "weightedSum": 2.9139518596600436,
+            "residual": 0.8032989846089498,
+            "gap": -0.8032989846089498,
+            "missing": 0,
+            "weightYear": 2024,
+            "weightSource": "BLS CPI 相对重要性（2024 年 12 月），每年 12 月更新",
+            "core3mAnnualized": 3.4124037788220596,
+            "core6mAnnualized": 2.8515793000403633
+          },
+          "interpretation": "季调 CPI 指数口径：分项贡献 =(分项本期指数−上年同期)/上年同期总指数×100，五项合计应等于总同比（结构校验差 -0.80pp）。核心服务=核心CPI−核心商品，超级核心=核心服务−住房；指数相减为 BLS 常用合成口径，非官方发布值。",
+          "signal": "统计观测",
+          "comparisonDate": "2026-08-01",
+          "publishedAt": null,
+          "nextExpectedRelease": null,
+          "lastAttemptStatus": "updated",
+          "lastSuccessAt": "2026-10-26T06:18:57.140Z",
+          "revised": false,
+          "status": "fresh",
+          "healthStatus": "fresh",
+          "lag": "窗口内可用，非实时承诺"
         }
       ],
-      "freshCount": 5,
+      "freshCount": 6,
       "staleCount": 0,
       "missingCount": 0
     }
@@ -2163,15 +2243,15 @@
     }
   ],
   "dataHealth": {
-    "evaluatedAt": "2026-10-26T03:48:38.391Z",
+    "evaluatedAt": "2026-10-26T06:19:01.513Z",
     "counts": {
-      "fresh": 50,
+      "fresh": 51,
       "stale": 4,
       "missing": 2,
       "failed": 0,
       "manual": 1
     },
-    "total": 58,
+    "total": 59,
     "records": [
       {
         "key": "indicator.tips10",
@@ -2924,6 +3004,21 @@
         "reason": "窗口内可用，非实时承诺"
       },
       {
+        "key": "macro.cpiBreakdown",
+        "id": "cpiBreakdown",
+        "name": "CPI 分项贡献",
+        "category": "macro",
+        "frequency": "monthly",
+        "date": "2026-09-01",
+        "status": "fresh",
+        "health": "fresh",
+        "source": {
+          "label": "BLS via FRED · CPIAUCSL/CPIFABSL/CPIENGSL/CUSR0000SACL1E/CUSR0000SAH1/CPILFESL",
+          "url": "https://fred.stlouisfed.org/series/CPIAUCSL"
+        },
+        "reason": "窗口内可用，非实时承诺"
+      },
+      {
         "key": "treasury.auctions",
         "id": "auction-absorption",
         "name": "长债拍卖承接",
@@ -3118,7 +3213,7 @@
       },
       "note": "score 为紧→松标度：-2 最紧/最不利于风险资产，+2 最松。每维度取证据分值的加权平均后「半数远离零」取整，推导链在 evidence/reason 里逐步可审。confidence ∈ 高/中/低，证据缺失时降低并写明缺口。"
     },
-    "generatedAt": "2026-10-26T03:48:38.393Z",
+    "generatedAt": "2026-10-26T06:19:01.518Z",
     "dimensions": [
       {
         "id": "capacity",
