@@ -1,6 +1,8 @@
 {
   "reviewedAt": "2026-09-16",
   "snapshotAsOf": "2026-09-15T17:42:54+08:00",
+  "reviewCycleDays": 14,
+  "nextReviewDue": "2026-09-30",
   "cards": [
     {
       "id": "rates",
