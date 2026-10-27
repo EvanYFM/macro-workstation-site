@@ -1,9 +1,9 @@
 {
   "title": "宏观交易工作台",
-  "asOf": "2026-10-27T14:20:38+08:00",
+  "asOf": "2026-10-27T14:38:57+08:00",
   "comparisonDate": "2026-10-26",
   "confidence": "中",
-  "staleCount": 5,
+  "staleCount": 1,
   "regime": "美股科技强 · 能源弱 · 2Y -1bp、10Y 持平，曲线趋陡",
   "mainConflict": "美股科技领涨、能源走弱，但2Y -1bp、10Y 持平，曲线趋陡",
   "summary": "纳指100 +1.09%、SOXX +2.85%；科创50 -2.17%、恒生科技 -0.99%、KOSPI +2.75%。黄金 -0.39%、白银 -1.28%、Brent -5.14%。美国 2Y -1bp 至 4.680%，10Y 持平 至 5.000%，3M SOFR 隐含利率 -3bp；DXY +0.11%。当前由美股科技领涨，能源走弱，同时2Y -1bp、10Y 持平，曲线趋陡。",
@@ -999,13 +999,30 @@
       "status": "fresh",
       "healthStatus": "fresh",
       "lag": "窗口内可用，非实时承诺"
+    },
+    {
+      "meetingDate": "2026-12-08 / 09",
+      "decisionDate": "2026-12-09",
+      "status": "scheduled",
+      "healthStatus": "fresh",
+      "displayProbability": "—",
+      "probabilityBasis": "awaiting_window",
+      "targetRanges": [],
+      "interpretation": "决议尚有 43 天：决议前 14 天（2026-11-25 起）进入自算窗口，届时 ZQ 主连锚定 12 月合约给出概率；现在不给数字，避免用未锚定的主连推算。",
+      "dataDate": "2026-10-27",
+      "source": {
+        "label": "CME FedWatch（待窗口内自算）",
+        "url": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html"
+      },
+      "checkedAt": "2026-10-27T00:00:00Z",
+      "lag": "窗口内可用，非实时承诺"
     }
   ],
   "macroPulse": [
     {
       "id": "growth",
       "name": "增长",
-      "conclusion": "Atlanta Fed GDPNow 3.5%（2026Q3）；实际个人消费 16,955.3bn（2026-08）；制造业景气（NY/Philly 联储） 25.50 / 20.90（2026-10）；其中 制造业景气（NY/Philly 联储） 已超出时效窗口，方向判断以未过期项为主",
+      "conclusion": "Atlanta Fed GDPNow 3.5%（2026Q3）；实际个人消费 16,955.3bn（2026-08）；制造业景气（NY/Philly 联储） 25.50 / 20.90（2026-10）",
       "metrics": [
         {
           "id": "gdpnow",
@@ -1035,7 +1052,7 @@
             "label": "BEA via FRED · PCEC96",
             "url": "https://fred.stlouisfed.org/series/PCEC96"
           },
-          "lastAttemptAt": "2026-10-27T06:20:35.713Z",
+          "lastAttemptAt": "2026-10-27T06:38:51.394Z",
           "value": 16955.3,
           "dateBasis": "observation_period",
           "frequencyKey": "monthly",
@@ -1046,7 +1063,7 @@
           "publishedAt": null,
           "nextExpectedRelease": null,
           "lastAttemptStatus": "updated",
-          "lastSuccessAt": "2026-10-27T06:20:35.713Z",
+          "lastSuccessAt": "2026-10-27T06:38:51.394Z",
           "revised": false,
           "status": "fresh",
           "healthStatus": "fresh",
@@ -1063,7 +1080,7 @@
             "label": "NY Fed / Philadelphia Fed via FRED · GACDISA066MSFRBNY/GACDFSA066MSFRBPHI",
             "url": "https://fred.stlouisfed.org/series/GACDISA066MSFRBNY"
           },
-          "lastAttemptAt": "2026-10-27T06:20:35.713Z",
+          "lastAttemptAt": "2026-10-27T06:38:51.394Z",
           "value": 25.5,
           "dateBasis": "observation_period",
           "frequencyKey": "monthly",
@@ -1074,15 +1091,15 @@
           "publishedAt": null,
           "nextExpectedRelease": null,
           "lastAttemptStatus": "updated",
-          "lastSuccessAt": "2026-10-27T06:20:35.713Z",
+          "lastSuccessAt": "2026-10-27T06:38:51.394Z",
           "revised": false,
-          "status": "stale",
-          "healthStatus": "stale",
-          "lag": "超过观察时效，请核验发布"
+          "status": "fresh",
+          "healthStatus": "fresh",
+          "lag": "窗口内可用，非实时承诺"
         }
       ],
-      "freshCount": 2,
-      "staleCount": 1,
+      "freshCount": 3,
+      "staleCount": 0,
       "missingCount": 0
     },
     {
@@ -1103,7 +1120,7 @@
             "label": "BLS via FRED · PAYEMS",
             "url": "https://fred.stlouisfed.org/series/PAYEMS"
           },
-          "lastAttemptAt": "2026-10-27T06:20:35.713Z",
+          "lastAttemptAt": "2026-10-27T06:38:51.394Z",
           "value": 159044,
           "dateBasis": "observation_period",
           "frequencyKey": "monthly",
@@ -1112,7 +1129,7 @@
           "publishedAt": null,
           "nextExpectedRelease": null,
           "lastAttemptStatus": "updated",
-          "lastSuccessAt": "2026-10-27T06:20:35.713Z",
+          "lastSuccessAt": "2026-10-27T06:38:51.394Z",
           "revised": false,
           "status": "fresh",
           "healthStatus": "fresh",
@@ -1131,7 +1148,7 @@
             "label": "BLS / Sahm via FRED · UNRATE/SAHMREALTIME",
             "url": "https://fred.stlouisfed.org/series/UNRATE"
           },
-          "lastAttemptAt": "2026-10-27T06:20:35.713Z",
+          "lastAttemptAt": "2026-10-27T06:38:51.394Z",
           "value": 4.2,
           "dateBasis": "observation_period",
           "frequencyKey": "monthly",
@@ -1140,7 +1157,7 @@
           "publishedAt": null,
           "nextExpectedRelease": null,
           "lastAttemptStatus": "updated",
-          "lastSuccessAt": "2026-10-27T06:20:35.713Z",
+          "lastSuccessAt": "2026-10-27T06:38:51.394Z",
           "revised": false,
           "status": "fresh",
           "healthStatus": "fresh",
@@ -1159,7 +1176,7 @@
             "label": "BLS via FRED · JTSJOL",
             "url": "https://fred.stlouisfed.org/series/JTSJOL"
           },
-          "lastAttemptAt": "2026-10-27T06:20:35.713Z",
+          "lastAttemptAt": "2026-10-27T06:38:51.394Z",
           "value": 7079,
           "dateBasis": "observation_period",
           "frequencyKey": "monthly",
@@ -1168,7 +1185,7 @@
           "publishedAt": null,
           "nextExpectedRelease": null,
           "lastAttemptStatus": "updated",
-          "lastSuccessAt": "2026-10-27T06:20:35.713Z",
+          "lastSuccessAt": "2026-10-27T06:38:51.394Z",
           "revised": false,
           "status": "fresh",
           "healthStatus": "fresh",
@@ -1225,7 +1242,7 @@
             "label": "BLS via FRED · CPIAUCSL/CPILFESL/CPIAUCNS/CPILFENS",
             "url": "https://fred.stlouisfed.org/series/CPIAUCSL"
           },
-          "lastAttemptAt": "2026-10-27T06:20:35.713Z",
+          "lastAttemptAt": "2026-10-27T06:38:51.394Z",
           "value": 336.298,
           "dateBasis": "observation_period",
           "frequencyKey": "monthly",
@@ -1244,7 +1261,7 @@
           "publishedAt": null,
           "nextExpectedRelease": null,
           "lastAttemptStatus": "updated",
-          "lastSuccessAt": "2026-10-27T06:20:35.713Z",
+          "lastSuccessAt": "2026-10-27T06:38:51.394Z",
           "revised": false,
           "status": "fresh",
           "healthStatus": "fresh",
@@ -1263,7 +1280,7 @@
             "label": "BEA via FRED · PCEPI/PCEPILFE",
             "url": "https://fred.stlouisfed.org/series/PCEPI"
           },
-          "lastAttemptAt": "2026-10-27T06:20:35.713Z",
+          "lastAttemptAt": "2026-10-27T06:38:51.394Z",
           "value": 131.579,
           "dateBasis": "observation_period",
           "frequencyKey": "monthly",
@@ -1282,7 +1299,7 @@
           "publishedAt": null,
           "nextExpectedRelease": null,
           "lastAttemptStatus": "updated",
-          "lastSuccessAt": "2026-10-27T06:20:35.713Z",
+          "lastSuccessAt": "2026-10-27T06:38:51.394Z",
           "revised": false,
           "status": "fresh",
           "healthStatus": "fresh",
@@ -1356,7 +1373,7 @@
             "label": "BLS via FRED · CPIAUCSL/CPIFABSL/CPIENGSL/CUSR0000SACL1E/CUSR0000SAH1/CPILFESL",
             "url": "https://fred.stlouisfed.org/series/CPIAUCSL"
           },
-          "lastAttemptAt": "2026-10-27T06:20:35.713Z",
+          "lastAttemptAt": "2026-10-27T06:38:51.394Z",
           "value": 3.7172508442689933,
           "dateBasis": "observation_period",
           "frequencyKey": "monthly",
@@ -1419,7 +1436,7 @@
           "publishedAt": null,
           "nextExpectedRelease": null,
           "lastAttemptStatus": "updated",
-          "lastSuccessAt": "2026-10-27T06:20:35.713Z",
+          "lastSuccessAt": "2026-10-27T06:38:51.394Z",
           "revised": false,
           "status": "fresh",
           "healthStatus": "fresh",
@@ -2092,14 +2109,14 @@
       "change": "长端回购上限至少翻倍",
       "dataDate": "2026-08-19",
       "frequency": "季频 / 事件",
-      "status": "stale",
+      "status": "fresh",
       "interpretation": "8月QRA预计未来数季维持名义附息债与FRN拍卖规模；自9月9日起，10–20Y和20–30Y流动性支持回购每次上限由20亿美元提高到至少40亿美元。",
       "source": {
         "label": "U.S. Treasury long-end buybacks",
         "url": "https://home.treasury.gov/news/press-releases/sb0607"
       },
-      "healthStatus": "stale",
-      "lag": "超过观察时效，请核验发布",
+      "healthStatus": "manual",
+      "lag": "待人工核验",
       "lastAttemptStatus": "manual"
     }
   ],
@@ -2123,15 +2140,15 @@
     }
   ],
   "dataHealth": {
-    "evaluatedAt": "2026-10-27T06:20:38.457Z",
+    "evaluatedAt": "2026-10-27T06:38:57.191Z",
     "counts": {
-      "fresh": 50,
-      "stale": 4,
-      "missing": 1,
+      "fresh": 52,
+      "stale": 0,
+      "missing": 0,
       "failed": 0,
-      "manual": 0
+      "manual": 1
     },
-    "total": 56,
+    "total": 54,
     "records": [
       {
         "key": "indicator.tips10",
@@ -2695,13 +2712,13 @@
         "category": "macro",
         "frequency": "monthly",
         "date": "2026-10-01",
-        "status": "stale",
-        "health": "stale",
+        "status": "fresh",
+        "health": "fresh",
         "source": {
           "label": "NY Fed / Philadelphia Fed via FRED · GACDISA066MSFRBNY/GACDFSA066MSFRBPHI",
           "url": "https://fred.stlouisfed.org/series/GACDISA066MSFRBNY"
         },
-        "reason": "超过观察时效，请核验发布"
+        "reason": "窗口内可用，非实时承诺"
       },
       {
         "key": "macro.nfp",
@@ -2854,21 +2871,6 @@
         "reason": "窗口内可用，非实时承诺"
       },
       {
-        "key": "treasury.auctions",
-        "id": "auction-absorption",
-        "name": "长债拍卖承接",
-        "category": "treasury",
-        "frequency": "event",
-        "date": "2026-08-12",
-        "status": "stale",
-        "health": "stale",
-        "source": {
-          "label": "U.S. Treasury Fiscal Data",
-          "url": "https://fiscaldata.treasury.gov/datasets/treasury-securities-auctions-data/treasury-securities-auctions-data"
-        },
-        "reason": "超过观察时效，请核验发布"
-      },
-      {
         "key": "treasury.termPremium10",
         "id": "term-premium",
         "name": "10Y期限溢价",
@@ -2905,28 +2907,13 @@
         "category": "treasury",
         "frequency": "quarterly",
         "date": "2026-08-19",
-        "status": "stale",
-        "health": "stale",
+        "status": "fresh",
+        "health": "manual",
         "source": {
           "label": "U.S. Treasury long-end buybacks",
           "url": "https://home.treasury.gov/news/press-releases/sb0607"
         },
-        "reason": "超过观察时效，请核验发布"
-      },
-      {
-        "key": "treasury.tic",
-        "id": "tic",
-        "name": "TIC跨境资金线索",
-        "category": "treasury",
-        "frequency": "monthly",
-        "date": null,
-        "status": "missing",
-        "health": "missing",
-        "source": {
-          "label": "U.S. Treasury June 2026 TIC",
-          "url": "https://home.treasury.gov/news/press-releases/sb0606"
-        },
-        "reason": "未接入"
+        "reason": "待人工核验"
       },
       {
         "key": "policy.fedMeetings",
@@ -2964,14 +2951,14 @@
         "name": "FOMC 2026-12-09",
         "category": "policy",
         "frequency": "event",
-        "date": "2026-09-21",
-        "status": "stale",
-        "health": "stale",
+        "date": "2026-10-27",
+        "status": "scheduled",
+        "health": "fresh",
         "source": {
-          "label": "CME FedWatch Tool（2026-09-17 决议后官方核验值）",
+          "label": "CME FedWatch（待窗口内自算）",
           "url": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html"
         },
-        "reason": "超过观察时效，请核验发布"
+        "reason": "窗口内可用，非实时承诺"
       }
     ]
   },
@@ -3041,7 +3028,7 @@
       "basis": "official",
       "rule": "联邦公开市场委员会会议决议日",
       "source": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
-      "consensus": "48.3% 维持 4.00–4.25%",
+      "consensus": "—",
       "actual": null
     },
     {
@@ -3078,7 +3065,7 @@
       },
       "note": "score 为紧→松标度：-2 最紧/最不利于风险资产，+2 最松。每维度取证据分值的加权平均后「半数远离零」取整，推导链在 evidence/reason 里逐步可审。confidence ∈ 高/中/低，证据缺失时降低并写明缺口。"
     },
-    "generatedAt": "2026-10-27T06:20:38.459Z",
+    "generatedAt": "2026-10-27T06:38:57.197Z",
     "dimensions": [
       {
         "id": "capacity",
