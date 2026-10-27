@@ -2233,7 +2233,7 @@
   "validationRules": [
     {
       "id": "gold-real-yield",
-      "name": "黄金原计划实际利率反证",
+      "name": "黄金 vs 实际利率",
       "indicatorId": "tips10",
       "operator": "gt",
       "threshold": 2.4,
@@ -3461,7 +3461,7 @@
   "triggeredAlerts": [
     {
       "ruleId": "gold-real-yield",
-      "ruleName": "黄金原计划实际利率反证",
+      "ruleName": "黄金 vs 实际利率",
       "indicatorId": "tips10",
       "currentValue": "2.66%",
       "threshold": ">2.4%",
