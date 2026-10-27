@@ -1,0 +1,165 @@
+{
+  "generatedAt": "2026-10-27T04:42:05.265Z",
+  "horizon": 5,
+  "horizonNote": "事后窗口 = 第 5 份快照（快照非逐日连续，不用自然日）",
+  "samples": [
+    {
+      "date": "2026-09-09",
+      "checkDate": "2026-09-21",
+      "rows": [
+        {
+          "asset": "silver",
+          "name": "白银",
+          "call": "bear",
+          "callLabel": "中性偏空",
+          "changePct": -0.63,
+          "hit": true
+        }
+      ],
+      "hits": 1,
+      "total": 1
+    },
+    {
+      "date": "2026-09-14",
+      "checkDate": "2026-09-22",
+      "rows": [
+        {
+          "asset": "silver",
+          "name": "白银",
+          "call": "bear",
+          "callLabel": "中性偏空",
+          "changePct": 2.28,
+          "hit": false
+        }
+      ],
+      "hits": 0,
+      "total": 1
+    },
+    {
+      "date": "2026-09-15",
+      "checkDate": "2026-09-23",
+      "rows": [
+        {
+          "asset": "silver",
+          "name": "白银",
+          "call": "bear",
+          "callLabel": "中性偏空",
+          "changePct": 2.74,
+          "hit": false
+        }
+      ],
+      "hits": 0,
+      "total": 1
+    },
+    {
+      "date": "2026-09-17",
+      "checkDate": "2026-09-28",
+      "rows": [
+        {
+          "asset": "silver",
+          "name": "白银",
+          "call": "bear",
+          "callLabel": "中性偏空",
+          "changePct": -4.13,
+          "hit": true
+        }
+      ],
+      "hits": 1,
+      "total": 1
+    },
+    {
+      "date": "2026-09-20",
+      "checkDate": "2026-10-08",
+      "rows": [
+        {
+          "asset": "silver",
+          "name": "白银",
+          "call": "bear",
+          "callLabel": "中性偏空",
+          "changePct": -8.09,
+          "hit": true
+        }
+      ],
+      "hits": 1,
+      "total": 1
+    },
+    {
+      "date": "2026-09-21",
+      "checkDate": "2026-10-12",
+      "rows": [
+        {
+          "asset": "silver",
+          "name": "白银",
+          "call": "bear",
+          "callLabel": "中性偏空",
+          "changePct": -8.59,
+          "hit": true
+        }
+      ],
+      "hits": 1,
+      "total": 1
+    },
+    {
+      "date": "2026-09-22",
+      "checkDate": "2026-10-19",
+      "rows": [
+        {
+          "asset": "silver",
+          "name": "白银",
+          "call": "bear",
+          "callLabel": "中性偏空",
+          "changePct": -12.68,
+          "hit": true
+        }
+      ],
+      "hits": 1,
+      "total": 1
+    },
+    {
+      "date": "2026-09-23",
+      "checkDate": "2026-10-26",
+      "rows": [
+        {
+          "asset": "silver",
+          "name": "白银",
+          "call": "bear",
+          "callLabel": "中性偏空",
+          "changePct": -17.36,
+          "hit": true
+        }
+      ],
+      "hits": 1,
+      "total": 1
+    },
+    {
+      "date": "2026-09-28",
+      "checkDate": "2026-10-27",
+      "rows": [
+        {
+          "asset": "silver",
+          "name": "白银",
+          "call": "bear",
+          "callLabel": "中性偏空",
+          "changePct": -12.8,
+          "hit": true
+        }
+      ],
+      "hits": 1,
+      "total": 1
+    }
+  ],
+  "byAsset": {
+    "silver": {
+      "name": "白银",
+      "total": 9,
+      "hits": 7,
+      "hitRate": 77.8
+    }
+  },
+  "summary": {
+    "samples": 9,
+    "hits": 7,
+    "total": 9,
+    "hitRate": 77.8
+  }
+}
