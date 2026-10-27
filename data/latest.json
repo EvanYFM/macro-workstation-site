@@ -1,9 +1,9 @@
 {
   "title": "宏观交易工作台",
-  "asOf": "2026-10-27T14:02:47+08:00",
+  "asOf": "2026-10-27T14:20:38+08:00",
   "comparisonDate": "2026-10-26",
   "confidence": "中",
-  "staleCount": 7,
+  "staleCount": 5,
   "regime": "美股科技强 · 能源弱 · 2Y -1bp、10Y 持平，曲线趋陡",
   "mainConflict": "美股科技领涨、能源走弱，但2Y -1bp、10Y 持平，曲线趋陡",
   "summary": "纳指100 +1.09%、SOXX +2.85%；科创50 -2.17%、恒生科技 -0.99%、KOSPI +2.75%。黄金 -0.39%、白银 -1.28%、Brent -5.14%。美国 2Y -1bp 至 4.680%，10Y 持平 至 5.000%，3M SOFR 隐含利率 -3bp；DXY +0.11%。当前由美股科技领涨，能源走弱，同时2Y -1bp、10Y 持平，曲线趋陡。",
@@ -999,48 +999,13 @@
       "status": "fresh",
       "healthStatus": "fresh",
       "lag": "窗口内可用，非实时承诺"
-    },
-    {
-      "meetingDate": "2026-12-09",
-      "decisionDate": "2026-12-09",
-      "probabilityBasis": "target_rate_distribution",
-      "targetRanges": [
-        {
-          "lower": 3.75,
-          "upper": 4,
-          "probability": 10.8
-        },
-        {
-          "lower": 4,
-          "upper": 4.25,
-          "probability": 48.3
-        },
-        {
-          "lower": 4.25,
-          "upper": 4.5,
-          "probability": 40.9
-        }
-      ],
-      "displayProbability": "48.3% 维持 4.00–4.25%",
-      "dataDate": "2026-09-21T18:10:00+08:00",
-      "sourceUpdatedAt": "2026-09-21T18:10:00+08:00",
-      "checkedAt": "2026-09-21T18:10:00+08:00",
-      "source": {
-        "label": "CME FedWatch Tool（2026-09-17 决议后官方核验值）",
-        "url": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html"
-      },
-      "confidence": "高",
-      "interpretation": "远月合约未接入自动计算；CME 官方页面对脚本封锁，请人工打开 FedWatch 工具核验后更新。",
-      "status": "stale",
-      "healthStatus": "stale",
-      "lag": "超过观察时效，请核验发布"
     }
   ],
   "macroPulse": [
     {
       "id": "growth",
       "name": "增长",
-      "conclusion": "Atlanta Fed GDPNow 3.5%（2026Q3）；ISM制造业PMI 55.6（2026-07）；美国制造业PMI(S&P Global) 53.9（2026-06）；ISM服务业PMI —（日期未列示）；实际个人消费 16,955.3bn（2026-08）；美国服务业PMI(S&P Global) 56.5（2026-09-03）；其中 ISM制造业PMI、ISM服务业PMI、美国服务业PMI(S&P Global) 已超出时效窗口，方向判断以未过期项为主",
+      "conclusion": "Atlanta Fed GDPNow 3.5%（2026Q3）；实际个人消费 16,955.3bn（2026-08）；制造业景气（NY/Philly 联储） 25.50 / 20.90（2026-10）；其中 制造业景气（NY/Philly 联储） 已超出时效窗口，方向判断以未过期项为主",
       "metrics": [
         {
           "id": "gdpnow",
@@ -1060,67 +1025,6 @@
           "lag": "窗口内可用，非实时承诺"
         },
         {
-          "id": "ismMfg",
-          "name": "ISM制造业PMI",
-          "displayValue": "55.6",
-          "change": "+2.3",
-          "period": "2026-07",
-          "dataDate": "2026-08-03",
-          "signal": "扩张加快",
-          "interpretation": "制造业连续第七个月扩张，生产与就业分项改善，但价格分项仍高。",
-          "source": {
-            "label": "ISM Manufacturing PMI",
-            "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/july/"
-          },
-          "lastAttemptStatus": "manual_verification_required",
-          "status": "fresh",
-          "healthStatus": "manual",
-          "lag": "待人工核验",
-          "lastAttemptAt": "2026-10-27T04:19:29.129Z",
-          "lastError": "FRED path: 400 Bad Request | Current ISM report link missing"
-        },
-        {
-          "id": "usMfgPmi",
-          "name": "美国制造业PMI(S&P Global)",
-          "displayValue": "53.9",
-          "change": "50 为荣枯线",
-          "period": "2026-06",
-          "dataDate": "2026-09-01",
-          "signal": "制造业扩张",
-          "interpretation": "S&P Global（原Markit）美国制造业PMI，50为扩张分界；与 ISM 是不同编制方与样本，作为该行业的独立交叉验证，月度发布且初值/终值可能修订。",
-          "source": {
-            "label": "S&P Global US 制造业 PMI (mql5 经济日历)",
-            "url": "https://www.mql5.com/zh/economic-calendar/united-states/markit-manufacturing-pmi"
-          },
-          "lastAttemptStatus": "updated",
-          "status": "fresh",
-          "healthStatus": "fresh",
-          "lag": "窗口内可用，非实时承诺",
-          "lastAttemptAt": "2026-10-27T04:19:14.454Z",
-          "value": 53.9,
-          "lastSuccessAt": "2026-09-28T10:15:10.783Z"
-        },
-        {
-          "id": "ismServices",
-          "name": "ISM服务业PMI",
-          "displayValue": "—",
-          "change": "—",
-          "period": "",
-          "dataDate": "",
-          "signal": "待核验",
-          "interpretation": "补充服务业需求；取得官方新值前不参与当前判断。",
-          "source": {
-            "label": "ISM",
-            "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/"
-          },
-          "lastAttemptStatus": "manual_verification_required",
-          "status": "missing",
-          "healthStatus": "missing",
-          "lag": "未接入",
-          "lastAttemptAt": "2026-10-27T04:19:29.129Z",
-          "lastError": "FRED path: 400 Bad Request | Current ISM report link missing"
-        },
-        {
           "id": "realConsumption",
           "name": "实际个人消费",
           "displayValue": "16,955.3bn",
@@ -1131,7 +1035,7 @@
             "label": "BEA via FRED · PCEC96",
             "url": "https://fred.stlouisfed.org/series/PCEC96"
           },
-          "lastAttemptAt": "2026-10-27T04:19:26.861Z",
+          "lastAttemptAt": "2026-10-27T06:20:35.713Z",
           "value": 16955.3,
           "dateBasis": "observation_period",
           "frequencyKey": "monthly",
@@ -1142,36 +1046,44 @@
           "publishedAt": null,
           "nextExpectedRelease": null,
           "lastAttemptStatus": "updated",
-          "lastSuccessAt": "2026-10-27T04:19:26.861Z",
+          "lastSuccessAt": "2026-10-27T06:20:35.713Z",
           "revised": false,
           "status": "fresh",
           "healthStatus": "fresh",
           "lag": "窗口内可用，非实时承诺"
         },
         {
-          "id": "usServicesPmi",
-          "name": "美国服务业PMI(S&P Global)",
-          "lastAttemptAt": "2026-10-27T04:19:14.488Z",
-          "displayValue": "56.5",
-          "value": 56.5,
-          "change": "50 为荣枯线",
-          "dataDate": "2026-09-03",
-          "signal": "服务业扩张",
-          "interpretation": "S&P Global（原Markit）美国服务业PMI，50为扩张分界；与 ISM 是不同编制方与样本，作为该行业的独立交叉验证，月度发布且初值/终值可能修订。",
+          "id": "mfgSurvey",
+          "name": "制造业景气（NY/Philly 联储）",
+          "displayValue": "25.50 / 20.90",
+          "dataDate": "2026-10-01",
+          "period": "2026-10",
+          "change": "17.90pp",
           "source": {
-            "label": "S&P Global US 服务业 PMI (mql5 经济日历)",
-            "url": "https://www.mql5.com/zh/economic-calendar/united-states/markit-services-pmi"
+            "label": "NY Fed / Philadelphia Fed via FRED · GACDISA066MSFRBNY/GACDFSA066MSFRBPHI",
+            "url": "https://fred.stlouisfed.org/series/GACDISA066MSFRBNY"
           },
+          "lastAttemptAt": "2026-10-27T06:20:35.713Z",
+          "value": 25.5,
+          "dateBasis": "observation_period",
+          "frequencyKey": "monthly",
+          "details": {},
+          "interpretation": "官方统计序列，需结合趋势与修订；不直接推导交易方向。",
+          "signal": "统计观测",
+          "comparisonDate": "2026-09-01",
+          "publishedAt": null,
+          "nextExpectedRelease": null,
           "lastAttemptStatus": "updated",
-          "lastSuccessAt": "2026-09-28T10:15:10.783Z",
+          "lastSuccessAt": "2026-10-27T06:20:35.713Z",
+          "revised": false,
           "status": "stale",
           "healthStatus": "stale",
           "lag": "超过观察时效，请核验发布"
         }
       ],
-      "freshCount": 3,
+      "freshCount": 2,
       "staleCount": 1,
-      "missingCount": 2
+      "missingCount": 0
     },
     {
       "id": "employment",
@@ -1191,7 +1103,7 @@
             "label": "BLS via FRED · PAYEMS",
             "url": "https://fred.stlouisfed.org/series/PAYEMS"
           },
-          "lastAttemptAt": "2026-10-27T04:19:26.861Z",
+          "lastAttemptAt": "2026-10-27T06:20:35.713Z",
           "value": 159044,
           "dateBasis": "observation_period",
           "frequencyKey": "monthly",
@@ -1200,7 +1112,7 @@
           "publishedAt": null,
           "nextExpectedRelease": null,
           "lastAttemptStatus": "updated",
-          "lastSuccessAt": "2026-10-27T04:19:26.861Z",
+          "lastSuccessAt": "2026-10-27T06:20:35.713Z",
           "revised": false,
           "status": "fresh",
           "healthStatus": "fresh",
@@ -1219,7 +1131,7 @@
             "label": "BLS / Sahm via FRED · UNRATE/SAHMREALTIME",
             "url": "https://fred.stlouisfed.org/series/UNRATE"
           },
-          "lastAttemptAt": "2026-10-27T04:19:26.861Z",
+          "lastAttemptAt": "2026-10-27T06:20:35.713Z",
           "value": 4.2,
           "dateBasis": "observation_period",
           "frequencyKey": "monthly",
@@ -1228,7 +1140,7 @@
           "publishedAt": null,
           "nextExpectedRelease": null,
           "lastAttemptStatus": "updated",
-          "lastSuccessAt": "2026-10-27T04:19:26.861Z",
+          "lastSuccessAt": "2026-10-27T06:20:35.713Z",
           "revised": false,
           "status": "fresh",
           "healthStatus": "fresh",
@@ -1247,7 +1159,7 @@
             "label": "BLS via FRED · JTSJOL",
             "url": "https://fred.stlouisfed.org/series/JTSJOL"
           },
-          "lastAttemptAt": "2026-10-27T04:19:26.861Z",
+          "lastAttemptAt": "2026-10-27T06:20:35.713Z",
           "value": 7079,
           "dateBasis": "observation_period",
           "frequencyKey": "monthly",
@@ -1256,7 +1168,7 @@
           "publishedAt": null,
           "nextExpectedRelease": null,
           "lastAttemptStatus": "updated",
-          "lastSuccessAt": "2026-10-27T04:19:26.861Z",
+          "lastSuccessAt": "2026-10-27T06:20:35.713Z",
           "revised": false,
           "status": "fresh",
           "healthStatus": "fresh",
@@ -1313,7 +1225,7 @@
             "label": "BLS via FRED · CPIAUCSL/CPILFESL/CPIAUCNS/CPILFENS",
             "url": "https://fred.stlouisfed.org/series/CPIAUCSL"
           },
-          "lastAttemptAt": "2026-10-27T04:19:26.861Z",
+          "lastAttemptAt": "2026-10-27T06:20:35.713Z",
           "value": 336.298,
           "dateBasis": "observation_period",
           "frequencyKey": "monthly",
@@ -1332,7 +1244,7 @@
           "publishedAt": null,
           "nextExpectedRelease": null,
           "lastAttemptStatus": "updated",
-          "lastSuccessAt": "2026-10-27T04:19:26.861Z",
+          "lastSuccessAt": "2026-10-27T06:20:35.713Z",
           "revised": false,
           "status": "fresh",
           "healthStatus": "fresh",
@@ -1351,7 +1263,7 @@
             "label": "BEA via FRED · PCEPI/PCEPILFE",
             "url": "https://fred.stlouisfed.org/series/PCEPI"
           },
-          "lastAttemptAt": "2026-10-27T04:19:26.861Z",
+          "lastAttemptAt": "2026-10-27T06:20:35.713Z",
           "value": 131.579,
           "dateBasis": "observation_period",
           "frequencyKey": "monthly",
@@ -1370,7 +1282,7 @@
           "publishedAt": null,
           "nextExpectedRelease": null,
           "lastAttemptStatus": "updated",
-          "lastSuccessAt": "2026-10-27T04:19:26.861Z",
+          "lastSuccessAt": "2026-10-27T06:20:35.713Z",
           "revised": false,
           "status": "fresh",
           "healthStatus": "fresh",
@@ -1444,7 +1356,7 @@
             "label": "BLS via FRED · CPIAUCSL/CPIFABSL/CPIENGSL/CUSR0000SACL1E/CUSR0000SAH1/CPILFESL",
             "url": "https://fred.stlouisfed.org/series/CPIAUCSL"
           },
-          "lastAttemptAt": "2026-10-27T04:19:26.861Z",
+          "lastAttemptAt": "2026-10-27T06:20:35.713Z",
           "value": 3.7172508442689933,
           "dateBasis": "observation_period",
           "frequencyKey": "monthly",
@@ -1507,7 +1419,7 @@
           "publishedAt": null,
           "nextExpectedRelease": null,
           "lastAttemptStatus": "updated",
-          "lastSuccessAt": "2026-10-27T04:19:26.861Z",
+          "lastSuccessAt": "2026-10-27T06:20:35.713Z",
           "revised": false,
           "status": "fresh",
           "healthStatus": "fresh",
@@ -2142,22 +2054,6 @@
   ],
   "treasuryObservations": [
     {
-      "id": "auction-absorption",
-      "name": "长债拍卖承接",
-      "displayValue": "10Y 2.53x · 30Y 2.39x",
-      "change": "WI尾部未列示",
-      "dataDate": "2026-08-12 / 2026-08-13",
-      "frequency": "事件驱动",
-      "status": "stale",
-      "interpretation": "10Y间接投标占发行额76.4%，30Y为66.6%；官方接口不含拍卖前WI收益率，因此不估算尾部。",
-      "source": {
-        "label": "U.S. Treasury Fiscal Data",
-        "url": "https://fiscaldata.treasury.gov/datasets/treasury-securities-auctions-data/treasury-securities-auctions-data"
-      },
-      "healthStatus": "stale",
-      "lag": "超过观察时效，请核验发布"
-    },
-    {
       "id": "term-premium",
       "name": "10Y期限溢价",
       "displayValue": "0.99%",
@@ -2205,23 +2101,6 @@
       "healthStatus": "stale",
       "lag": "超过观察时效，请核验发布",
       "lastAttemptStatus": "manual"
-    },
-    {
-      "id": "tic",
-      "name": "TIC跨境资金线索",
-      "displayValue": "+$133.5bn",
-      "change": "6月净流入",
-      "dataDate": "2026-06",
-      "frequency": "月频",
-      "status": "missing",
-      "interpretation": "6月长期美国证券净买入2071亿美元、短票持仓减少290亿美元；TIC按托管地统计，不能单独还原中日等最终投资者。",
-      "source": {
-        "label": "U.S. Treasury June 2026 TIC",
-        "url": "https://home.treasury.gov/news/press-releases/sb0606"
-      },
-      "healthStatus": "missing",
-      "lag": "未接入",
-      "lastAttemptStatus": "manual"
     }
   ],
   "fedPricingStatus": {
@@ -2244,15 +2123,15 @@
     }
   ],
   "dataHealth": {
-    "evaluatedAt": "2026-10-27T06:02:51.779Z",
+    "evaluatedAt": "2026-10-27T06:20:38.457Z",
     "counts": {
-      "fresh": 51,
+      "fresh": 50,
       "stale": 4,
-      "missing": 2,
+      "missing": 1,
       "failed": 0,
-      "manual": 1
+      "manual": 0
     },
-    "total": 59,
+    "total": 56,
     "records": [
       {
         "key": "indicator.tips10",
@@ -2795,51 +2674,6 @@
         "reason": "窗口内可用，非实时承诺"
       },
       {
-        "key": "macro.ismMfg",
-        "id": "ismMfg",
-        "name": "ISM制造业PMI",
-        "category": "macro",
-        "frequency": "monthly",
-        "date": "2026-08-03",
-        "status": "fresh",
-        "health": "manual",
-        "source": {
-          "label": "ISM Manufacturing PMI",
-          "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/july/"
-        },
-        "reason": "待人工核验"
-      },
-      {
-        "key": "macro.usMfgPmi",
-        "id": "usMfgPmi",
-        "name": "美国制造业PMI(S&P Global)",
-        "category": "macro",
-        "frequency": "monthly",
-        "date": "2026-09-01",
-        "status": "fresh",
-        "health": "fresh",
-        "source": {
-          "label": "S&P Global US 制造业 PMI (mql5 经济日历)",
-          "url": "https://www.mql5.com/zh/economic-calendar/united-states/markit-manufacturing-pmi"
-        },
-        "reason": "窗口内可用，非实时承诺"
-      },
-      {
-        "key": "macro.ismServices",
-        "id": "ismServices",
-        "name": "ISM服务业PMI",
-        "category": "macro",
-        "frequency": "monthly",
-        "date": null,
-        "status": "missing",
-        "health": "missing",
-        "source": {
-          "label": "ISM",
-          "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/"
-        },
-        "reason": "未接入"
-      },
-      {
         "key": "macro.realConsumption",
         "id": "realConsumption",
         "name": "实际个人消费",
@@ -2855,17 +2689,17 @@
         "reason": "窗口内可用，非实时承诺"
       },
       {
-        "key": "macro.usServicesPmi",
-        "id": "usServicesPmi",
-        "name": "美国服务业PMI(S&P Global)",
+        "key": "macro.mfgSurvey",
+        "id": "mfgSurvey",
+        "name": "制造业景气（NY/Philly 联储）",
         "category": "macro",
         "frequency": "monthly",
-        "date": "2026-09-03",
+        "date": "2026-10-01",
         "status": "stale",
         "health": "stale",
         "source": {
-          "label": "S&P Global US 服务业 PMI (mql5 经济日历)",
-          "url": "https://www.mql5.com/zh/economic-calendar/united-states/markit-services-pmi"
+          "label": "NY Fed / Philadelphia Fed via FRED · GACDISA066MSFRBNY/GACDFSA066MSFRBPHI",
+          "url": "https://fred.stlouisfed.org/series/GACDISA066MSFRBNY"
         },
         "reason": "超过观察时效，请核验发布"
       },
@@ -3244,7 +3078,7 @@
       },
       "note": "score 为紧→松标度：-2 最紧/最不利于风险资产，+2 最松。每维度取证据分值的加权平均后「半数远离零」取整，推导链在 evidence/reason 里逐步可审。confidence ∈ 高/中/低，证据缺失时降低并写明缺口。"
     },
-    "generatedAt": "2026-10-27T06:02:51.784Z",
+    "generatedAt": "2026-10-27T06:20:38.459Z",
     "dimensions": [
       {
         "id": "capacity",
@@ -3278,10 +3112,10 @@
         "name": "实体经济循环",
         "question": "谁在增加支出，资金从哪里来？",
         "theme": "real",
-        "score": 1,
-        "label": "偏松",
+        "score": 0,
+        "label": "中性",
         "confidence": "高",
-        "reason": "GDPNow 年化预测 3.5% → +1；实际消费月环比 0.55% → +1；制造业 PMI 53.9 → +1",
+        "reason": "GDPNow 年化预测 3.5% → +1；实际消费月环比 0.55% → +1；制造业 PMI 23.2 → -2",
         "evidence": [
           {
             "label": "GDPNow 年化预测",
@@ -3299,10 +3133,10 @@
           },
           {
             "label": "制造业 PMI",
-            "value": 53.9,
+            "value": 23.2,
             "unit": "",
-            "score": 1,
-            "note": "制造业扩张"
+            "score": -2,
+            "note": "制造业明显收缩"
           }
         ],
         "missingCount": 0
@@ -3452,10 +3286,10 @@
       }
     ],
     "composite": {
-      "score": -0.17,
+      "score": -0.33,
       "label": "中性",
       "confidence": "高",
-      "note": "六变量合成 -0.17（紧→松标度），可用水位 6/6"
+      "note": "六变量合成 -0.33（紧→松标度），可用水位 6/6"
     }
   },
   "triggeredAlerts": [
