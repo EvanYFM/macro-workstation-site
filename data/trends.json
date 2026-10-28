@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T23:05:16.102Z",
+  "generatedAt": "2026-10-28T23:05:08.514Z",
   "source": "public/data/history",
   "series": [
     "trend",
@@ -263,7 +263,13 @@
       {
         "date": "2026-10-27",
         "ust2": 4.7,
-        "ust10": 4.99
+        "ust10": 4.99,
+        "sofr3m": 4.06289
+      },
+      {
+        "date": "2026-10-28",
+        "ust2": 4.67,
+        "ust10": 5.05
       }
     ],
     "liquidityTrend": [
@@ -585,6 +591,12 @@
         "cccOas": 13.45,
         "bbbOas": 1.12,
         "cccBbbOas": 12.33
+      },
+      {
+        "date": "2026-10-27",
+        "cccOas": 13.21,
+        "bbbOas": 1.09,
+        "cccBbbOas": 12.12
       }
     ],
     "moveTrend": [
@@ -739,6 +751,10 @@
       {
         "date": "2026-10-27",
         "move": 97.87
+      },
+      {
+        "date": "2026-10-28",
+        "move": 94.55
       }
     ],
     "indicatorTrend": [
@@ -861,6 +877,14 @@
         "vix": 18.39,
         "brent": 109.43000030517578,
         "ust2": 4.7
+      },
+      {
+        "date": "2026-10-29",
+        "tips10": 2.67,
+        "ust10": 5.05,
+        "vix": 17.52,
+        "brent": 110.68000030517578,
+        "ust2": 4.67
       }
     ]
   },
@@ -871,9 +895,9 @@
       "last": "2026-07-20"
     },
     "rateTrend": {
-      "points": 38,
+      "points": 39,
       "first": "2026-08-31",
-      "last": "2026-10-27"
+      "last": "2026-10-28"
     },
     "liquidityTrend": {
       "points": 13,
@@ -881,19 +905,19 @@
       "last": "2026-10-21"
     },
     "creditSpreadTrend": {
-      "points": 43,
+      "points": 44,
       "first": "2026-08-27",
-      "last": "2026-10-26"
-    },
-    "moveTrend": {
-      "points": 38,
-      "first": "2026-08-31",
       "last": "2026-10-27"
     },
-    "indicatorTrend": {
-      "points": 15,
-      "first": "2026-09-09",
+    "moveTrend": {
+      "points": 39,
+      "first": "2026-08-31",
       "last": "2026-10-28"
+    },
+    "indicatorTrend": {
+      "points": 16,
+      "first": "2026-09-09",
+      "last": "2026-10-29"
     }
   }
 }
