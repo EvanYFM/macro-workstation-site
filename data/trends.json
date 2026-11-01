@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T23:05:08.514Z",
+  "generatedAt": "2026-11-01T13:03:04.320Z",
   "source": "public/data/history",
   "series": [
     "trend",
@@ -270,6 +270,18 @@
         "date": "2026-10-28",
         "ust2": 4.67,
         "ust10": 5.05
+      },
+      {
+        "date": "2026-10-29",
+        "ust2": 4.61,
+        "ust10": 4.98,
+        "sofr3m": 4.06594
+      },
+      {
+        "date": "2026-10-30",
+        "ust2": 4.56,
+        "ust10": 4.94,
+        "sofr3m": 4.05056
       }
     ],
     "liquidityTrend": [
@@ -331,6 +343,10 @@
       {
         "date": "2026-10-21",
         "reserves": 2.962607
+      },
+      {
+        "date": "2026-10-28",
+        "reserves": 2.89377
       }
     ],
     "creditSpreadTrend": [
@@ -597,6 +613,18 @@
         "cccOas": 13.21,
         "bbbOas": 1.09,
         "cccBbbOas": 12.12
+      },
+      {
+        "date": "2026-10-28",
+        "cccOas": 13.07,
+        "bbbOas": 1.07,
+        "cccBbbOas": 12
+      },
+      {
+        "date": "2026-10-29",
+        "cccOas": 13.25,
+        "bbbOas": 1.1,
+        "cccBbbOas": 12.15
       }
     ],
     "moveTrend": [
@@ -755,6 +783,14 @@
       {
         "date": "2026-10-28",
         "move": 94.55
+      },
+      {
+        "date": "2026-10-29",
+        "move": 93.54
+      },
+      {
+        "date": "2026-10-30",
+        "move": 100.2
       }
     ],
     "indicatorTrend": [
@@ -885,6 +921,14 @@
         "vix": 17.52,
         "brent": 110.68000030517578,
         "ust2": 4.67
+      },
+      {
+        "date": "2026-11-01",
+        "tips10": 2.6,
+        "ust10": 4.94,
+        "vix": 19.42,
+        "brent": 113.43000030517578,
+        "ust2": 4.56
       }
     ]
   },
@@ -895,29 +939,29 @@
       "last": "2026-07-20"
     },
     "rateTrend": {
-      "points": 39,
+      "points": 41,
       "first": "2026-08-31",
-      "last": "2026-10-28"
+      "last": "2026-10-30"
     },
     "liquidityTrend": {
-      "points": 13,
+      "points": 14,
       "first": "2026-07-29",
-      "last": "2026-10-21"
-    },
-    "creditSpreadTrend": {
-      "points": 44,
-      "first": "2026-08-27",
-      "last": "2026-10-27"
-    },
-    "moveTrend": {
-      "points": 39,
-      "first": "2026-08-31",
       "last": "2026-10-28"
     },
-    "indicatorTrend": {
-      "points": 16,
-      "first": "2026-09-09",
+    "creditSpreadTrend": {
+      "points": 46,
+      "first": "2026-08-27",
       "last": "2026-10-29"
+    },
+    "moveTrend": {
+      "points": 41,
+      "first": "2026-08-31",
+      "last": "2026-10-30"
+    },
+    "indicatorTrend": {
+      "points": 17,
+      "first": "2026-09-09",
+      "last": "2026-11-01"
     }
   }
 }
