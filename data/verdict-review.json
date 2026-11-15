@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T13:11:36.776Z",
+  "generatedAt": "2026-11-15T13:27:45.075Z",
   "horizon": 5,
   "horizonNote": "事后窗口 = 第 5 份快照（快照非逐日连续，不用自然日）",
   "samples": [
@@ -210,6 +210,22 @@
       ],
       "hits": 0,
       "total": 1
+    },
+    {
+      "date": "2026-10-28",
+      "checkDate": "2026-11-15",
+      "rows": [
+        {
+          "asset": "silver",
+          "name": "白银",
+          "call": "bull",
+          "callLabel": "偏多",
+          "changePct": -9.93,
+          "hit": false
+        }
+      ],
+      "hits": 0,
+      "total": 1
     }
   ],
   "byAsset": {
@@ -221,15 +237,15 @@
     },
     "silver": {
       "name": "白银",
-      "total": 12,
+      "total": 13,
       "hits": 10,
-      "hitRate": 83.3
+      "hitRate": 76.9
     }
   },
   "summary": {
-    "samples": 13,
+    "samples": 14,
     "hits": 10,
-    "total": 13,
-    "hitRate": 76.9
+    "total": 14,
+    "hitRate": 71.4
   }
 }
