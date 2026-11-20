@@ -1,10 +1,9 @@
 {
-  "generatedAt": "2026-11-20T04:54:08.624Z",
+  "generatedAt": "2026-11-20T05:24:12.069Z",
   "proxies": {
     "gold": "gold",
     "silver": "silver",
     "oil": "brent",
-    "stocks": "ndx",
     "bonds": "ust10",
     "usd": "dxy"
   },
@@ -38,17 +37,6 @@
           "callPrev": null
         },
         {
-          "asset": "stocks",
-          "name": "股票",
-          "call": "bull",
-          "callLabel": "中性偏多",
-          "changePct": -10.12,
-          "hit": false,
-          "up": false,
-          "pastUp": null,
-          "callPrev": null
-        },
-        {
           "asset": "bonds",
           "name": "债券",
           "call": "bear",
@@ -61,7 +49,7 @@
         }
       ],
       "hits": 2,
-      "total": 4
+      "total": 3
     },
     {
       "date": "2026-09-14",
@@ -88,21 +76,10 @@
           "up": false,
           "pastUp": true,
           "callPrev": "bull"
-        },
-        {
-          "asset": "stocks",
-          "name": "股票",
-          "call": "bull",
-          "callLabel": "中性偏多",
-          "changePct": 3.79,
-          "hit": true,
-          "up": true,
-          "pastUp": false,
-          "callPrev": "bull"
         }
       ],
-      "hits": 1,
-      "total": 3
+      "hits": 0,
+      "total": 2
     },
     {
       "date": "2026-09-15",
@@ -131,17 +108,6 @@
           "callPrev": "bull"
         },
         {
-          "asset": "stocks",
-          "name": "股票",
-          "call": "bull",
-          "callLabel": "中性偏多",
-          "changePct": 16.41,
-          "hit": true,
-          "up": true,
-          "pastUp": false,
-          "callPrev": "bull"
-        },
-        {
           "asset": "bonds",
           "name": "债券",
           "call": "bear",
@@ -153,8 +119,8 @@
           "callPrev": null
         }
       ],
-      "hits": 1,
-      "total": 4
+      "hits": 0,
+      "total": 3
     },
     {
       "date": "2026-09-17",
@@ -183,17 +149,6 @@
           "callPrev": "bull"
         },
         {
-          "asset": "stocks",
-          "name": "股票",
-          "call": "bull",
-          "callLabel": "中性偏多",
-          "changePct": 17.82,
-          "hit": true,
-          "up": true,
-          "pastUp": false,
-          "callPrev": "bull"
-        },
-        {
           "asset": "bonds",
           "name": "债券",
           "call": "bear",
@@ -205,8 +160,8 @@
           "callPrev": "bear"
         }
       ],
-      "hits": 3,
-      "total": 4
+      "hits": 2,
+      "total": 3
     },
     {
       "date": "2026-09-20",
@@ -235,17 +190,6 @@
           "callPrev": "bull"
         },
         {
-          "asset": "stocks",
-          "name": "股票",
-          "call": "bull",
-          "callLabel": "中性偏多",
-          "changePct": 19.95,
-          "hit": true,
-          "up": true,
-          "pastUp": false,
-          "callPrev": "bull"
-        },
-        {
           "asset": "bonds",
           "name": "债券",
           "call": "bear",
@@ -257,8 +201,8 @@
           "callPrev": "bear"
         }
       ],
-      "hits": 4,
-      "total": 4
+      "hits": 3,
+      "total": 3
     },
     {
       "date": "2026-09-21",
@@ -287,17 +231,6 @@
           "callPrev": "bull"
         },
         {
-          "asset": "stocks",
-          "name": "股票",
-          "call": "bull",
-          "callLabel": "中性偏多",
-          "changePct": 16.44,
-          "hit": true,
-          "up": true,
-          "pastUp": true,
-          "callPrev": "bull"
-        },
-        {
           "asset": "bonds",
           "name": "债券",
           "call": "bear",
@@ -309,8 +242,8 @@
           "callPrev": "bear"
         }
       ],
-      "hits": 4,
-      "total": 4
+      "hits": 3,
+      "total": 3
     },
     {
       "date": "2026-09-22",
@@ -339,17 +272,6 @@
           "callPrev": "bull"
         },
         {
-          "asset": "stocks",
-          "name": "股票",
-          "call": "bull",
-          "callLabel": "中性偏多",
-          "changePct": -4.25,
-          "hit": false,
-          "up": false,
-          "pastUp": true,
-          "callPrev": "bull"
-        },
-        {
           "asset": "bonds",
           "name": "债券",
           "call": "bear",
@@ -362,7 +284,7 @@
         }
       ],
       "hits": 3,
-      "total": 4
+      "total": 3
     },
     {
       "date": "2026-09-23",
@@ -391,17 +313,6 @@
           "callPrev": "bull"
         },
         {
-          "asset": "stocks",
-          "name": "股票",
-          "call": "bull",
-          "callLabel": "中性偏多",
-          "changePct": -5,
-          "hit": false,
-          "up": false,
-          "pastUp": false,
-          "callPrev": "bull"
-        },
-        {
           "asset": "bonds",
           "name": "债券",
           "call": "bear",
@@ -414,7 +325,7 @@
         }
       ],
       "hits": 3,
-      "total": 4
+      "total": 3
     },
     {
       "date": "2026-09-28",
@@ -443,17 +354,6 @@
           "callPrev": "bull"
         },
         {
-          "asset": "stocks",
-          "name": "股票",
-          "call": "bull",
-          "callLabel": "中性偏多",
-          "changePct": -4.36,
-          "hit": false,
-          "up": false,
-          "pastUp": true,
-          "callPrev": "bull"
-        },
-        {
           "asset": "bonds",
           "name": "债券",
           "call": "bear",
@@ -466,7 +366,7 @@
         }
       ],
       "hits": 2,
-      "total": 4
+      "total": 3
     },
     {
       "date": "2026-10-08",
@@ -495,17 +395,6 @@
           "callPrev": "bull"
         },
         {
-          "asset": "stocks",
-          "name": "股票",
-          "call": "bull",
-          "callLabel": "中性偏多",
-          "changePct": -4.84,
-          "hit": false,
-          "up": false,
-          "pastUp": true,
-          "callPrev": "bull"
-        },
-        {
           "asset": "bonds",
           "name": "债券",
           "call": "bear",
@@ -518,7 +407,7 @@
         }
       ],
       "hits": 2,
-      "total": 4
+      "total": 3
     },
     {
       "date": "2026-10-12",
@@ -547,17 +436,6 @@
           "callPrev": "bull"
         },
         {
-          "asset": "stocks",
-          "name": "股票",
-          "call": "bull",
-          "callLabel": "中性偏多",
-          "changePct": -3.46,
-          "hit": false,
-          "up": false,
-          "pastUp": false,
-          "callPrev": "bull"
-        },
-        {
           "asset": "bonds",
           "name": "债券",
           "call": "bear",
@@ -570,7 +448,7 @@
         }
       ],
       "hits": 2,
-      "total": 4
+      "total": 3
     },
     {
       "date": "2026-10-19",
@@ -599,17 +477,6 @@
           "callPrev": "bull"
         },
         {
-          "asset": "stocks",
-          "name": "股票",
-          "call": "bull",
-          "callLabel": "中性偏多",
-          "changePct": -2.75,
-          "hit": false,
-          "up": false,
-          "pastUp": false,
-          "callPrev": "bull"
-        },
-        {
           "asset": "bonds",
           "name": "债券",
           "call": "bear",
@@ -622,7 +489,7 @@
         }
       ],
       "hits": 2,
-      "total": 4
+      "total": 3
     },
     {
       "date": "2026-10-26",
@@ -659,17 +526,6 @@
           "callPrev": null
         },
         {
-          "asset": "stocks",
-          "name": "股票",
-          "call": "bull",
-          "callLabel": "偏多",
-          "changePct": -7.8,
-          "hit": false,
-          "up": false,
-          "pastUp": true,
-          "callPrev": null
-        },
-        {
           "asset": "bonds",
           "name": "债券",
           "call": "bull",
@@ -682,7 +538,7 @@
         }
       ],
       "hits": 1,
-      "total": 3
+      "total": 2
     },
     {
       "date": "2026-10-28",
@@ -902,37 +758,6 @@
       },
       "edgeVsBestBenchmark": -10.7
     },
-    "stocks": {
-      "name": "股票",
-      "total": 13,
-      "hits": 5,
-      "hitRate": 38.5,
-      "avgFavorable": 14.88,
-      "avgAdverse": 5.32,
-      "benchmarks": {
-        "bull": {
-          "hits": 5,
-          "total": 13,
-          "rate": 38.5
-        },
-        "bear": {
-          "hits": 8,
-          "total": 13,
-          "rate": 61.5
-        },
-        "persist": {
-          "hits": 5,
-          "total": 11,
-          "rate": 45.5
-        },
-        "momentum": {
-          "hits": 4,
-          "total": 12,
-          "rate": 33.3
-        }
-      },
-      "edgeVsBestBenchmark": -23
-    },
     "bonds": {
       "name": "债券",
       "total": 15,
@@ -998,34 +823,41 @@
   },
   "summary": {
     "samples": 17,
-    "hits": 35,
-    "total": 60,
-    "hitRate": 58.3,
+    "hits": 30,
+    "total": 47,
+    "hitRate": 63.8,
     "benchmarks": {
       "bull": {
-        "hits": 26,
-        "total": 60,
-        "rate": 43.3
+        "hits": 21,
+        "total": 47,
+        "rate": 44.7
       },
       "bear": {
-        "hits": 34,
-        "total": 60,
-        "rate": 56.7
+        "hits": 26,
+        "total": 47,
+        "rate": 55.3
       },
       "persist": {
-        "hits": 31,
-        "total": 48,
-        "rate": 64.6
+        "hits": 26,
+        "total": 37,
+        "rate": 70.3
       },
       "momentum": {
-        "hits": 29,
-        "total": 56,
-        "rate": 51.8
+        "hits": 25,
+        "total": 44,
+        "rate": 56.8
       }
     },
     "coverage": {
-      "judgedAssets": 6,
-      "trackedAssets": 6
+      "judgedAssets": 5,
+      "trackedAssets": 5,
+      "retiredAssets": [
+        {
+          "key": "stocks",
+          "name": "股票",
+          "note": "股票已有独立仪表盘日频观察，宏观站自 2026-11-20 起不再产出方向判断"
+        }
+      ]
     },
     "note": "命中率需与四个基准并列读：若与固定看多/看空或动量接近，说明方向判断未提供额外信息。"
   }
