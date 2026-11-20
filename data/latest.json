@@ -1,70 +1,70 @@
 {
   "title": "宏观交易工作台",
-  "asOf": "2026-11-16T09:31:52+08:00",
-  "comparisonDate": "2026-11-15",
+  "asOf": "2026-11-20T12:23:27+08:00",
+  "comparisonDate": "2026-11-16",
   "confidence": "中",
-  "staleCount": 4,
-  "regime": "能源强 · 美股科技弱 · 2Y +2bp、10Y +5bp，曲线趋陡",
-  "mainConflict": "能源领涨、美股科技走弱，但2Y +2bp、10Y +5bp，曲线趋陡",
-  "summary": "纳指100 -1.22%、SOXX -3.67%；科创50 -2.41%、恒生科技 0.00%、KOSPI -1.72%。黄金 -0.28%、白银 -2.15%、Brent -0.62%。美国 2Y +2bp 至 4.880%，10Y +5bp 至 5.150%；DXY +0.04%。当前由能源领涨，美股科技走弱，同时2Y +2bp、10Y +5bp，曲线趋陡。",
+  "staleCount": 3,
+  "regime": "能源强 · 贵金属弱 · 2Y -4bp、10Y -3bp，曲线趋陡",
+  "mainConflict": "能源领涨、贵金属走弱（日变化，行情截至 2026-11-19；美股为上一交易日收盘，亚洲与商品含当日盘中），但2Y -4bp、10Y -3bp，曲线趋陡",
+  "summary": "纳指100 -2.21%、SOXX -2.75%；科创50 -2.71%、恒生科技 -3.14%、KOSPI -4.63%。黄金 -3.83%、白银 -6.00%、Brent -2.02%。美国 2Y -4bp 至 4.760%，10Y -3bp 至 5.040%；DXY -0.08%。当前由能源领涨，贵金属走弱；上述均为日变化，各品种价格截止时间不同，不构成同一收盘窗口的横截面排序。同时2Y -4bp、10Y -3bp，曲线趋陡。",
   "keyChanges": [
     {
-      "title": "能源领涨，美股科技落后",
-      "detail": "美股科技均值 -2.45%，亚洲科技均值 -1.37%，贵金属均值 -1.22%。",
+      "title": "能源领涨，贵金属落后",
+      "detail": "美股科技均值 -2.48%，亚洲科技均值 -3.49%，贵金属均值 -4.91%。",
       "tone": "loose"
     },
     {
       "title": "商品方向分化，驱动需要拆分",
-      "detail": "黄金 -0.28%、白银 -2.15%、Brent -0.62%、伦敦锡 +2.69%；贵金属、能源和工业金属不可归为同一需求信号。",
+      "detail": "黄金 -3.83%、白银 -6.00%、Brent -2.02%、伦敦锡 -9.81%；贵金属、能源和工业金属不可归为同一需求信号。",
       "tone": "warning"
     },
     {
-      "title": "2Y +2bp、10Y +5bp，曲线趋陡",
-      "detail": "2Y +2bp 至 4.880%，10Y +5bp 至 5.150%，10Y TIPS 最新 2.91%。",
+      "title": "2Y -4bp、10Y -3bp，曲线趋陡",
+      "detail": "2Y -4bp 至 4.760%，10Y -3bp 至 5.040%，10Y TIPS 最新 2.88%。",
       "tone": "tight"
     },
     {
       "title": "周度与月度视角：宏观变化看周期",
-      "detail": "纳斯达克100 周+3.53%、月-4.26%；韩国综合 周+3.60%、月-9.85%；COMEX 黄金 周-5.81%、月-6.85%；COMEX 白银 周-8.73%、月-15.79%；BRN 原油 周+2.90%、月-13.05%；DXY 周+1.77%、月+1.44%；USDJPY 周+0.91%、月+1.22%；美国 2Y 国债利率 周+42bp、月+11bp；美国 10Y 国债利率 周+31bp、月+5bp。日变动更多是噪音，方向与持续性按周和月确认；科创50、恒生科技、USDCNH、3M SOFR 隐含利率与伦敦锡的源不提供可用历史，不做周月外推。",
+      "detail": "纳斯达克100 周-6.26%、月-8.43%；韩国综合 周-7.38%、月-11.72%；COMEX 黄金 周-8.79%、月-11.56%；COMEX 白银 周-15.03%、月-22.44%；BRN 原油 周-5.97%、月-22.79%；DXY 周+0.40%、月+1.97%；USDJPY 周-0.44%、月+1.71%；美国 2Y 国债利率 周-10bp、月-5bp；美国 10Y 国债利率 周-6bp、月-9bp。日变动更多是噪音，方向与持续性按周和月确认；科创50、恒生科技、USDCNH、3M SOFR 隐含利率与伦敦锡的源不提供可用历史，不做周月外推。",
       "tone": "warning"
     }
   ],
   "assetDirections": {
     "gold": {
-      "direction": "偏空",
-      "reason": "黄金下跌 -0.28%，10Y TIPS +5bp 至 2.91%；价格方向仍需美元、通胀和持仓确认。当前判定偏空。"
+      "direction": "中性",
+      "reason": "黄金下跌 -3.83%，10Y TIPS 持平 至 2.88%；价格方向仍需美元、通胀和持仓确认。当前判定中性（价格与宏观信号背离）。"
     },
     "silver": {
       "direction": "偏空",
-      "reason": "白银下跌 -2.15%，与黄金同向；工业需求与风险偏好仍需确认。当前判定偏空。"
+      "reason": "白银下跌 -6.00%，与黄金同向；工业需求与风险偏好仍需确认。当前判定偏空。"
     },
     "oil": {
-      "direction": "中性",
-      "reason": "Brent下跌 -0.62% 至 $95.25；供给风险、库存与月差仍需确认。当前判定中性（价格与宏观信号背离）。"
+      "direction": "中性偏空",
+      "reason": "Brent下跌 -2.02% 至 $90.12；供给风险、库存与月差仍需确认。当前判定中性偏空。"
     },
     "stocks": {
-      "direction": "偏空",
-      "reason": "美股科技下跌，亚洲科技下跌；2Y +2bp、10Y +5bp，曲线趋陡。当前判定偏空。"
+      "direction": "中性",
+      "reason": "美股科技下跌，亚洲科技下跌；2Y -4bp、10Y -3bp，曲线趋陡。当前判定中性。"
     },
     "bonds": {
-      "direction": "中性偏空",
-      "reason": "2Y +2bp、10Y +5bp，曲线趋陡；2Y +2bp 至 4.880%，10Y +5bp 至 5.150%。当前判定中性偏空。"
+      "direction": "中性偏多",
+      "reason": "2Y -4bp、10Y -3bp，曲线趋陡；2Y -4bp 至 4.760%，10Y -3bp 至 5.040%。当前判定中性偏多。"
     },
     "usd": {
-      "direction": "中性偏多",
-      "reason": "DXY上涨 +0.04%；2Y +2bp、10Y +5bp，利差与风险偏好需共同确认。当前判定中性偏多。"
+      "direction": "中性偏空",
+      "reason": "DXY下跌 -0.08%；2Y -4bp、10Y -3bp，利差与风险偏好需共同确认。当前判定中性偏空。"
     }
   },
   "indicators": [
     {
       "id": "tips10",
       "name": "10Y TIPS",
-      "value": 2.91,
-      "displayValue": "2.91%",
-      "previous": 2.86,
-      "change": "+5bp",
+      "value": 2.88,
+      "displayValue": "2.88%",
+      "previous": 2.88,
+      "change": "持平",
       "frequency": "日频",
-      "dataDate": "2026-11-13",
+      "dataDate": "2026-11-19",
       "lag": "窗口内可用，非实时承诺",
       "source": {
         "label": "U.S. Treasury Daily Par Real Yield Curve",
@@ -73,19 +73,19 @@
       "status": "fresh",
       "confidence": "高",
       "healthStatus": "fresh",
-      "lastAttemptAt": "2026-11-16T01:31:52.821Z",
-      "lastSuccessAt": "2026-11-16T01:31:52.821Z",
+      "lastAttemptAt": "2026-11-20T04:23:27.759Z",
+      "lastSuccessAt": "2026-11-20T04:23:27.759Z",
       "lastAttemptStatus": "updated"
     },
     {
       "id": "ust10",
       "name": "10Y Treasury",
-      "value": 5.15,
-      "displayValue": "5.15%",
-      "previous": 5.1,
-      "change": "+5bp",
+      "value": 5.04,
+      "displayValue": "5.04%",
+      "previous": 5.07,
+      "change": "-3bp",
       "frequency": "日频",
-      "dataDate": "2026-11-13",
+      "dataDate": "2026-11-19",
       "lag": "窗口内可用，非实时承诺",
       "source": {
         "label": "U.S. Treasury Daily Par Yield Curve",
@@ -94,19 +94,19 @@
       "status": "fresh",
       "confidence": "高",
       "healthStatus": "fresh",
-      "lastAttemptAt": "2026-11-16T01:31:52.821Z",
-      "lastSuccessAt": "2026-11-16T01:31:52.821Z",
+      "lastAttemptAt": "2026-11-20T04:23:27.759Z",
+      "lastSuccessAt": "2026-11-20T04:23:27.759Z",
       "lastAttemptStatus": "updated"
     },
     {
       "id": "ust30",
       "name": "30Y Treasury",
-      "value": 5.47,
-      "displayValue": "5.47%",
-      "previous": 5.43,
-      "change": "+4bp",
+      "value": 5.4,
+      "displayValue": "5.40%",
+      "previous": 5.41,
+      "change": "-1bp",
       "frequency": "日频",
-      "dataDate": "2026-11-13",
+      "dataDate": "2026-11-19",
       "lag": "窗口内可用，非实时承诺",
       "source": {
         "label": "U.S. Treasury Daily Par Yield Curve",
@@ -115,19 +115,19 @@
       "status": "fresh",
       "confidence": "高",
       "healthStatus": "fresh",
-      "lastAttemptAt": "2026-11-16T01:31:52.821Z",
-      "lastSuccessAt": "2026-11-16T01:31:52.821Z",
+      "lastAttemptAt": "2026-11-20T04:23:27.759Z",
+      "lastSuccessAt": "2026-11-20T04:23:27.759Z",
       "lastAttemptStatus": "updated"
     },
     {
       "id": "breakeven10",
       "name": "10Y Breakeven",
-      "value": 2.24,
-      "displayValue": "2.24%",
-      "previous": 2.24,
-      "change": "持平",
+      "value": 2.16,
+      "displayValue": "2.16%",
+      "previous": 2.19,
+      "change": "-3bp",
       "frequency": "日频",
-      "dataDate": "2026-11-13",
+      "dataDate": "2026-11-19",
       "lag": "窗口内可用，非实时承诺",
       "source": {
         "label": "FRED T10YIE",
@@ -136,8 +136,8 @@
       "status": "fresh",
       "confidence": "中",
       "healthStatus": "fresh",
-      "lastAttemptAt": "2026-11-16T01:31:52.821Z",
-      "lastSuccessAt": "2026-11-16T01:31:52.821Z",
+      "lastAttemptAt": "2026-11-20T04:23:27.759Z",
+      "lastSuccessAt": "2026-11-20T04:23:27.759Z",
       "lastAttemptStatus": "updated"
     },
     {
@@ -145,10 +145,10 @@
       "name": "SOFR-IORB",
       "value": 0,
       "displayValue": "0bp",
-      "previous": -0.009999999999999787,
-      "change": "+1bp",
+      "previous": 0.020000000000000018,
+      "change": "-2bp",
       "frequency": "日频",
-      "dataDate": "2026-11-12",
+      "dataDate": "2026-11-18",
       "lag": "窗口内可用，非实时承诺",
       "source": {
         "label": "FRED SOFR / IORB",
@@ -157,19 +157,19 @@
       "status": "fresh",
       "confidence": "中",
       "healthStatus": "fresh",
-      "lastAttemptAt": "2026-11-16T01:31:52.822Z",
-      "lastSuccessAt": "2026-11-16T01:31:52.822Z",
+      "lastAttemptAt": "2026-11-20T04:23:27.761Z",
+      "lastSuccessAt": "2026-11-20T04:23:27.761Z",
       "lastAttemptStatus": "updated"
     },
     {
       "id": "proxy",
       "name": "Proxy-EFFR",
-      "value": 1.25,
-      "displayValue": "+125bp",
-      "previous": 1.2999999999999998,
-      "change": "-5bp",
+      "value": 1.3100000000000005,
+      "displayValue": "+131bp",
+      "previous": 1.25,
+      "change": "+6bp",
       "frequency": "周频",
-      "dataDate": "2026-11-06",
+      "dataDate": "2026-11-13",
       "lag": "窗口内可用，非实时承诺",
       "source": {
         "label": "FRBSF Proxy Funds Rate",
@@ -178,19 +178,19 @@
       "status": "fresh",
       "confidence": "高",
       "healthStatus": "fresh",
-      "lastAttemptAt": "2026-11-16T01:31:54.327Z",
-      "lastSuccessAt": "2026-11-16T01:31:54.327Z",
+      "lastAttemptAt": "2026-11-20T04:23:29.531Z",
+      "lastSuccessAt": "2026-11-20T04:23:29.531Z",
       "lastAttemptStatus": "updated"
     },
     {
       "id": "move",
       "name": "MOVE",
-      "value": 98.79000091552734,
-      "displayValue": "98.79",
-      "previous": 98.43000030517578,
-      "change": "+0.36",
+      "value": 96.03630065917969,
+      "displayValue": "96.04",
+      "previous": 98.1500015258789,
+      "change": "-2.11",
       "frequency": "日频",
-      "dataDate": "2026-11-13",
+      "dataDate": "2026-11-19",
       "lag": "窗口内可用，非实时承诺",
       "source": {
         "label": "Yahoo Finance ^MOVE / ICE BofA MOVE",
@@ -199,19 +199,19 @@
       "status": "fresh",
       "confidence": "中",
       "healthStatus": "fresh",
-      "lastAttemptAt": "2026-11-16T01:31:54.327Z",
-      "lastSuccessAt": "2026-11-16T01:31:54.327Z",
+      "lastAttemptAt": "2026-11-20T04:23:29.531Z",
+      "lastSuccessAt": "2026-11-20T04:23:29.531Z",
       "lastAttemptStatus": "updated"
     },
     {
       "id": "vix",
       "name": "VIX",
-      "value": 19.3,
-      "displayValue": "19.30",
-      "previous": 18.7,
-      "change": "+0.60",
+      "value": 28.44,
+      "displayValue": "28.44",
+      "previous": 24.56,
+      "change": "+3.88",
       "frequency": "日频",
-      "dataDate": "2026-11-13",
+      "dataDate": "2026-11-19",
       "lag": "窗口内可用，非实时承诺",
       "source": {
         "label": "Cboe VIX daily close",
@@ -220,19 +220,19 @@
       "status": "fresh",
       "confidence": "中",
       "healthStatus": "fresh",
-      "lastAttemptAt": "2026-11-16T01:31:52.822Z",
-      "lastSuccessAt": "2026-11-16T01:31:52.822Z",
+      "lastAttemptAt": "2026-11-20T04:23:27.761Z",
+      "lastSuccessAt": "2026-11-20T04:23:27.761Z",
       "lastAttemptStatus": "updated"
     },
     {
       "id": "hy",
       "name": "HY OAS",
-      "value": 3.2,
-      "displayValue": "3.20%",
-      "previous": 3.3,
-      "change": "-10bp",
+      "value": 3.47,
+      "displayValue": "3.47%",
+      "previous": 3.43,
+      "change": "+4bp",
       "frequency": "日频",
-      "dataDate": "2026-11-12",
+      "dataDate": "2026-11-18",
       "lag": "窗口内可用，非实时承诺",
       "source": {
         "label": "FRED HY OAS",
@@ -241,19 +241,19 @@
       "status": "fresh",
       "confidence": "中",
       "healthStatus": "fresh",
-      "lastAttemptAt": "2026-11-16T01:31:52.822Z",
-      "lastSuccessAt": "2026-11-16T01:31:52.822Z",
+      "lastAttemptAt": "2026-11-20T04:23:27.761Z",
+      "lastSuccessAt": "2026-11-20T04:23:27.761Z",
       "lastAttemptStatus": "updated"
     },
     {
       "id": "cccOas",
       "name": "CCC及以下 OAS",
-      "value": 13.14,
-      "displayValue": "13.14%",
-      "previous": 13.3,
-      "change": "-16bp",
+      "value": 13.53,
+      "displayValue": "13.53%",
+      "previous": 13.29,
+      "change": "+24bp",
       "frequency": "日频",
-      "dataDate": "2026-11-12",
+      "dataDate": "2026-11-18",
       "lag": "窗口内可用，非实时承诺",
       "source": {
         "label": "FRED BAMLH0A3HYC",
@@ -262,19 +262,19 @@
       "status": "fresh",
       "confidence": "中",
       "healthStatus": "fresh",
-      "lastAttemptAt": "2026-11-16T01:31:52.822Z",
-      "lastSuccessAt": "2026-11-16T01:31:52.822Z",
+      "lastAttemptAt": "2026-11-20T04:23:27.761Z",
+      "lastSuccessAt": "2026-11-20T04:23:27.761Z",
       "lastAttemptStatus": "updated"
     },
     {
       "id": "bbbOas",
       "name": "BBB OAS",
-      "value": 1.11,
-      "displayValue": "1.11%",
-      "previous": 1.12,
-      "change": "-1bp",
+      "value": 1.16,
+      "displayValue": "1.16%",
+      "previous": 1.15,
+      "change": "+1bp",
       "frequency": "日频",
-      "dataDate": "2026-11-12",
+      "dataDate": "2026-11-18",
       "lag": "窗口内可用，非实时承诺",
       "source": {
         "label": "FRED BAMLC0A4CBBB",
@@ -283,19 +283,19 @@
       "status": "fresh",
       "confidence": "中",
       "healthStatus": "fresh",
-      "lastAttemptAt": "2026-11-16T01:31:52.822Z",
-      "lastSuccessAt": "2026-11-16T01:31:52.822Z",
+      "lastAttemptAt": "2026-11-20T04:23:27.761Z",
+      "lastSuccessAt": "2026-11-20T04:23:27.761Z",
       "lastAttemptStatus": "updated"
     },
     {
       "id": "cccBbbOas",
       "name": "CCC-BBB OAS",
-      "value": 12.030000000000001,
-      "displayValue": "12.03%",
-      "previous": 12.18,
-      "change": "-15bp",
+      "value": 12.37,
+      "displayValue": "12.37%",
+      "previous": 12.139999999999999,
+      "change": "+23bp",
       "frequency": "日频",
-      "dataDate": "2026-11-12",
+      "dataDate": "2026-11-18",
       "lag": "窗口内可用，非实时承诺",
       "source": {
         "label": "FRED派生：CCC OAS - BBB OAS",
@@ -304,19 +304,19 @@
       "status": "fresh",
       "confidence": "中",
       "healthStatus": "fresh",
-      "lastAttemptAt": "2026-11-16T01:31:52.831Z",
-      "lastSuccessAt": "2026-11-16T01:31:52.831Z",
+      "lastAttemptAt": "2026-11-20T04:23:27.828Z",
+      "lastSuccessAt": "2026-11-20T04:23:27.828Z",
       "lastAttemptStatus": "updated"
     },
     {
       "id": "wti",
       "name": "WTI",
-      "value": 89.62,
-      "displayValue": "$89.62",
-      "previous": 89.62,
-      "change": "+$0.00",
+      "value": 89.53,
+      "displayValue": "$89.53",
+      "previous": 89.24,
+      "change": "+$0.29",
       "frequency": "日频",
-      "dataDate": "2026-11-11",
+      "dataDate": "2026-11-17",
       "lag": "窗口内可用，非实时承诺",
       "source": {
         "label": "FRED DCOILWTICO",
@@ -325,20 +325,20 @@
       "status": "fresh",
       "confidence": "中",
       "healthStatus": "fresh",
-      "lastAttemptAt": "2026-11-16T01:31:52.831Z",
-      "lastSuccessAt": "2026-11-16T01:31:52.831Z",
+      "lastAttemptAt": "2026-11-20T04:23:27.832Z",
+      "lastSuccessAt": "2026-11-20T04:23:27.832Z",
       "lastAttemptStatus": "updated",
       "pctChange": -1.581
     },
     {
       "id": "brent",
       "name": "Brent",
-      "value": 95.25,
-      "displayValue": "$95.25",
-      "previous": 95.83999633789062,
-      "change": "-$0.59",
+      "value": 90.12000274658203,
+      "displayValue": "$90.12",
+      "previous": 91.9800033569336,
+      "change": "-$1.86",
       "frequency": "日频",
-      "dataDate": "2026-11-16",
+      "dataDate": "2026-11-20",
       "lag": "窗口内可用，非实时承诺",
       "source": {
         "label": "Yahoo Finance BZ=F",
@@ -347,19 +347,19 @@
       "status": "fresh",
       "confidence": "中",
       "healthStatus": "fresh",
-      "lastAttemptAt": "2026-11-16T01:31:54.327Z",
-      "lastSuccessAt": "2026-11-16T01:31:54.327Z",
+      "lastAttemptAt": "2026-11-20T04:23:29.531Z",
+      "lastSuccessAt": "2026-11-20T04:23:29.531Z",
       "lastAttemptStatus": "updated"
     },
     {
       "id": "walcl",
       "name": "Fed 总资产",
-      "value": 6.758867,
-      "displayValue": "$6.759tn",
-      "previous": 6.748145,
-      "change": "+11bn",
+      "value": 6.741452,
+      "displayValue": "$6.741tn",
+      "previous": 6.758867,
+      "change": "-17bn",
       "frequency": "周频",
-      "dataDate": "2026-11-11",
+      "dataDate": "2026-11-18",
       "lag": "窗口内可用，非实时承诺",
       "source": {
         "label": "FRED WALCL",
@@ -368,19 +368,19 @@
       "status": "fresh",
       "confidence": "中",
       "healthStatus": "fresh",
-      "lastAttemptAt": "2026-11-16T01:31:52.831Z",
-      "lastSuccessAt": "2026-11-16T01:31:52.831Z",
+      "lastAttemptAt": "2026-11-20T04:23:27.842Z",
+      "lastSuccessAt": "2026-11-20T04:23:27.842Z",
       "lastAttemptStatus": "updated"
     },
     {
       "id": "reserves",
       "name": "银行准备金",
-      "value": 2.960603,
-      "displayValue": "$2.961tn",
-      "previous": 2.930088,
-      "change": "+31bn",
+      "value": 2.979656,
+      "displayValue": "$2.980tn",
+      "previous": 2.960603,
+      "change": "+19bn",
       "frequency": "周频",
-      "dataDate": "2026-11-11",
+      "dataDate": "2026-11-18",
       "lag": "窗口内可用，非实时承诺",
       "source": {
         "label": "FRED WRESBAL",
@@ -389,19 +389,19 @@
       "status": "fresh",
       "confidence": "中",
       "healthStatus": "fresh",
-      "lastAttemptAt": "2026-11-16T01:31:52.831Z",
-      "lastSuccessAt": "2026-11-16T01:31:52.831Z",
+      "lastAttemptAt": "2026-11-20T04:23:27.842Z",
+      "lastSuccessAt": "2026-11-20T04:23:27.842Z",
       "lastAttemptStatus": "updated"
     },
     {
       "id": "tga",
       "name": "TGA（日终余额）",
-      "value": 933.127,
-      "displayValue": "$933bn",
-      "previous": 912.134,
-      "change": "+21bn",
+      "value": 892.31,
+      "displayValue": "$892bn",
+      "previous": 921.222,
+      "change": "-29bn",
       "frequency": "日频",
-      "dataDate": "2026-11-12",
+      "dataDate": "2026-11-18",
       "lag": "窗口内可用，非实时承诺",
       "source": {
         "label": "U.S. Treasury Fiscal Data · DTS TGA 日终余额",
@@ -410,8 +410,8 @@
       "status": "fresh",
       "confidence": "中",
       "healthStatus": "fresh",
-      "lastAttemptAt": "2026-11-16T01:31:54.327Z",
-      "lastSuccessAt": "2026-11-16T01:31:54.327Z",
+      "lastAttemptAt": "2026-11-20T04:23:29.531Z",
+      "lastSuccessAt": "2026-11-20T04:23:29.531Z",
       "lastAttemptStatus": "updated",
       "seriesBreak": {
         "at": "2026-09-17",
@@ -423,12 +423,12 @@
     {
       "id": "rrp",
       "name": "ON RRP",
-      "value": 0.325,
-      "displayValue": "$0.33bn",
-      "previous": 0.25,
-      "change": "+0.08bn",
+      "value": 0.405,
+      "displayValue": "$0.41bn",
+      "previous": 0.331,
+      "change": "+0.07bn",
       "frequency": "日频",
-      "dataDate": "2026-11-13",
+      "dataDate": "2026-11-19",
       "lag": "窗口内可用，非实时承诺",
       "source": {
         "label": "FRED RRPONTSYD",
@@ -437,8 +437,8 @@
       "status": "fresh",
       "confidence": "中",
       "healthStatus": "fresh",
-      "lastAttemptAt": "2026-11-16T01:31:52.831Z",
-      "lastSuccessAt": "2026-11-16T01:31:52.831Z",
+      "lastAttemptAt": "2026-11-20T04:23:27.842Z",
+      "lastSuccessAt": "2026-11-20T04:23:27.842Z",
       "lastAttemptStatus": "updated"
     },
     {
@@ -446,69 +446,69 @@
       "name": "银行信贷总额",
       "symbol": "H.8 Total Bank Credit",
       "frequency": "周频",
-      "lastAttemptAt": "2026-11-16T01:31:52.831Z",
-      "lastSuccessAt": "2026-11-16T01:31:52.831Z",
+      "lastAttemptAt": "2026-11-20T04:23:27.842Z",
+      "lastSuccessAt": "2026-11-20T04:23:27.842Z",
       "lastAttemptStatus": "updated",
       "previous": 20.0250788,
       "value": 20.0831228,
       "displayValue": "$20.08tn",
       "change": "+0bn",
       "dataDate": "2026-11-04",
-      "status": "fresh",
-      "lag": "窗口内可用，非实时承诺",
+      "status": "stale",
+      "lag": "超过观察时效，请核验发布",
       "interpretation": "H.8 全部商业银行信贷总额（周频）。准备金是流动性底座，银行信贷是传导出口：信贷同步扩张说明资金在被投放，信贷停滞而准备金上升则说明资金滞留在银行体系内。",
       "source": {
         "label": "FRED TOTBKCR",
         "url": "https://fred.stlouisfed.org/series/TOTBKCR"
       },
-      "healthStatus": "fresh"
+      "healthStatus": "stale"
     },
     {
       "id": "continuingClaims",
       "name": "续请失业金",
       "unit": "万人",
-      "value": 169.7,
-      "previous": 171.7,
-      "displayValue": "169.7 万人",
-      "change": "-2.0 万人",
-      "dataDate": "2026-10-31",
+      "value": 176.3,
+      "previous": 169.3,
+      "displayValue": "176.3 万人",
+      "change": "+7.0 万人",
+      "dataDate": "2026-11-07",
       "frequency": "周频",
-      "status": "stale",
+      "status": "fresh",
       "interpretation": "续请（持续领取）人数反映再就业难度；与初请观察周不同，两者需分开读。",
       "source": {
         "label": "U.S. DOL via FRED · CCSA",
         "url": "https://fred.stlouisfed.org/series/CCSA"
       },
-      "healthStatus": "stale",
-      "lag": "超过观察时效，请核验发布"
+      "healthStatus": "fresh",
+      "lag": "窗口内可用，非实时承诺"
     }
   ],
   "insights": [
     {
       "indicatorId": "tips10",
-      "fact": "10Y TIPS +5bp 至 2.91%。",
+      "fact": "10Y TIPS 持平 至 2.88%。",
       "actor": "美国国债市场与长久期资产持有者",
       "shockType": "实际贴现率冲击上升",
       "horizon": "日频至数周",
       "policyResponse": "通胀继续降温可降低政策利率上行风险，但油价传导仍会抬高转鸽门槛。",
       "pricing": "名义与实际长端利率同步上行，绝对水平仍高。",
       "transmission": "黄金、长债和高估值权益的贴现压力略缓和，尚未反转。",
-      "support": "10Y Treasury 同期 +5bp 至 5.15%。",
-      "counterEvidence": "黄金 -0.28%、白银 -2.15%，贵金属内部出现同向。",
-      "conclusion": "实际贴现压力增强，但贵金属仍需美元、通胀和持仓共同确认。",
+      "support": "10Y Treasury 同期 -3bp 至 5.04%。",
+      "counterEvidence": "黄金 -3.83%、白银 -6.00%，贵金属内部出现同向。",
+      "conclusion": "实际贴现压力未变，但贵金属仍需美元、通胀和持仓共同确认。",
       "validation": "TIPS 跌破 2.30% 且美元不走强。",
       "invalidation": "TIPS 回到 2.40% 上方。"
     },
     {
       "indicatorId": "sofrIorb",
-      "fact": "SOFR-IORB 为 0bp，较前值 +1bp。",
+      "fact": "SOFR-IORB 为 0bp，较前值 -2bp。",
       "actor": "货币市场、银行与回购融资参与者",
       "shockType": "融资价格保持顺畅",
       "horizon": "日频",
       "policyResponse": "无需政策响应；持续转正并升破 +10bp 才需检查准备金分布。",
       "pricing": "回购融资没有显示稀缺溢价。",
       "transmission": "支持风险资产，但不能替代增长与盈利确认。",
-      "support": "ON RRP +0.08bn 至 $0.33bn。",
+      "support": "ON RRP +0.07bn 至 $0.41bn。",
       "counterEvidence": "ON RRP 缓冲几乎耗尽。",
       "conclusion": "融资价格判断需结合最新同日利差、准备金与回购数据；不由单个旧值推断宽松。",
       "validation": "利差维持负值且准备金继续增加。",
@@ -516,22 +516,22 @@
     },
     {
       "indicatorId": "move",
-      "fact": "MOVE +0.36 至 98.79，数据日 2026-11-13。",
+      "fact": "MOVE -2.11 至 96.04，数据日 2026-11-19。",
       "actor": "美国国债期权、做市商与利率风险管理者",
       "shockType": "利率波动率回落",
       "horizon": "日频至数周",
       "policyResponse": "单日反弹不触发政策含义，需与融资利差和信用压力共同判断。",
       "pricing": "债券波动回落至72.03，低于80的首个警戒阈值。",
       "transmission": "上升会抬高长债、按揭与杠杆策略的对冲成本，并可能外溢至黄金和权益波动。",
-      "support": "MOVE 升温，2Y、10Y 与 10Y TIPS 的方向需共同验证利率冲击。",
-      "counterEvidence": "VIX +0.60、HY OAS -10bp，权益波动与信用尚未确认压力外溢。",
-      "conclusion": "债券波动升温，但需连续突破 80 并伴随融资或信用压力，才升级为系统性信号。",
+      "support": "MOVE 回落，2Y、10Y 与 10Y TIPS 的方向需共同验证利率冲击。",
+      "counterEvidence": "VIX +3.88、HY OAS +4bp，权益波动与信用尚未确认压力外溢。",
+      "conclusion": "债券波动回落，但需连续突破 80 并伴随融资或信用压力，才升级为系统性信号。",
       "validation": "连续升破 80，并伴随 SOFR-IORB 转正或信用利差走阔。",
       "invalidation": "回落至 65-70 且信用利差稳定。"
     },
     {
       "indicatorId": "reserves",
-      "fact": "银行准备金 +31bn 至 $2.961tn，数据日 2026-11-11。",
+      "fact": "银行准备金 +19bn 至 $2.980tn，数据日 2026-11-18。",
       "actor": "美联储、商业银行与货币市场参与者",
       "shockType": "负债端流动性改善",
       "horizon": "周频",
@@ -546,18 +546,18 @@
     },
     {
       "indicatorId": "brent",
-      "fact": "Brent -0.62% 至 $95.25，数据日 2026-11-16。",
+      "fact": "Brent -2.02% 至 $90.12，数据日 2026-11-20。",
       "actor": "产油国、炼厂、运输与能源消费者",
       "shockType": "能源供给冲击",
       "horizon": "数日至数月",
       "policyResponse": "若油价传导到核心通胀，美联储转鸽门槛上升。",
       "pricing": "能源风险溢价快速回补。",
       "transmission": "利多油气链和通胀对冲，未必利多铜等需求型商品。",
-      "support": "黄金 -0.28%、白银 -2.15%、实际利率上升，商品内部并非一致的宽松交易。",
+      "support": "黄金 -3.83%、白银 -6.00%、实际利率持平，商品内部并非一致的宽松交易。",
       "counterEvidence": "EIA 库存细项本次未可靠读取。",
       "conclusion": "原油偏多，但必须等待库存与月差确认。",
-      "validation": "Brent 守住 95 美元且 EIA 去库或近月升水扩大。",
-      "invalidation": "Brent 跌回 96 美元下方并伴随库存累积。"
+      "validation": "Brent 守住 90 美元且 EIA 去库或近月升水扩大。",
+      "invalidation": "Brent 跌回 92 美元下方并伴随库存累积。"
     }
   ],
   "liquidity": [
@@ -571,7 +571,7 @@
       "dimension": "负债端净流动性",
       "score": 1,
       "status": "改善",
-      "evidence": "准备金 $2.961tn，TGA $933bn，ON RRP $0.33bn"
+      "evidence": "准备金 $2.980tn，TGA $892bn，ON RRP $0.41bn"
     },
     {
       "dimension": "财政融资结构",
@@ -599,16 +599,11 @@
     }
   ],
   "liquiditySummary": {
-    "state": "资金价格顺畅，信用改善，MOVE 升温，利率约束上升",
-    "interpretation": "周频准备金与 TGA 保持 2026-11-11 数据；日频 SOFR-IORB 为 0bp。CCC及以下 OAS -16bp 至 13.14%，BBB OAS -1bp 至 1.11%，CCC-BBB -15bp 至 12.03%；MOVE +0.36 至 98.79。若两类信用利差同步扩大，才更接近广泛信用收缩；仅CCC-BBB扩大更偏低质量信用分层。",
+    "state": "资金价格顺畅，信用走弱，MOVE 回落，利率约束缓和",
+    "interpretation": "周频准备金与 TGA 保持 2026-11-18 数据；日频 SOFR-IORB 为 0bp。CCC及以下 OAS +24bp 至 13.53%，BBB OAS +1bp 至 1.16%，CCC-BBB +23bp 至 12.37%；MOVE -2.11 至 96.04。若两类信用利差同步扩大，才更接近广泛信用收缩；仅CCC-BBB扩大更偏低质量信用分层。",
     "watch": "重点观察 TGA 回补、MOVE 80、SOFR-IORB +10bp，以及CCC与BBB OAS是否同步扩大"
   },
   "liquidityTrend": [
-    {
-      "date": "10-07",
-      "reserves": 3.029659,
-      "tga": null
-    },
     {
       "date": "10-14",
       "reserves": 3.02214,
@@ -633,44 +628,25 @@
       "date": "11-11",
       "reserves": 2.960603,
       "tga": null
+    },
+    {
+      "date": "11-18",
+      "reserves": 2.979656,
+      "tga": null
     }
   ],
   "creditSpreadTrend": [
-    {
-      "date": "11-02",
-      "cccOas": 13.19,
-      "bbbOas": 1.17,
-      "cccBbbOas": 12.02
-    },
-    {
-      "date": "11-03",
-      "cccOas": 13.16,
-      "bbbOas": 1.16,
-      "cccBbbOas": 12
-    },
-    {
-      "date": "11-04",
-      "cccOas": 12.97,
-      "bbbOas": 1.13,
-      "cccBbbOas": 11.84
-    },
-    {
-      "date": "11-05",
-      "cccOas": 13.2,
-      "bbbOas": 1.16,
-      "cccBbbOas": 12.04
-    },
-    {
-      "date": "11-06",
-      "cccOas": 13.17,
-      "bbbOas": 1.16,
-      "cccBbbOas": 12.01
-    },
     {
       "date": "11-09",
       "cccOas": 13.11,
       "bbbOas": 1.13,
       "cccBbbOas": 11.98
+    },
+    {
+      "date": "11-10",
+      "cccOas": 13.31,
+      "bbbOas": 1.12,
+      "cccBbbOas": 12.19
     },
     {
       "date": "11-11",
@@ -683,29 +659,33 @@
       "cccOas": 13.14,
       "bbbOas": 1.11,
       "cccBbbOas": 12.03
+    },
+    {
+      "date": "11-13",
+      "cccOas": 13.16,
+      "bbbOas": 1.11,
+      "cccBbbOas": 12.05
+    },
+    {
+      "date": "11-16",
+      "cccOas": 13.1,
+      "bbbOas": 1.12,
+      "cccBbbOas": 11.98
+    },
+    {
+      "date": "11-17",
+      "cccOas": 13.29,
+      "bbbOas": 1.15,
+      "cccBbbOas": 12.14
+    },
+    {
+      "date": "11-18",
+      "cccOas": 13.53,
+      "bbbOas": 1.16,
+      "cccBbbOas": 12.37
     }
   ],
   "moveTrend": [
-    {
-      "date": "11-05",
-      "move": 97.92,
-      "vix": null
-    },
-    {
-      "date": "11-06",
-      "move": 92.77,
-      "vix": null
-    },
-    {
-      "date": "11-09",
-      "move": 85.98,
-      "vix": null
-    },
-    {
-      "date": "11-10",
-      "move": 92.43,
-      "vix": null
-    },
     {
       "date": "11-12",
       "move": 98.43,
@@ -715,47 +695,67 @@
       "date": "11-13",
       "move": 98.79,
       "vix": null
+    },
+    {
+      "date": "11-16",
+      "move": 101.28,
+      "vix": null
+    },
+    {
+      "date": "11-17",
+      "move": 101.88,
+      "vix": null
+    },
+    {
+      "date": "11-18",
+      "move": 98.15,
+      "vix": null
+    },
+    {
+      "date": "11-19",
+      "move": 96.04,
+      "vix": null
     }
   ],
   "liquidityTransmission": [
     {
       "market": "美元利率",
-      "direction": "2Y +2bp、10Y +5bp，曲线趋陡",
-      "rationale": "2Y +2bp、10Y +5bp；需同时验证融资利差与各期限利率方向。"
+      "direction": "2Y -4bp、10Y -3bp，曲线趋陡",
+      "rationale": "2Y -4bp、10Y -3bp；需同时验证融资利差与各期限利率方向。"
     },
     {
       "market": "美元",
       "direction": "高位震荡",
-      "rationale": "DXY +0.04%，USDJPY -0.09%，USDCNH -0.03%；各汇率方向应分别核对，不直接推断美元融资松紧。"
+      "rationale": "DXY -0.08%，USDJPY -0.14%，USDCNH -0.30%；各汇率方向应分别核对，不直接推断美元融资松紧。"
     },
     {
       "market": "商品",
       "direction": "贵金属与能源共同走弱",
-      "rationale": "黄金 -0.28%、白银 -2.15%、Brent -0.62%；需分别核对美元、实际利率、供给和工业需求。"
+      "rationale": "黄金 -3.83%、白银 -6.00%、Brent -2.02%；需分别核对美元、实际利率、供给和工业需求。"
     },
     {
       "market": "股票与信用",
-      "direction": "美股偏弱、亚洲分化、信用改善",
-      "rationale": "SOXX -3.67%、纳指100 -1.22%；CCC-BBB OAS -15bp，需结合BBB OAS判断压力是否广泛化。"
+      "direction": "美股偏弱、亚洲偏弱、信用走弱",
+      "rationale": "SOXX -2.75%、纳指100 -2.21%；CCC-BBB OAS +23bp，需结合BBB OAS判断压力是否广泛化。"
     }
   ],
   "commodities": [
     {
       "name": "黄金",
-      "change": "黄金 -0.28%，10Y TIPS +5bp 至 2.91%，价格方向仍需实际利率确认。",
+      "change": "黄金 -3.83%，10Y TIPS 持平 至 2.88%，价格方向仍需实际利率确认。",
       "trigger": "TIPS < 2.30%，美元不走强，MOVE 不突破 80；反证为 TIPS > 2.40% 或 DXY 转强。",
       "direction": "中性偏空"
     },
     {
       "name": "白银",
-      "change": "白银 -2.15%，与黄金同向；科技和工业金属信号仍需确认。",
+      "change": "白银 -6.00%，与黄金同向；科技和工业金属信号仍需确认。",
       "trigger": "金银继续同涨、工业金属企稳且 TIPS 下行；反证为银强金弱或风险资产转跌。",
       "direction": "中性偏空"
     },
     {
       "name": "原油",
-      "change": "Brent -0.62% 至 $95.25，库存与月差仍需新增确认。",
-      "trigger": "EIA 去库或近月升水扩大且 Brent 守住 95；反证为跌回 96 下方并累库。",
+      "change": "Brent -2.02% 至 $90.12，库存与月差仍需新增确认。",
+      "trigger": "EIA 去库或近月升水扩大且 Brent 守住 90；反证为跌回 92 下方并累库。",
       "direction": "中性偏空"
     },
     {
@@ -790,8 +790,8 @@
     },
     {
       "label": "AI vs 黄金",
-      "status": "贵金属占优",
-      "meaning": "美股科技均值 -2.45%，贵金属均值 -1.22%；实际利率上升，黄金机会成本提高。"
+      "status": "美股科技占优",
+      "meaning": "美股科技均值 -2.48%，贵金属均值 -4.91%；实际利率持平，黄金机会成本未变。"
     },
     {
       "label": "就业结构",
@@ -801,13 +801,13 @@
     {
       "label": "AI 回撤三分法",
       "status": "地域分化",
-      "meaning": "SOXX -3.67%，恒生科技 0.00%、科创50 -2.41%，当前不是全球科技一致交易。"
+      "meaning": "SOXX -2.75%，恒生科技 -3.14%、科创50 -2.71%，当前不是全球科技一致交易。"
     }
   ],
   "triggers": [
     {
       "indicator": "10Y TIPS",
-      "current": "2.91%",
+      "current": "2.88%",
       "threshold": "<2.30% / >2.40%",
       "meaning": "跌破缓解金银压力；上破继续压制。"
     },
@@ -819,31 +819,31 @@
     },
     {
       "indicator": "MOVE",
-      "current": "98.79",
+      "current": "96.04",
       "threshold": ">80 / >100",
       "meaning": "80 表示利率波动明显升温；100 以上需检查去杠杆外溢。"
     },
     {
       "indicator": "HY OAS",
-      "current": "3.20%",
+      "current": "3.47%",
       "threshold": ">2.90%",
       "meaning": "由估值压力转向信用压力。"
     },
     {
       "indicator": "VIX",
-      "current": "19.30",
+      "current": "28.44",
       "threshold": ">18 / >20",
       "meaning": "保险需求逐级上升。"
     },
     {
       "indicator": "Brent",
-      "current": "$95.25",
+      "current": "$90.12",
       "threshold": "守住 $80",
       "meaning": "确认能源供给风险仍在。"
     },
     {
       "indicator": "Proxy-EFFR",
-      "current": "+125bp",
+      "current": "+131bp",
       "threshold": "<+75bp / >+100bp",
       "meaning": "收窄表示体感放松；扩大表示更紧。"
     }
@@ -918,7 +918,7 @@
         "贷款标准",
         "违约率"
       ],
-      "currentExample": "CCC OAS -16bp、BBB OAS -1bp、CCC-BBB -15bp；分层扩大不等于系统性流动性收缩。",
+      "currentExample": "CCC OAS +24bp、BBB OAS +1bp、CCC-BBB +23bp；分层扩大不等于系统性流动性收缩。",
       "assetImpact": "信用失灵时风险资产承压，黄金可能转保险资产。"
     },
     {
@@ -937,8 +937,8 @@
         "TGA",
         "Proxy Rate"
       ],
-      "currentExample": "SOFR-IORB 0bp、ON RRP $0.33bn；周频准备金与 TGA 尚未更新。",
-      "assetImpact": "资金价格仍顺畅、信用改善，但 MOVE 升温且利率约束上升，不支持把当前行情定义为流动性宽松驱动。"
+      "currentExample": "SOFR-IORB 0bp、ON RRP $0.41bn；周频准备金与 TGA 尚未更新。",
+      "assetImpact": "资金价格仍顺畅、信用走弱，但 MOVE 回落且利率约束缓和，不支持把当前行情定义为流动性宽松驱动。"
     },
     {
       "id": "pricing",
@@ -955,8 +955,8 @@
         "VIX",
         "相对强弱"
       ],
-      "currentExample": "美股科技偏强、商品内部偏弱、亚洲科技分化；2Y +2bp、10Y +5bp，曲线趋陡。",
-      "assetImpact": "美股科技相对占优；实际利率上升，商品与长久期资产仍需分别验证驱动。"
+      "currentExample": "美股科技偏强、商品内部偏弱、亚洲科技分化；2Y -4bp、10Y -3bp，曲线趋陡。",
+      "assetImpact": "美股科技相对占优；实际利率持平，商品与长久期资产仍需分别验证驱动。"
     }
   ],
   "fedMeetings": [
@@ -1246,7 +1246,7 @@
     {
       "id": "inflation",
       "name": "通胀",
-      "conclusion": "CPI（总体 / 核心） — / —（2026-10）；PCE（总体 / 核心） 3.6% / 3.1%（2026-09）；EIA全美公路柴油零售价 $6.127/gal（2026-11-09）；CPI 即时预估(Nowcast) +0.14%（November 2026）；PCE 即时预估(Nowcast) +0.21%（November 2026）；CPI 分项贡献 权重合计 2.91pp + 残差 0.80pp = 总 3.72%（2026-09）；其中 CPI 分项贡献 已超出时效窗口，方向判断以未过期项为主",
+      "conclusion": "CPI（总体 / 核心） — / —（2026-10）；PCE（总体 / 核心） 3.6% / 3.1%（2026-09）；EIA全美公路柴油零售价 $5.937/gal（2026-11-16）；CPI 即时预估(Nowcast) +0.07%（November 2026）；PCE 即时预估(Nowcast) +0.17%（November 2026）；CPI 分项贡献 权重合计 2.91pp + 残差 0.80pp = 总 3.72%（2026-09）；其中 CPI 分项贡献 已超出时效窗口，方向判断以未过期项为主",
       "metrics": [
         {
           "id": "cpi",
@@ -1256,7 +1256,7 @@
           "period": "2026-10",
           "dataDate": "2026-10-01",
           "signal": "统计观测",
-          "interpretation": "CPI同比采用未季调系列，环比采用季调系列。官方已发布至 2026-10；November 2026 环比克利夫兰联储 Nowcast 预估 +0.14%（2026-11-13），官方值发布后以 FRED 序列为准。",
+          "interpretation": "CPI同比采用未季调系列，环比采用季调系列。官方已发布至 2026-10；November 2026 环比克利夫兰联储 Nowcast 预估 +0.07%（2026-11-19），官方值发布后以 FRED 序列为准。",
           "source": {
             "label": "BLS via FRED · CPIAUCSL/CPILFESL/CPIAUCNS/CPILFENS",
             "url": "https://fred.stlouisfed.org/series/CPIAUCSL"
@@ -1305,7 +1305,7 @@
           "period": "2026-09",
           "dataDate": "2026-09-01",
           "signal": "统计观测",
-          "interpretation": "PCE按BEA系列口径。官方已发布至 2026-09；November 2026 环比克利夫兰联储 Nowcast 预估 +0.21%（2026-11-13），官方值发布后以 FRED 序列为准。",
+          "interpretation": "PCE按BEA系列口径。官方已发布至 2026-09；November 2026 环比克利夫兰联储 Nowcast 预估 +0.17%（2026-11-19），官方值发布后以 FRED 序列为准。",
           "source": {
             "label": "BEA via FRED · PCEPI/PCEPILFE",
             "url": "https://fred.stlouisfed.org/series/PCEPI"
@@ -1338,10 +1338,10 @@
         {
           "id": "dieselRetail",
           "name": "EIA全美公路柴油零售价",
-          "displayValue": "$6.127/gal",
-          "change": "周环比 -2.62%",
-          "period": "2026-11-09",
-          "dataDate": "2026-11-09",
+          "displayValue": "$5.937/gal",
+          "change": "周环比 -3.10%",
+          "period": "2026-11-16",
+          "dataDate": "2026-11-16",
           "signal": "高位小幅回落",
           "interpretation": "柴油价格下跌，更贴近卡车、农业、建筑和铁路的燃料成本；它是商品与运输通胀的周频验证项，不替代核心PCE。",
           "source": {
@@ -1355,18 +1355,18 @@
         {
           "id": "cpiNowcast",
           "name": "CPI 即时预估(Nowcast)",
-          "displayValue": "+0.14%",
-          "change": "12个月 +3.94%",
+          "displayValue": "+0.07%",
+          "change": "12个月 +3.86%",
           "period": "November 2026",
-          "dataDate": "2026-11-13",
+          "dataDate": "2026-11-19",
           "signal": "通胀即时预估",
           "interpretation": "克利夫兰联储 Inflation Nowcasting 日度预估，早于官方发布；预估值不等同官方初值，官方数据发布后以 FRED 序列为准。",
           "source": {
             "label": "Cleveland Fed Inflation Nowcasting",
             "url": "https://www.clevelandfed.org/center-for-inflation-research"
           },
-          "lastAttemptAt": "2026-11-16T01:32:04.251Z",
-          "lastSuccessAt": "2026-11-16T01:32:04.251Z",
+          "lastAttemptAt": "2026-11-20T04:23:37.357Z",
+          "lastSuccessAt": "2026-11-20T04:23:37.357Z",
           "lastAttemptStatus": "updated",
           "status": "fresh",
           "healthStatus": "fresh",
@@ -1375,18 +1375,18 @@
         {
           "id": "pceNowcast",
           "name": "PCE 即时预估(Nowcast)",
-          "displayValue": "+0.21%",
-          "change": "12个月 +3.83%",
+          "displayValue": "+0.17%",
+          "change": "12个月 +3.78%",
           "period": "November 2026",
-          "dataDate": "2026-11-13",
+          "dataDate": "2026-11-19",
           "signal": "通胀即时预估",
           "interpretation": "克利夫兰联储 Inflation Nowcasting 日度预估，早于官方发布；预估值不等同官方初值，官方数据发布后以 FRED 序列为准。",
           "source": {
             "label": "Cleveland Fed Inflation Nowcasting",
             "url": "https://www.clevelandfed.org/center-for-inflation-research"
           },
-          "lastAttemptAt": "2026-11-16T01:32:04.251Z",
-          "lastSuccessAt": "2026-11-16T01:32:04.251Z",
+          "lastAttemptAt": "2026-11-20T04:23:37.357Z",
+          "lastSuccessAt": "2026-11-20T04:23:37.357Z",
           "lastAttemptStatus": "updated",
           "status": "fresh",
           "healthStatus": "fresh",
@@ -1536,19 +1536,19 @@
           "id": "sp500",
           "name": "标普500",
           "symbol": "^GSPC",
-          "lastAttemptAt": "2026-11-16T01:31:52.817Z",
-          "lastSuccessAt": "2026-11-16T01:31:52.817Z",
+          "lastAttemptAt": "2026-11-20T04:23:27.736Z",
+          "lastSuccessAt": "2026-11-20T04:23:27.736Z",
           "lastAttemptStatus": "updated",
-          "value": 7561.669921875,
-          "displayValue": "7,561.67",
-          "previous": 7592.39990234375,
-          "change": "-0.40%",
-          "pctChange": -0.4047466000738943,
-          "change5d": "+2.51%",
-          "change20d": "-1.28%",
-          "pctChange5d": 2.505267309111467,
-          "pctChange20d": -1.2764643404632496,
-          "dataDate": "2026-11-13",
+          "value": 7175.830078125,
+          "displayValue": "7,175.83",
+          "previous": 7323.6298828125,
+          "change": "-2.02%",
+          "pctChange": -2.0181222570294652,
+          "change5d": "-5.49%",
+          "change20d": "-6.36%",
+          "pctChange5d": -5.486668636752869,
+          "pctChange20d": -6.3626872884836,
+          "dataDate": "2026-11-19",
           "status": "fresh",
           "source": {
             "label": "Yahoo Finance ^GSPC",
@@ -1563,19 +1563,19 @@
           "id": "ndx",
           "name": "纳斯达克100",
           "symbol": "^NDX",
-          "lastAttemptAt": "2026-11-16T01:31:52.820Z",
-          "lastSuccessAt": "2026-11-16T01:31:52.820Z",
+          "lastAttemptAt": "2026-11-20T04:23:27.749Z",
+          "lastSuccessAt": "2026-11-20T04:23:27.749Z",
           "lastAttemptStatus": "updated",
-          "value": 27943.740234375,
-          "displayValue": "27,943.74",
-          "previous": 28289.189453125,
-          "change": "-1.22%",
-          "pctChange": -1.2211350888027634,
-          "change5d": "+3.53%",
-          "change20d": "-4.26%",
-          "pctChange5d": 3.533717469765086,
-          "pctChange20d": -4.261441996955841,
-          "dataDate": "2026-11-13",
+          "value": 26517.05078125,
+          "displayValue": "26,517.05",
+          "previous": 27116.259765625,
+          "change": "-2.21%",
+          "pctChange": -2.209777416038074,
+          "change5d": "-6.26%",
+          "change20d": "-8.43%",
+          "pctChange5d": -6.2643670820311845,
+          "pctChange20d": -8.431454316422862,
+          "dataDate": "2026-11-19",
           "status": "fresh",
           "source": {
             "label": "Yahoo Finance ^NDX",
@@ -1590,19 +1590,19 @@
           "id": "soxx",
           "name": "SOXX",
           "symbol": "SOXX",
-          "lastAttemptAt": "2026-11-16T01:31:52.820Z",
-          "lastSuccessAt": "2026-11-16T01:31:52.820Z",
+          "lastAttemptAt": "2026-11-20T04:23:27.750Z",
+          "lastSuccessAt": "2026-11-20T04:23:27.750Z",
           "lastAttemptStatus": "updated",
-          "value": 149.3000030517578,
-          "displayValue": "149.30",
-          "previous": 154.99000549316406,
-          "change": "-3.67%",
-          "pctChange": -3.6712060389321115,
-          "change5d": "+9.35%",
-          "change20d": "-9.22%",
-          "pctChange5d": 9.353258907666053,
-          "pctChange20d": -9.21988493699684,
-          "dataDate": "2026-11-13",
+          "value": 137.9499969482422,
+          "displayValue": "137.95",
+          "previous": 141.85000610351562,
+          "change": "-2.75%",
+          "pctChange": -2.749389487108932,
+          "change5d": "-10.99%",
+          "change20d": "-13.00%",
+          "pctChange5d": -10.994262817594027,
+          "pctChange20d": -13.000068228138343,
+          "dataDate": "2026-11-19",
           "status": "fresh",
           "source": {
             "label": "Yahoo Finance SOXX",
@@ -1617,19 +1617,19 @@
           "id": "star50",
           "name": "科创50",
           "symbol": "000688.SS",
-          "lastAttemptAt": "2026-11-16T01:31:52.820Z",
-          "lastSuccessAt": "2026-11-16T01:31:52.820Z",
+          "lastAttemptAt": "2026-11-20T04:23:27.750Z",
+          "lastSuccessAt": "2026-11-20T04:23:27.750Z",
           "lastAttemptStatus": "updated",
-          "value": 1248.86,
-          "displayValue": "1,248.86",
-          "previous": 1279.66,
-          "change": "-2.41%",
-          "pctChange": -2.406889329978289,
+          "value": 1236.38,
+          "displayValue": "1,236.38",
+          "previous": 1270.78,
+          "change": "-2.71%",
+          "pctChange": -2.706998851099314,
           "change5d": "—",
           "change20d": "—",
           "pctChange5d": null,
           "pctChange20d": null,
-          "dataDate": "2026-11-16",
+          "dataDate": "2026-11-20",
           "status": "fresh",
           "source": {
             "label": "国内实时行情（tencent 科创50）",
@@ -1644,19 +1644,19 @@
           "id": "hstech",
           "name": "恒生科技",
           "symbol": "HSTECH.HK",
-          "lastAttemptAt": "2026-11-16T01:31:52.820Z",
-          "lastSuccessAt": "2026-11-16T01:31:52.820Z",
+          "lastAttemptAt": "2026-11-20T04:23:27.750Z",
+          "lastSuccessAt": "2026-11-20T04:23:27.750Z",
           "lastAttemptStatus": "updated",
-          "value": 3813.19,
-          "displayValue": "3,813.19",
-          "previous": 3813.19,
-          "change": "0.00%",
-          "pctChange": 0,
+          "value": 3534.6,
+          "displayValue": "3,534.60",
+          "previous": 3649.14,
+          "change": "-3.14%",
+          "pctChange": -3.13882174978214,
           "change5d": "—",
           "change20d": "—",
           "pctChange5d": null,
           "pctChange20d": null,
-          "dataDate": "2026-11-16",
+          "dataDate": "2026-11-20",
           "status": "fresh",
           "source": {
             "label": "国内实时行情（tencent 恒生科技）",
@@ -1671,19 +1671,19 @@
           "id": "kospi",
           "name": "韩国综合",
           "symbol": "^KS11",
-          "lastAttemptAt": "2026-11-16T01:31:52.820Z",
-          "lastSuccessAt": "2026-11-16T01:31:52.820Z",
+          "lastAttemptAt": "2026-11-20T04:23:27.751Z",
+          "lastSuccessAt": "2026-11-20T04:23:27.751Z",
           "lastAttemptStatus": "updated",
-          "value": 5199.669921875,
-          "displayValue": "5,199.67",
-          "previous": 5290.52978515625,
-          "change": "-1.72%",
-          "pctChange": -1.7174057603111397,
-          "change5d": "+3.60%",
-          "change20d": "-9.85%",
-          "pctChange5d": 3.602813805959077,
-          "pctChange20d": -9.853309318875898,
-          "dataDate": "2026-11-16",
+          "value": 4900.080078125,
+          "displayValue": "4,900.08",
+          "previous": 5137.89013671875,
+          "change": "-4.63%",
+          "pctChange": -4.628554762084198,
+          "change5d": "-7.38%",
+          "change20d": "-11.72%",
+          "pctChange5d": -7.380162722582961,
+          "pctChange20d": -11.715037915850196,
+          "dataDate": "2026-11-20",
           "status": "fresh",
           "source": {
             "label": "Yahoo Finance ^KS11",
@@ -1705,19 +1705,19 @@
           "name": "COMEX 铜",
           "symbol": "HG=F",
           "quoteBasis": "连续期货；合约月份未核验，换月可能影响比较",
-          "lastAttemptAt": "2026-11-16T01:31:52.820Z",
-          "lastSuccessAt": "2026-11-16T01:31:52.820Z",
+          "lastAttemptAt": "2026-11-20T04:23:27.749Z",
+          "lastSuccessAt": "2026-11-20T04:23:27.749Z",
           "lastAttemptStatus": "updated",
-          "value": 6.045499801635742,
-          "displayValue": "$6.0455",
-          "previous": 6.079500198364258,
-          "change": "-0.56%",
-          "pctChange": -0.5592630252346028,
-          "change5d": "-4.47%",
-          "change20d": "-7.53%",
-          "pctChange5d": -4.471833792878237,
-          "pctChange20d": -7.5328892188710235,
-          "dataDate": "2026-11-16",
+          "value": 5.5,
+          "displayValue": "$5.5000",
+          "previous": 5.625,
+          "change": "-2.22%",
+          "pctChange": -2.2222222222222223,
+          "change5d": "-9.53%",
+          "change20d": "-15.07%",
+          "pctChange5d": -9.532036836188892,
+          "pctChange20d": -15.071029299714988,
+          "dataDate": "2026-11-20",
           "status": "fresh",
           "source": {
             "label": "Yahoo Finance HG=F",
@@ -1733,19 +1733,19 @@
           "name": "COMEX 黄金",
           "symbol": "GC=F",
           "quoteBasis": "连续期货；合约月份未核验，换月可能影响比较",
-          "lastAttemptAt": "2026-11-16T01:31:52.820Z",
-          "lastSuccessAt": "2026-11-16T01:31:52.820Z",
+          "lastAttemptAt": "2026-11-20T04:23:27.751Z",
+          "lastSuccessAt": "2026-11-20T04:23:27.751Z",
           "lastAttemptStatus": "updated",
-          "value": 3875.300048828125,
-          "displayValue": "$3,875.30",
-          "previous": 3886.300048828125,
-          "change": "-0.28%",
-          "pctChange": -0.28304556678059223,
-          "change5d": "-5.81%",
-          "change20d": "-6.85%",
-          "pctChange5d": -5.8135849112133915,
-          "pctChange20d": -6.8459902921224876,
-          "dataDate": "2026-11-16",
+          "value": 3544.5,
+          "displayValue": "$3,544.50",
+          "previous": 3685.5,
+          "change": "-3.83%",
+          "pctChange": -3.825803825803826,
+          "change5d": "-8.79%",
+          "change20d": "-11.56%",
+          "pctChange5d": -8.794998958744614,
+          "pctChange20d": -11.562162569797758,
+          "dataDate": "2026-11-20",
           "status": "fresh",
           "source": {
             "label": "Yahoo Finance GC=F",
@@ -1762,19 +1762,19 @@
           "name": "COMEX 白银",
           "symbol": "SI=F",
           "quoteBasis": "连续期货；合约月份未核验，换月可能影响比较",
-          "lastAttemptAt": "2026-11-16T01:31:52.820Z",
-          "lastSuccessAt": "2026-11-16T01:31:52.820Z",
+          "lastAttemptAt": "2026-11-20T04:23:27.751Z",
+          "lastSuccessAt": "2026-11-20T04:23:27.751Z",
           "lastAttemptStatus": "updated",
-          "value": 47.974998474121094,
-          "displayValue": "$47.975",
-          "previous": 49.03099822998047,
-          "change": "-2.15%",
-          "pctChange": -2.1537390507657945,
-          "change5d": "-8.73%",
-          "change20d": "-15.79%",
-          "pctChange5d": -8.730311189863489,
-          "pctChange20d": -15.794925235306847,
-          "dataDate": "2026-11-16",
+          "value": 41.65999984741211,
+          "displayValue": "$41.660",
+          "previous": 44.31800079345703,
+          "change": "-6.00%",
+          "pctChange": -5.997565094220903,
+          "change5d": "-15.03%",
+          "change20d": "-22.44%",
+          "pctChange5d": -15.033343494241347,
+          "pctChange20d": -22.43674296961026,
+          "dataDate": "2026-11-20",
           "status": "fresh",
           "source": {
             "label": "Yahoo Finance SI=F",
@@ -1791,19 +1791,19 @@
           "name": "BRN 原油",
           "symbol": "BZ=F",
           "quoteBasis": "连续期货；合约月份未核验，换月可能影响比较",
-          "lastAttemptAt": "2026-11-16T01:31:52.820Z",
-          "lastSuccessAt": "2026-11-16T01:31:52.820Z",
+          "lastAttemptAt": "2026-11-20T04:23:27.751Z",
+          "lastSuccessAt": "2026-11-20T04:23:27.751Z",
           "lastAttemptStatus": "updated",
-          "value": 95.25,
-          "displayValue": "$95.25",
-          "previous": 95.83999633789062,
-          "change": "-0.62%",
-          "pctChange": -0.6156055513718423,
-          "change5d": "+2.90%",
-          "change20d": "-13.05%",
-          "pctChange5d": 2.895106745177645,
-          "pctChange20d": -13.05340269593754,
-          "dataDate": "2026-11-16",
+          "value": 90.12000274658203,
+          "displayValue": "$90.12",
+          "previous": 91.9800033569336,
+          "change": "-2.02%",
+          "pctChange": -2.0221793242752177,
+          "change5d": "-5.97%",
+          "change20d": "-22.79%",
+          "pctChange5d": -5.968274008632425,
+          "pctChange20d": -22.789580359773794,
+          "dataDate": "2026-11-20",
           "status": "fresh",
           "source": {
             "label": "Yahoo Finance BZ=F",
@@ -1811,7 +1811,7 @@
           },
           "interpretation": "油价主要反映供给风险；需用库存与月差验证。",
           "openInterestRead": null,
-          "opportunity": "机会：守住 95 美元且库存下降或近月升水扩大。反证：跌回 96 美元下方并伴随库存累积。",
+          "opportunity": "机会：守住 90 美元且库存下降或近月升水扩大。反证：跌回 92 美元下方并伴随库存累积。",
           "healthStatus": "fresh",
           "lag": "窗口内可用，非实时承诺"
         },
@@ -1819,23 +1819,23 @@
           "id": "lmeTin",
           "name": "伦敦锡 3M",
           "symbol": "LME Tin 3M",
-          "value": 47505,
-          "displayValue": "$47,505",
-          "previous": 46260,
-          "change": "+2.69%",
-          "pctChange": 2.6913099870298316,
+          "value": 41805,
+          "displayValue": "$41,805",
+          "previous": 46350,
+          "change": "-9.81%",
+          "pctChange": -9.805825242718447,
           "change5d": "—",
           "change20d": "—",
           "pctChange5d": null,
           "pctChange20d": null,
-          "dataDate": "2026-11-13",
+          "dataDate": "2026-11-18",
           "status": "fresh",
           "source": {
             "label": "Westmetall / LME delayed data",
             "url": "https://www.westmetall.com/en/markdaten.php?action=table&field=LME_Sn_cash"
           },
-          "interpretation": "锡价与亚洲科技背离，当前更偏供给或品种自身驱动；仍需库存和现货升贴水确认，该源只有最近两个交易日，不计算周与月变动。",
-          "opportunity": "机会：守住 47,000 美元并与库存下降共振。反证：库存回升且亚洲科技转弱。",
+          "interpretation": "锡价与亚洲科技同向，电子需求信号有所共振；仍需库存和现货升贴水确认，该源只有最近两个交易日，不计算周与月变动。",
+          "opportunity": "机会：守住 41,000 美元并与库存下降共振。反证：库存回升且亚洲科技转弱。",
           "healthStatus": "fresh",
           "lag": "窗口内可用，非实时承诺"
         }
@@ -1849,22 +1849,22 @@
           "id": "ust2",
           "name": "美国 2Y 国债利率",
           "symbol": "US 2Y",
-          "value": 4.88,
-          "displayValue": "4.880%",
-          "previous": 4.86,
-          "change": "+2bp",
-          "pctChange": 0.41152263374484715,
-          "change5d": "+42bp",
-          "change20d": "+11bp",
-          "pctChange5d": 41.99999999999999,
-          "pctChange20d": 11.000000000000032,
-          "dataDate": "2026-11-13",
+          "value": 4.76,
+          "displayValue": "4.760%",
+          "previous": 4.8,
+          "change": "-4bp",
+          "pctChange": -0.8333333333333341,
+          "change5d": "-10bp",
+          "change20d": "-5bp",
+          "pctChange5d": -10.000000000000053,
+          "pctChange20d": -4.999999999999982,
+          "dataDate": "2026-11-19",
           "status": "fresh",
           "source": {
             "label": "U.S. Treasury Daily Par Yield Curve",
             "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve"
           },
-          "interpretation": "短端上升表示近端政策预期偏紧。",
+          "interpretation": "短端回落表示近端政策预期边际转松。",
           "healthStatus": "fresh",
           "lag": "窗口内可用，非实时承诺"
         },
@@ -1872,22 +1872,22 @@
           "id": "ust10",
           "name": "美国 10Y 国债利率",
           "symbol": "US 10Y",
-          "value": 5.15,
-          "displayValue": "5.150%",
-          "previous": 5.1,
-          "change": "+5bp",
-          "pctChange": 0.9803921568627592,
-          "change5d": "+31bp",
-          "change20d": "+5bp",
-          "pctChange5d": 31.00000000000005,
-          "pctChange20d": 5.000000000000071,
-          "dataDate": "2026-11-13",
+          "value": 5.04,
+          "displayValue": "5.040%",
+          "previous": 5.07,
+          "change": "-3bp",
+          "pctChange": -0.5917159763313657,
+          "change5d": "-6bp",
+          "change20d": "-9bp",
+          "pctChange5d": -5.999999999999961,
+          "pctChange20d": -8.999999999999986,
+          "dataDate": "2026-11-19",
           "status": "fresh",
           "source": {
             "label": "U.S. Treasury Daily Par Yield Curve",
             "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve"
           },
-          "interpretation": "长端上升增加资产贴现压力，需区分增长、通胀与期限溢价驱动。",
+          "interpretation": "长端回落缓解贴现压力，但需观察是否来自增长担忧。",
           "healthStatus": "fresh",
           "lag": "窗口内可用，非实时承诺"
         },
@@ -1896,28 +1896,28 @@
           "name": "1Y 美元利率掉期(OIS)",
           "symbol": "USDSB3L1Y=",
           "quoteBasis": "回退口径：12M Term SOFR（与 1Y OIS 掉期固定端存在基差，仅供参考）",
-          "lastAttemptAt": "2026-11-16T01:31:52.821Z",
-          "lastSuccessAt": "2026-11-08T13:11:01.469Z",
-          "lastAttemptStatus": "failed",
-          "value": 4.33789,
-          "displayValue": "4.338%",
-          "previous": 4.39771,
-          "change": "-6bp",
-          "pctChange": -1.36025340461286,
+          "lastAttemptAt": "2026-11-20T04:23:27.754Z",
+          "lastSuccessAt": "2026-11-20T04:23:27.754Z",
+          "lastAttemptStatus": "updated",
+          "value": 4.59985,
+          "displayValue": "4.600%",
+          "previous": 4.62747,
+          "change": "-3bp",
+          "pctChange": -0.596870428117303,
           "change5d": "—",
           "change20d": "—",
           "pctChange5d": null,
           "pctChange20d": null,
-          "dataDate": "2026-11-06",
-          "status": "stale",
+          "dataDate": "2026-11-18",
+          "status": "fresh",
           "source": {
             "label": "CME Term SOFR 12M (global-rates.com) — 1Y OIS 代理，口径有差异",
             "url": "https://www.global-rates.com/en/interest-rates/cme-term-sofr/4/term-sofr-interest-12-months/"
           },
           "interpretation": "12M Term SOFR 即期参考利率（1Y OIS 掉期固定端不可用时的回退）；与真正的 1Y OIS 存在基差，仅作方向参考。",
           "openInterestRead": null,
-          "healthStatus": "failed",
-          "lag": "最近采集失败；保留原值"
+          "healthStatus": "fresh",
+          "lag": "窗口内可用，非实时承诺"
         }
       ]
     },
@@ -1929,19 +1929,19 @@
           "id": "dxy",
           "name": "DXY",
           "symbol": "DX-Y.NYB",
-          "lastAttemptAt": "2026-11-16T01:31:52.820Z",
-          "lastSuccessAt": "2026-11-16T01:31:52.820Z",
+          "lastAttemptAt": "2026-11-20T04:23:27.752Z",
+          "lastSuccessAt": "2026-11-20T04:23:27.752Z",
           "lastAttemptStatus": "updated",
-          "value": 103.4520034790039,
-          "displayValue": "103.452",
-          "previous": 103.41000366210938,
-          "change": "+0.04%",
-          "pctChange": 0.04061484905441549,
-          "change5d": "+1.77%",
-          "change20d": "+1.44%",
-          "pctChange5d": 1.7727515258976472,
-          "pctChange20d": 1.4434203506723375,
-          "dataDate": "2026-11-16",
+          "value": 103.81900024414062,
+          "displayValue": "103.819",
+          "previous": 103.9000015258789,
+          "change": "-0.08%",
+          "pctChange": -0.07796080899778028,
+          "change5d": "+0.40%",
+          "change20d": "+1.97%",
+          "pctChange5d": 0.39550968721327984,
+          "pctChange20d": 1.9732862525516246,
+          "dataDate": "2026-11-20",
           "status": "fresh",
           "source": {
             "label": "Yahoo Finance DX-Y.NYB",
@@ -1956,19 +1956,19 @@
           "id": "usdjpy",
           "name": "USDJPY",
           "symbol": "JPY=X",
-          "lastAttemptAt": "2026-11-16T01:31:52.821Z",
-          "lastSuccessAt": "2026-11-16T01:31:52.821Z",
+          "lastAttemptAt": "2026-11-20T04:23:27.753Z",
+          "lastSuccessAt": "2026-11-20T04:23:27.753Z",
           "lastAttemptStatus": "updated",
-          "value": 159.72900390625,
-          "displayValue": "159.729",
-          "previous": 159.875,
-          "change": "-0.09%",
-          "pctChange": -0.09131890148553558,
-          "change5d": "+0.91%",
-          "change20d": "+1.22%",
-          "pctChange5d": 0.9078136560044149,
-          "pctChange20d": 1.2185874766268026,
-          "dataDate": "2026-11-16",
+          "value": 159.1649932861328,
+          "displayValue": "159.165",
+          "previous": 159.38099670410156,
+          "change": "-0.14%",
+          "pctChange": -0.13552645700275714,
+          "change5d": "-0.44%",
+          "change20d": "+1.71%",
+          "pctChange5d": -0.4441011501905786,
+          "pctChange20d": 1.7067682684198924,
+          "dataDate": "2026-11-20",
           "status": "fresh",
           "source": {
             "label": "Yahoo Finance JPY=X",
@@ -1983,19 +1983,19 @@
           "id": "usdcnh",
           "name": "USDCNH",
           "symbol": "CNH=X",
-          "lastAttemptAt": "2026-11-16T01:31:52.821Z",
-          "lastSuccessAt": "2026-11-16T01:31:52.821Z",
+          "lastAttemptAt": "2026-11-20T04:23:27.753Z",
+          "lastSuccessAt": "2026-11-20T04:23:27.753Z",
           "lastAttemptStatus": "updated",
-          "value": 6.6717,
-          "displayValue": "6.6717",
-          "previous": 6.6736,
-          "change": "-0.03%",
-          "pctChange": -0.028470390793574874,
+          "value": 6.6732,
+          "displayValue": "6.6732",
+          "previous": 6.693,
+          "change": "-0.30%",
+          "pctChange": -0.29583146571044433,
           "change5d": "—",
           "change20d": "—",
           "pctChange5d": null,
           "pctChange20d": null,
-          "dataDate": "2026-11-16",
+          "dataDate": "2026-11-20",
           "status": "fresh",
           "source": {
             "label": "国内实时行情（sina USDCNH）",
@@ -2012,41 +2012,21 @@
   "crossAssetRelations": [
     {
       "title": "金银 vs 美元/实际利率",
-      "evidence": "黄金 -0.28%、白银 -2.15%，DXY +0.04%；10Y TIPS +5bp 至 2.91%。",
+      "evidence": "黄金 -3.83%、白银 -6.00%，DXY -0.08%；10Y TIPS 持平 至 2.88%。",
       "implication": "金银方向与美元、实际利率是否一致，决定行情更偏宏观驱动还是品种自身驱动。"
     },
     {
       "title": "亚洲科技 vs 美股科技",
-      "evidence": "纳指100 -1.22%、SOXX -3.67%；科创50 -2.41%、恒生科技 0.00%、KOSPI -1.72%。",
+      "evidence": "纳指100 -2.21%、SOXX -2.75%；科创50 -2.71%、恒生科技 -3.14%、KOSPI -4.63%。",
       "implication": "科技风险偏好存在明显地域分化，不能把美股半导体强势外推至全部亚洲科技。"
     },
     {
       "title": "利率曲线 vs 风险资产",
-      "evidence": "2Y +2bp、10Y +5bp，10Y TIPS —。",
+      "evidence": "2Y -4bp、10Y -3bp，10Y TIPS —。",
       "implication": "风险资产内部明显分化，利率上行也不支持把局部上涨归因于降息或全面宽松。"
     }
   ],
   "rateTrend": [
-    {
-      "date": "11-05",
-      "ust2": 4.46,
-      "ust10": 4.84
-    },
-    {
-      "date": "11-06",
-      "ust2": 4.51,
-      "ust10": 4.86
-    },
-    {
-      "date": "11-09",
-      "ust2": 4.56,
-      "ust10": 4.88
-    },
-    {
-      "date": "11-10",
-      "ust2": 4.73,
-      "ust10": 4.98
-    },
     {
       "date": "11-12",
       "ust2": 4.86,
@@ -2056,15 +2036,35 @@
       "date": "11-13",
       "ust2": 4.88,
       "ust10": 5.15
+    },
+    {
+      "date": "11-16",
+      "ust2": 4.83,
+      "ust10": 5.12
+    },
+    {
+      "date": "11-17",
+      "ust2": 4.8,
+      "ust10": 5.1
+    },
+    {
+      "date": "11-18",
+      "ust2": 4.8,
+      "ust10": 5.07
+    },
+    {
+      "date": "11-19",
+      "ust2": 4.76,
+      "ust10": 5.04
     }
   ],
   "treasuryObservations": [
     {
       "id": "term-premium",
       "name": "10Y期限溢价",
-      "displayValue": "0.87%",
-      "change": "持平",
-      "dataDate": "2026-11-06",
+      "displayValue": "0.99%",
+      "change": "+2bp",
+      "dataDate": "2026-11-13",
       "frequency": "日频",
       "status": "fresh",
       "interpretation": "Kim-Wright 10Y零息债期限溢价衡量投资者持有久期所要求的额外补偿；30Y暂用收益率和拍卖表现交叉验证。",
@@ -2078,12 +2078,12 @@
     {
       "id": "repo-stress",
       "name": "回购市场压力",
-      "displayValue": "$0.000bn",
+      "displayValue": "$0.003bn",
       "change": "当日Fed回购接纳",
-      "dataDate": "2026-11-13",
+      "dataDate": "2026-11-19",
       "frequency": "日频",
       "status": "fresh",
-      "interpretation": "最新Fed回购操作合计接纳0.000十亿美元，使用量很低；仍需与SOFR-IORB持续偏高或SRF使用放大共同确认融资紧张。",
+      "interpretation": "最新Fed回购操作合计接纳0.003十亿美元，使用量很低；仍需与SOFR-IORB持续偏高或SRF使用放大共同确认融资紧张。",
       "source": {
         "label": "New York Fed Repo Operations",
         "url": "https://www.newyorkfed.org/markets/desk-operations/repo"
@@ -2129,12 +2129,12 @@
     }
   ],
   "dataHealth": {
-    "evaluatedAt": "2026-11-16T01:32:15.146Z",
+    "evaluatedAt": "2026-11-20T04:23:39.405Z",
     "counts": {
-      "fresh": 47,
+      "fresh": 48,
       "stale": 2,
       "missing": 0,
-      "failed": 1,
+      "failed": 0,
       "manual": 1,
       "scheduled": 1
     },
@@ -2146,7 +2146,7 @@
         "name": "10Y TIPS",
         "category": "indicator",
         "frequency": "daily",
-        "date": "2026-11-13",
+        "date": "2026-11-19",
         "status": "fresh",
         "health": "fresh",
         "source": {
@@ -2161,7 +2161,7 @@
         "name": "10Y Treasury",
         "category": "indicator",
         "frequency": "market_daily",
-        "date": "2026-11-13",
+        "date": "2026-11-19",
         "status": "fresh",
         "health": "fresh",
         "source": {
@@ -2176,7 +2176,7 @@
         "name": "30Y Treasury",
         "category": "indicator",
         "frequency": "daily",
-        "date": "2026-11-13",
+        "date": "2026-11-19",
         "status": "fresh",
         "health": "fresh",
         "source": {
@@ -2191,7 +2191,7 @@
         "name": "10Y Breakeven",
         "category": "indicator",
         "frequency": "daily",
-        "date": "2026-11-13",
+        "date": "2026-11-19",
         "status": "fresh",
         "health": "fresh",
         "source": {
@@ -2206,7 +2206,7 @@
         "name": "SOFR-IORB",
         "category": "indicator",
         "frequency": "daily",
-        "date": "2026-11-12",
+        "date": "2026-11-18",
         "status": "fresh",
         "health": "fresh",
         "source": {
@@ -2221,7 +2221,7 @@
         "name": "Proxy-EFFR",
         "category": "indicator",
         "frequency": "weekly",
-        "date": "2026-11-06",
+        "date": "2026-11-13",
         "status": "fresh",
         "health": "fresh",
         "source": {
@@ -2236,7 +2236,7 @@
         "name": "MOVE",
         "category": "indicator",
         "frequency": "market_daily",
-        "date": "2026-11-13",
+        "date": "2026-11-19",
         "status": "fresh",
         "health": "fresh",
         "source": {
@@ -2251,7 +2251,7 @@
         "name": "VIX",
         "category": "indicator",
         "frequency": "daily",
-        "date": "2026-11-13",
+        "date": "2026-11-19",
         "status": "fresh",
         "health": "fresh",
         "source": {
@@ -2266,7 +2266,7 @@
         "name": "HY OAS",
         "category": "indicator",
         "frequency": "daily",
-        "date": "2026-11-12",
+        "date": "2026-11-18",
         "status": "fresh",
         "health": "fresh",
         "source": {
@@ -2281,7 +2281,7 @@
         "name": "CCC及以下 OAS",
         "category": "indicator",
         "frequency": "daily",
-        "date": "2026-11-12",
+        "date": "2026-11-18",
         "status": "fresh",
         "health": "fresh",
         "source": {
@@ -2296,7 +2296,7 @@
         "name": "BBB OAS",
         "category": "indicator",
         "frequency": "daily",
-        "date": "2026-11-12",
+        "date": "2026-11-18",
         "status": "fresh",
         "health": "fresh",
         "source": {
@@ -2311,7 +2311,7 @@
         "name": "CCC-BBB OAS",
         "category": "indicator",
         "frequency": "daily",
-        "date": "2026-11-12",
+        "date": "2026-11-18",
         "status": "fresh",
         "health": "fresh",
         "source": {
@@ -2326,7 +2326,7 @@
         "name": "WTI",
         "category": "indicator",
         "frequency": "daily",
-        "date": "2026-11-11",
+        "date": "2026-11-17",
         "status": "fresh",
         "health": "fresh",
         "source": {
@@ -2341,7 +2341,7 @@
         "name": "Brent",
         "category": "indicator",
         "frequency": "market_daily",
-        "date": "2026-11-16",
+        "date": "2026-11-20",
         "status": "fresh",
         "health": "fresh",
         "source": {
@@ -2356,7 +2356,7 @@
         "name": "Fed 总资产",
         "category": "indicator",
         "frequency": "weekly",
-        "date": "2026-11-11",
+        "date": "2026-11-18",
         "status": "fresh",
         "health": "fresh",
         "source": {
@@ -2371,7 +2371,7 @@
         "name": "银行准备金",
         "category": "indicator",
         "frequency": "weekly",
-        "date": "2026-11-11",
+        "date": "2026-11-18",
         "status": "fresh",
         "health": "fresh",
         "source": {
@@ -2386,7 +2386,7 @@
         "name": "TGA（日终余额）",
         "category": "indicator",
         "frequency": "daily",
-        "date": "2026-11-12",
+        "date": "2026-11-18",
         "status": "fresh",
         "health": "fresh",
         "source": {
@@ -2401,7 +2401,7 @@
         "name": "ON RRP",
         "category": "indicator",
         "frequency": "daily",
-        "date": "2026-11-13",
+        "date": "2026-11-19",
         "status": "fresh",
         "health": "fresh",
         "source": {
@@ -2417,13 +2417,13 @@
         "category": "indicator",
         "frequency": "weekly",
         "date": "2026-11-04",
-        "status": "fresh",
-        "health": "fresh",
+        "status": "stale",
+        "health": "stale",
         "source": {
           "label": "FRED TOTBKCR",
           "url": "https://fred.stlouisfed.org/series/TOTBKCR"
         },
-        "reason": "窗口内可用，非实时承诺"
+        "reason": "超过观察时效，请核验发布"
       },
       {
         "key": "indicator.continuingClaims",
@@ -2431,14 +2431,14 @@
         "name": "续请失业金",
         "category": "indicator",
         "frequency": "weekly",
-        "date": "2026-10-31",
-        "status": "stale",
-        "health": "stale",
+        "date": "2026-11-07",
+        "status": "fresh",
+        "health": "fresh",
         "source": {
           "label": "U.S. DOL via FRED · CCSA",
           "url": "https://fred.stlouisfed.org/series/CCSA"
         },
-        "reason": "超过观察时效，请核验发布"
+        "reason": "窗口内可用，非实时承诺"
       },
       {
         "key": "market.sp500",
@@ -2446,7 +2446,7 @@
         "name": "标普500",
         "category": "market",
         "frequency": "market_daily",
-        "date": "2026-11-13",
+        "date": "2026-11-19",
         "status": "fresh",
         "health": "fresh",
         "source": {
@@ -2461,7 +2461,7 @@
         "name": "纳斯达克100",
         "category": "market",
         "frequency": "market_daily",
-        "date": "2026-11-13",
+        "date": "2026-11-19",
         "status": "fresh",
         "health": "fresh",
         "source": {
@@ -2476,7 +2476,7 @@
         "name": "SOXX",
         "category": "market",
         "frequency": "market_daily",
-        "date": "2026-11-13",
+        "date": "2026-11-19",
         "status": "fresh",
         "health": "fresh",
         "source": {
@@ -2491,7 +2491,7 @@
         "name": "科创50",
         "category": "market",
         "frequency": "market_daily",
-        "date": "2026-11-16",
+        "date": "2026-11-20",
         "status": "fresh",
         "health": "fresh",
         "source": {
@@ -2506,7 +2506,7 @@
         "name": "恒生科技",
         "category": "market",
         "frequency": "market_daily",
-        "date": "2026-11-16",
+        "date": "2026-11-20",
         "status": "fresh",
         "health": "fresh",
         "source": {
@@ -2521,7 +2521,7 @@
         "name": "韩国综合",
         "category": "market",
         "frequency": "market_daily",
-        "date": "2026-11-16",
+        "date": "2026-11-20",
         "status": "fresh",
         "health": "fresh",
         "source": {
@@ -2536,7 +2536,7 @@
         "name": "COMEX 铜",
         "category": "market",
         "frequency": "market_daily",
-        "date": "2026-11-16",
+        "date": "2026-11-20",
         "status": "fresh",
         "health": "fresh",
         "source": {
@@ -2551,7 +2551,7 @@
         "name": "COMEX 黄金",
         "category": "market",
         "frequency": "market_daily",
-        "date": "2026-11-16",
+        "date": "2026-11-20",
         "status": "fresh",
         "health": "fresh",
         "source": {
@@ -2566,7 +2566,7 @@
         "name": "COMEX 白银",
         "category": "market",
         "frequency": "market_daily",
-        "date": "2026-11-16",
+        "date": "2026-11-20",
         "status": "fresh",
         "health": "fresh",
         "source": {
@@ -2581,7 +2581,7 @@
         "name": "伦敦锡 3M",
         "category": "market",
         "frequency": "market_daily",
-        "date": "2026-11-13",
+        "date": "2026-11-18",
         "status": "fresh",
         "health": "fresh",
         "source": {
@@ -2596,7 +2596,7 @@
         "name": "美国 2Y 国债利率",
         "category": "market",
         "frequency": "market_daily",
-        "date": "2026-11-13",
+        "date": "2026-11-19",
         "status": "fresh",
         "health": "fresh",
         "source": {
@@ -2611,14 +2611,14 @@
         "name": "1Y 美元利率掉期(OIS)",
         "category": "market",
         "frequency": "market_daily",
-        "date": "2026-11-06",
-        "status": "stale",
-        "health": "failed",
+        "date": "2026-11-18",
+        "status": "fresh",
+        "health": "fresh",
         "source": {
           "label": "CME Term SOFR 12M (global-rates.com) — 1Y OIS 代理，口径有差异",
           "url": "https://www.global-rates.com/en/interest-rates/cme-term-sofr/4/term-sofr-interest-12-months/"
         },
-        "reason": "最近采集失败；保留原值"
+        "reason": "窗口内可用，非实时承诺"
       },
       {
         "key": "market.dxy",
@@ -2626,7 +2626,7 @@
         "name": "DXY",
         "category": "market",
         "frequency": "market_daily",
-        "date": "2026-11-16",
+        "date": "2026-11-20",
         "status": "fresh",
         "health": "fresh",
         "source": {
@@ -2641,7 +2641,7 @@
         "name": "USDJPY",
         "category": "market",
         "frequency": "market_daily",
-        "date": "2026-11-16",
+        "date": "2026-11-20",
         "status": "fresh",
         "health": "fresh",
         "source": {
@@ -2656,7 +2656,7 @@
         "name": "USDCNH",
         "category": "market",
         "frequency": "market_daily",
-        "date": "2026-11-16",
+        "date": "2026-11-20",
         "status": "fresh",
         "health": "fresh",
         "source": {
@@ -2806,7 +2806,7 @@
         "name": "EIA全美公路柴油零售价",
         "category": "macro",
         "frequency": "weekly",
-        "date": "2026-11-09",
+        "date": "2026-11-16",
         "status": "fresh",
         "health": "fresh",
         "source": {
@@ -2821,7 +2821,7 @@
         "name": "CPI 即时预估(Nowcast)",
         "category": "macro",
         "frequency": "daily",
-        "date": "2026-11-13",
+        "date": "2026-11-19",
         "status": "fresh",
         "health": "fresh",
         "source": {
@@ -2836,7 +2836,7 @@
         "name": "PCE 即时预估(Nowcast)",
         "category": "macro",
         "frequency": "daily",
-        "date": "2026-11-13",
+        "date": "2026-11-19",
         "status": "fresh",
         "health": "fresh",
         "source": {
@@ -2866,7 +2866,7 @@
         "name": "10Y期限溢价",
         "category": "treasury",
         "frequency": "daily",
-        "date": "2026-11-06",
+        "date": "2026-11-13",
         "status": "fresh",
         "health": "fresh",
         "source": {
@@ -2881,7 +2881,7 @@
         "name": "回购市场压力",
         "category": "treasury",
         "frequency": "daily",
-        "date": "2026-11-13",
+        "date": "2026-11-19",
         "status": "fresh",
         "health": "fresh",
         "source": {
@@ -3016,7 +3016,7 @@
       },
       "note": "score 为紧→松标度：-2 最紧/最不利于风险资产，+2 最松。每维度取证据分值的加权平均后「半数远离零」取整，推导链在 evidence/reason 里逐步可审。confidence ∈ 高/中/低，证据缺失时降低并写明缺口。"
     },
-    "generatedAt": "2026-11-16T01:32:15.151Z",
+    "generatedAt": "2026-11-20T04:23:39.412Z",
     "dimensions": [
       {
         "id": "capacity",
@@ -3026,18 +3026,18 @@
         "score": -1,
         "label": "偏紧",
         "confidence": "高",
-        "reason": "10Y TIPS 实际利率 2.91% → -1；10Y 盈亏平衡通胀 2.24% → 0",
+        "reason": "10Y TIPS 实际利率 2.88% → -1；10Y 盈亏平衡通胀 2.16% → 0",
         "evidence": [
           {
             "label": "10Y TIPS 实际利率",
-            "value": 2.91,
+            "value": 2.88,
             "unit": "%",
             "score": -1,
             "note": "实际利率偏高，贴现压力上升"
           },
           {
             "label": "10Y 盈亏平衡通胀",
-            "value": 2.24,
+            "value": 2.16,
             "unit": "%",
             "score": 0,
             "note": "通胀预期锚定区间"
@@ -3050,10 +3050,10 @@
         "name": "实体经济循环",
         "question": "谁在增加支出，资金从哪里来？",
         "theme": "real",
-        "score": -1,
-        "label": "偏紧",
+        "score": 1,
+        "label": "偏松",
         "confidence": "高",
-        "reason": "GDPNow 年化预测 3.5% → +1；实际消费月环比 0.02% → -1；制造业 PMI 23.2 → -2",
+        "reason": "GDPNow 年化预测 3.5% → +1；实际消费月环比 0.02% → -1；地区联储制造业景气（0 为荣枯线） 23.2 → +2",
         "evidence": [
           {
             "label": "GDPNow 年化预测",
@@ -3070,11 +3070,11 @@
             "note": "消费近乎停滞"
           },
           {
-            "label": "制造业 PMI",
+            "label": "地区联储制造业景气（0 为荣枯线）",
             "value": 23.2,
             "unit": "",
-            "score": -2,
-            "note": "制造业明显收缩"
+            "score": 2,
+            "note": "地区调查显著扩张"
           }
         ],
         "missingCount": 0
@@ -3135,21 +3135,21 @@
         "score": 0,
         "label": "中性",
         "confidence": "高",
-        "reason": "HY OAS 3.2% → +1；CCC-BBB 分层 12.03% → -1",
+        "reason": "HY OAS 3.47% → +1；CCC-BBB 分层 12.37% → -1",
         "evidence": [
           {
             "label": "HY OAS",
-            "value": 3.2,
+            "value": 3.47,
             "unit": "%",
             "score": 1,
-            "note": "信用利差温和"
+            "note": "HY 水平温和"
           },
           {
             "label": "CCC-BBB 分层",
-            "value": 12.03,
+            "value": 12.37,
             "unit": "%",
             "score": -1,
-            "note": "低评级承压，信用分层扩大"
+            "note": "分层走阔：低评级相对 BBB 承压"
           }
         ],
         "missingCount": 0
@@ -3162,7 +3162,7 @@
         "score": 0,
         "label": "中性",
         "confidence": "高",
-        "reason": "SOFR-IORB 0bp → +1；准备金环比 1.04% → +1；Proxy-EFFR 125bp → -1",
+        "reason": "SOFR-IORB 0bp → +1；准备金环比 0.64% → +1；Proxy-EFFR 131bp → -2",
         "evidence": [
           {
             "label": "SOFR-IORB",
@@ -3173,17 +3173,17 @@
           },
           {
             "label": "准备金环比",
-            "value": 1.04,
+            "value": 0.64,
             "unit": "%",
             "score": 1,
             "note": "准备金边际改善"
           },
           {
             "label": "Proxy-EFFR",
-            "value": 125,
+            "value": 131,
             "unit": "bp",
-            "score": -1,
-            "note": "体感政策利率偏高"
+            "score": -2,
+            "note": "体感政策利率很高"
           }
         ],
         "missingCount": 0
@@ -3193,28 +3193,28 @@
         "name": "估值与定价",
         "question": "市场对风险的定价是贵是便宜？",
         "theme": "pricing",
-        "score": 0,
-        "label": "中性",
+        "score": -1,
+        "label": "偏紧",
         "confidence": "高",
-        "reason": "MOVE 债券波动 98.79 → 0；VIX 19.3 → +1；10Y 名义利率 5.15% → -1",
+        "reason": "MOVE 债券波动 96.04 → 0；VIX 28.44 → -1；10Y 名义利率 5.04% → -1",
         "evidence": [
           {
             "label": "MOVE 债券波动",
-            "value": 98.79,
+            "value": 96.04,
             "unit": "",
             "score": 0,
             "note": "利率波动中性偏高"
           },
           {
             "label": "VIX",
-            "value": 19.3,
+            "value": 28.44,
             "unit": "",
-            "score": 1,
-            "note": "权益波动温和"
+            "score": -1,
+            "note": "权益波动升温"
           },
           {
             "label": "10Y 名义利率",
-            "value": 5.15,
+            "value": 5.04,
             "unit": "%",
             "score": -1,
             "note": "长端利率偏高"
@@ -3224,10 +3224,10 @@
       }
     ],
     "composite": {
-      "score": -0.33,
+      "score": -0.17,
       "label": "中性",
       "confidence": "高",
-      "note": "六变量合成 -0.33（紧→松标度），可用水位 6/6"
+      "note": "六变量合成 -0.17（紧→松标度），可用水位 6/6"
     }
   },
   "triggeredAlerts": [
@@ -3235,54 +3235,54 @@
       "ruleId": "gold-real-yield",
       "ruleName": "黄金 vs 实际利率",
       "indicatorId": "tips10",
-      "currentValue": "2.91%",
+      "currentValue": "2.88%",
       "threshold": ">2.4%",
       "meaning": "保留原站2.40%阈值供审计；没有统计回测依据，不作为通用交易阈值。",
-      "dataDate": "2026-11-13",
+      "dataDate": "2026-11-19",
       "status": "triggered",
       "needsReview": true
     }
   ],
   "realRateDecomp": {
-    "asOf": "2026-11-12",
+    "asOf": "2026-11-18",
     "level": {
-      "nominal": 5.1,
-      "real": 2.86,
-      "bei": 2.24
+      "nominal": 5.07,
+      "real": 2.88,
+      "bei": 2.19
     },
     "rows": [
       {
         "id": "nominal",
         "name": "10Y 名义利率",
-        "level": 5.1,
-        "d1": 11.999999999999922,
-        "d1From": "2026-11-10",
-        "d5": 23.999999999999932,
-        "d5From": "2026-11-06",
-        "d21": 13.999999999999968,
-        "d21From": "2026-10-22"
+        "level": 5.07,
+        "d1": -2.999999999999936,
+        "d1From": "2026-11-17",
+        "d5": -8.000000000000007,
+        "d5From": "2026-11-13",
+        "d21": 2.000000000000046,
+        "d21From": "2026-10-28"
       },
       {
         "id": "real",
         "name": "10Y 实际利率（TIPS）",
-        "level": 2.86,
-        "d1": 8.000000000000007,
-        "d1From": "2026-11-10",
-        "d5": 23,
-        "d5From": "2026-11-06",
-        "d21": 21.999999999999975,
-        "d21From": "2026-10-22"
+        "level": 2.88,
+        "d1": -1.000000000000023,
+        "d1From": "2026-11-17",
+        "d5": -3.000000000000025,
+        "d5From": "2026-11-13",
+        "d21": 20.999999999999996,
+        "d21From": "2026-10-28"
       },
       {
         "id": "bei",
         "name": "10Y 通胀预期（BEI）",
-        "level": 2.24,
-        "d1": 4.0000000000000036,
-        "d1From": "2026-11-10",
-        "d5": 1.000000000000023,
-        "d5From": "2026-11-06",
-        "d21": -7.999999999999963,
-        "d21From": "2026-10-22"
+        "level": 2.19,
+        "d1": -2.0000000000000018,
+        "d1From": "2026-11-17",
+        "d5": -5.000000000000027,
+        "d5From": "2026-11-13",
+        "d21": -18.999999999999993,
+        "d21From": "2026-10-28"
       }
     ],
     "windows": [
@@ -3302,60 +3302,60 @@
         "days": 21
       }
     ],
-    "identityGapBp": -4.440892098500626e-14,
+    "identityGapBp": 4.440892098500626e-14,
     "identityOk": true,
     "attribution": {
       "d1": {
-        "realBp": 8.000000000000007,
-        "beiBp": 4.0000000000000036,
-        "nominalBp": 11.999999999999922,
-        "driver": "real",
-        "driverLabel": "实际利率主导",
-        "meaning": "贴现率在变：实际利率上行压制黄金、成长股与长久期资产；下行反之。",
-        "detail": "实际利率贡献占优"
+        "realBp": -1.000000000000023,
+        "beiBp": -2.0000000000000018,
+        "nominalBp": -2.999999999999936,
+        "driver": "noise",
+        "driverLabel": "变化有限（噪音区）",
+        "meaning": "两腿变化都在阈值内，名义利率的日间波动不足以支撑方向判断。",
+        "detail": "两腿变化均在噪音阈值内"
       },
       "d5": {
-        "realBp": 23,
-        "beiBp": 1.000000000000023,
-        "nominalBp": 23.999999999999932,
-        "driver": "real",
-        "driverLabel": "实际利率主导",
-        "meaning": "贴现率在变：实际利率上行压制黄金、成长股与长久期资产；下行反之。",
-        "detail": "实际利率贡献占优"
+        "realBp": -3.000000000000025,
+        "beiBp": -5.000000000000027,
+        "nominalBp": -8.000000000000007,
+        "driver": "bei",
+        "driverLabel": "通胀预期主导",
+        "meaning": "通胀补偿在变：预期上行利好实物资产与黄金对冲需求，名义债承压；下行反之。",
+        "detail": "通胀预期贡献占优"
       },
       "d21": {
-        "realBp": 21.999999999999975,
-        "beiBp": -7.999999999999963,
-        "nominalBp": 13.999999999999968,
-        "driver": "real",
-        "driverLabel": "实际利率主导",
-        "meaning": "贴现率在变：实际利率上行压制黄金、成长股与长久期资产；下行反之。",
-        "detail": "实际利率贡献占优"
+        "realBp": 20.999999999999996,
+        "beiBp": -18.999999999999993,
+        "nominalBp": 2.000000000000046,
+        "driver": "offset",
+        "driverLabel": "相互抵消（结构在换手）",
+        "meaning": "名义利率看似平静，但两条腿在换手——结构变化往往先于方向变化。",
+        "detail": "两条腿方向相反"
       }
     },
     "termPremium": {
-      "level": 0.8738,
-      "date": "2026-11-06",
+      "level": 0.9864,
+      "date": "2026-11-13",
       "model": "Kim-Wright 10Y 零息债期限溢价（FRED THREEFYTP10）",
-      "impliedExpectedShort": 4.2261999999999995,
-      "impliedExpectedShortBp": 422.61999999999995,
+      "impliedExpectedShort": 4.083600000000001,
+      "impliedExpectedShortBp": 408.36000000000007,
       "note": "名义口径：期限溢价衡量持有久期的额外补偿，隐含短率为「名义 − 期限溢价」。这是模型分解，不是恒等式；实际利率的期限溢价需 TIPS 专用模型，本站不代算。"
     },
     "proxies": [
       {
         "factor": "政策不确定性",
         "proxy": "MOVE 利率隐含波动",
-        "value": 98.79000091552734,
+        "value": 96.03630065917969,
         "unit": "",
-        "date": "2026-11-13",
+        "date": "2026-11-19",
         "note": "波动率高说明市场对政策路径分歧大，久期要求更高补偿。以 MOVE 代理，不是不确定性的官方度量。"
       },
       {
         "factor": "债务供给",
         "proxy": "TGA 财政账户余额",
-        "value": 933.127,
+        "value": 892.31,
         "unit": "bn",
-        "date": "2026-11-12",
+        "date": "2026-11-18",
         "note": "TGA 回补吸走银行准备金，等价于向市场投放更多久期；需与拍卖承接一起读。"
       },
       {
@@ -3370,9 +3370,9 @@
       {
         "factor": "机构行为",
         "proxy": "银行准备金",
-        "value": 2.960603,
+        "value": 2.979656,
         "unit": "tn",
-        "date": "2026-11-11",
+        "date": "2026-11-18",
         "note": "准备金收缩限制银行承接能力，是期限溢价的机构侧约束。"
       },
       {
@@ -3407,45 +3407,21 @@
   "cipBasis": {
     "seriesReliable": false,
     "seriesNote": "两条序列的时间戳口径不同（外汇日线为纽约收盘、期货为 CME 结算），逐日配对会产生 ±1 天错配，因此不展示趋势线，只看当期值与构成。",
-    "asOf": "2026-11-16",
-    "spot": 1.1025358438491821,
-    "futures": 1.1031500101089478,
+    "asOf": "2026-11-20",
+    "spot": 1.098056435585022,
+    "futures": 1.0986499786376953,
     "expiry": "2026-12-14",
-    "days": 28,
-    "fwdAnnualPct": 0.73,
-    "impliedDiffBp": 73,
+    "days": 24,
+    "fwdAnnualPct": 0.82,
+    "impliedDiffBp": 82,
     "actualDiffBp": 140,
-    "basisBp": -67,
-    "prevBasisBp": null,
-    "changeBp": null,
-    "changeFrom": null,
-    "trendPoints": 1,
-    "tight": true,
+    "basisBp": -58,
+    "prevBasisBp": 26,
+    "changeBp": -84,
+    "changeFrom": "2026-11-19",
+    "trendPoints": 2,
+    "tight": false,
     "series": [
-      {
-        "date": "2026-10-06",
-        "basisBp": 43,
-        "fwdAnnualPct": 1.83,
-        "break": false
-      },
-      {
-        "date": "2026-10-07",
-        "basisBp": -3,
-        "fwdAnnualPct": 1.37,
-        "break": false
-      },
-      {
-        "date": "2026-10-08",
-        "basisBp": -16,
-        "fwdAnnualPct": 1.24,
-        "break": false
-      },
-      {
-        "date": "2026-10-09",
-        "basisBp": -49,
-        "fwdAnnualPct": 0.91,
-        "break": false
-      },
       {
         "date": "2026-10-12",
         "basisBp": -11,
@@ -3598,12 +3574,36 @@
       },
       {
         "date": "2026-11-16",
-        "basisBp": -67,
-        "fwdAnnualPct": 0.73,
+        "basisBp": -245,
+        "fwdAnnualPct": -1.05,
+        "break": false
+      },
+      {
+        "date": "2026-11-17",
+        "basisBp": 134,
+        "fwdAnnualPct": 2.74,
         "break": true
+      },
+      {
+        "date": "2026-11-18",
+        "basisBp": -343,
+        "fwdAnnualPct": -2.03,
+        "break": true
+      },
+      {
+        "date": "2026-11-19",
+        "basisBp": 26,
+        "fwdAnnualPct": 1.66,
+        "break": true
+      },
+      {
+        "date": "2026-11-20",
+        "basisBp": -58,
+        "fwdAnnualPct": 0.82,
+        "break": false
       }
     ],
-    "breaks": 12,
+    "breaks": 14,
     "rates": {
       "usdPct": 3.9,
       "eurPct": 2.5
@@ -3612,7 +3612,7 @@
     "contract": "6EZ26.CME"
   },
   "chinaMacro": {
-    "updatedAt": "2026-11-16T01:31:54.331Z",
+    "updatedAt": "2026-11-20T04:23:29.574Z",
     "metrics": [
       {
         "id": "cnCpi",
@@ -3626,48 +3626,6 @@
         "value": 0.7,
         "interpretation": "全国 CPI 同比；环比同为统计局口径。",
         "name": "CPI（全国同比）",
-        "group": "通胀"
-      },
-      {
-        "id": "cnRetail",
-        "period": "2026年09月份",
-        "source": {
-          "label": "东方财富（转发国家统计局）",
-          "url": "https://data.eastmoney.com/cjsj/"
-        },
-        "displayValue": "1.1%",
-        "change": "当月 4.24 万亿元",
-        "value": 1.1,
-        "interpretation": "当月同比。东财的 SEQUENTIAL 字段口径不明（实测值与环比不符），不采用。",
-        "name": "社会消费品零售（当月同比）",
-        "group": "增长"
-      },
-      {
-        "id": "cnFai",
-        "period": "2026年09月份",
-        "source": {
-          "label": "东方财富（转发国家统计局）",
-          "url": "https://data.eastmoney.com/cjsj/"
-        },
-        "displayValue": "-9.7%",
-        "change": "累计 33.41 万亿元",
-        "value": -9.69,
-        "interpretation": "东财当月同比口径；官方发布的累计同比（如 1—9 月）需以统计局原文为准，本站不用金额自算替代。",
-        "name": "固定资产投资（当月同比）",
-        "group": "增长"
-      },
-      {
-        "id": "cnPpi",
-        "period": "2026年10月份",
-        "source": {
-          "label": "东方财富（转发国家统计局）",
-          "url": "https://data.eastmoney.com/cjsj/"
-        },
-        "displayValue": "5.7%",
-        "change": "累计同比 2.7%",
-        "value": 5.7,
-        "interpretation": "工业品出厂价格同比。PPI 正增长说明工业品价格仍在上涨，与 PMI 出厂价格分项可相互印证；它不是 CPI 的领先指标，两者覆盖的商品与服务篮子不同。",
-        "name": "PPI（同比）",
         "group": "通胀"
       },
       {
@@ -3685,17 +3643,45 @@
         "group": "增长"
       },
       {
-        "id": "cnIndustry",
-        "period": "2026年09月份",
+        "id": "cnFai",
+        "period": "2026年10月份",
         "source": {
           "label": "东方财富（转发国家统计局）",
           "url": "https://data.eastmoney.com/cjsj/"
         },
-        "displayValue": "5.5%",
+        "displayValue": "-17.8%",
+        "change": "累计 36.48 万亿元",
+        "value": -17.84,
+        "interpretation": "东财当月同比口径；官方发布的累计同比（如 1—9 月）需以统计局原文为准，本站不用金额自算替代。",
+        "name": "固定资产投资（当月同比）",
+        "group": "增长"
+      },
+      {
+        "id": "cnIndustry",
+        "period": "2026年10月份",
+        "source": {
+          "label": "东方财富（转发国家统计局）",
+          "url": "https://data.eastmoney.com/cjsj/"
+        },
+        "displayValue": "4.8%",
         "change": "累计同比 5.3%",
-        "value": 5.5,
+        "value": 4.8,
         "interpretation": "当月同比（规模以上工业）。生产端改善需要订单、库存与终端消耗配合验证。",
         "name": "工业增加值（当月同比）",
+        "group": "增长"
+      },
+      {
+        "id": "cnRetail",
+        "period": "2026年10月份",
+        "source": {
+          "label": "东方财富（转发国家统计局）",
+          "url": "https://data.eastmoney.com/cjsj/"
+        },
+        "displayValue": "0.4%",
+        "change": "当月 4.65 万亿元",
+        "value": 0.4,
+        "interpretation": "当月同比。东财的 SEQUENTIAL 字段口径不明（实测值与环比不符），不采用。",
+        "name": "社会消费品零售（当月同比）",
         "group": "增长"
       },
       {
@@ -3713,12 +3699,26 @@
         "group": "增长"
       },
       {
+        "id": "cnPpi",
+        "period": "2026年10月份",
+        "source": {
+          "label": "东方财富（转发国家统计局）",
+          "url": "https://data.eastmoney.com/cjsj/"
+        },
+        "displayValue": "5.7%",
+        "change": "累计同比 2.7%",
+        "value": 5.7,
+        "interpretation": "工业品出厂价格同比。PPI 正增长说明工业品价格仍在上涨，与 PMI 出厂价格分项可相互印证；它不是 CPI 的领先指标，两者覆盖的商品与服务篮子不同。",
+        "name": "PPI（同比）",
+        "group": "通胀"
+      },
+      {
         "id": "eiaCrude",
         "name": "美国商业原油库存（不含 SPR）",
-        "displayValue": "41.442 亿桶",
-        "change": "414 百万桶",
-        "value": 41.4417,
-        "period": "2026-11-06",
+        "displayValue": "4.178 亿桶",
+        "change": "418 百万桶",
+        "value": 4.17797,
+        "period": "2026-11-13",
         "source": {
           "label": "EIA Weekly Petroleum Status Report",
           "url": "https://www.eia.gov/petroleum/supply/weekly/"
@@ -3729,10 +3729,10 @@
       {
         "id": "cnDr007",
         "name": "DR007（银行间 7 天质押式回购）",
-        "displayValue": "1.39%",
-        "change": "-1bp（日）",
-        "value": 1.39,
-        "period": "2026-11-13",
+        "displayValue": "1.37%",
+        "change": "+1bp（日）",
+        "value": 1.37,
+        "period": "2026-11-20",
         "source": {
           "label": "中国货币网 · 回购定盘利率（FDR007）",
           "url": "https://www.chinamoney.com.cn/chinese/bkfrr/"
@@ -3826,21 +3826,21 @@
   },
   "stageViews": {
     "week": "2026-W47",
-    "asOf": "2026-11-16",
-    "generatedAt": "2026-11-16T01:32:21.134Z",
+    "asOf": "2026-11-20",
+    "generatedAt": "2026-11-20T04:23:45.419Z",
     "macro": {
       "status": "partial",
-      "headline": "能源领涨、美股科技走弱，但2Y +2bp、10Y +5bp，曲线趋陡",
-      "observation": "2026-11-09 → 2026-11-16（近 7 天）",
+      "headline": "能源领涨、贵金属走弱（日变化，行情截至 2026-11-19；美股为上一交易日收盘，亚洲与商品含当日盘中），但2Y -4bp、10Y -3bp，曲线趋陡",
+      "observation": "2026-11-13 → 2026-11-20（近 7 天）",
       "supports": [
-        "能源领涨，美股科技落后（市场侧，非宏观分项）"
+        "实体经济循环 +1（偏松）"
       ],
       "counters": [
         "长期生产能力 -1（偏紧）",
-        "实体经济循环 -1（偏紧）"
+        "估值与定价 -1（偏紧）"
       ],
       "divergence": [
-        "分项方向相反：偏松侧 1 项（能源领涨，美股科技落后（市场侧，非宏观分项）），偏紧侧 2 项（长期生产能力、实体经济循环）；这正是不能合成单一总分的理由。"
+        "分项方向相反：偏松侧 1 项（实体经济循环），偏紧侧 2 项（长期生产能力、估值与定价）；这正是不能合成单一总分的理由。"
       ],
       "nextCheck": [
         "美国 PCE 物价指数（BEA） · 2026-11-25（官方日程）",
@@ -3850,7 +3850,7 @@
         "黄金 vs 实际利率：>2.4%"
       ],
       "skipped": [
-        "PCE：观察期已 76 天（>75）"
+        "PCE：观察期已 80 天（>75）"
       ],
       "dataRefs": [
         "GDPNow 3.5%（2026Q4）",
@@ -3861,30 +3861,30 @@
     },
     "china": {
       "status": "active",
-      "headline": "PMI 49.3 已跌破荣枯线，工业 5.5% 维持正增，固投 -9.7% 继续收缩；景气与投资同时走弱，内需承压更明确（社零 1.1%、CPI 0.7%、DR007 1.39%）。",
-      "observation": "数据截至 2026-11-16（各项观察期不同，卡片内单独标注）",
+      "headline": "PMI 49.3 已跌破荣枯线，工业 4.8% 维持正增，固投 -17.8% 继续收缩；景气与投资同时走弱，内需承压更明确（社零 0.4%、CPI 0.7%、DR007 1.37%）。",
+      "observation": "数据截至 2026-11-20（各项观察期不同，卡片内单独标注）",
       "supports": [
-        "工业增加值 5.5%（2026年09月份）"
+        "工业增加值 4.8%（2026年10月份）"
       ],
       "counters": [
         "PMI 49.3 / 49.7（2026年10月份） 跌破荣枯线",
-        "固定资产投资 -9.7%（2026年09月份） 仍在收缩",
-        "社零 1.1%（2026年09月份） 增速偏低"
+        "固定资产投资 -17.8%（2026年10月份） 仍在收缩",
+        "社零 0.4%（2026年10月份） 增速偏低"
       ],
       "divergence": [
-        "工业 5.5% 与固投 -9.7% 背离：生产端与投资端不同步，不能用一个「复苏」概括。"
+        "工业 4.8% 与固投 -17.8% 背离：生产端与投资端不同步，不能用一个「复苏」概括。"
       ],
       "nextCheck": [],
       "invalidation": [],
       "skipped": [],
       "external": [
-        "美国商业原油库存（不含 SPR） 41.442 亿桶（2026-11-06）",
+        "美国商业原油库存（不含 SPR） 4.178 亿桶（2026-11-13）",
         "SCFIS 欧线 2304.32（2026-11-02）"
       ]
     }
   },
   "cbPolicy": {
-    "updatedAt": "2026-11-16T01:32:15.144Z",
+    "updatedAt": "2026-11-20T04:23:39.403Z",
     "source": "人工核验（决议文本）+ 官方日频 / FRED（利率交叉校验）",
     "banks": [
       {
@@ -3898,11 +3898,11 @@
           "vote": "10 比 2",
           "reason": "经济强劲扩张、国内支出有韧性、生产率强、通胀仍高；两张反对票（Cook、Hammack）要求加息 25 基点",
           "source": "FOMC 声明",
-          "ageDays": 19
+          "ageDays": 23
         },
         "fredRate": {
           "value": 4,
-          "date": "2026-11-15",
+          "date": "2026-11-19",
           "cadence": "daily",
           "series": "DFEDTARU"
         },
@@ -3923,11 +3923,11 @@
           "vote": "—",
           "reason": "能源涨价造成「通胀上行风险 + 增长下行风险」两头为难；融资条件已收紧",
           "source": "ECB 声明",
-          "ageDays": 18
+          "ageDays": 22
         },
         "fredRate": {
           "value": 2.5,
-          "date": "2026-11-13",
+          "date": "2026-11-19",
           "cadence": "daily",
           "series": "ECBDFR"
         },
@@ -3948,17 +3948,17 @@
           "vote": "8 比 1",
           "reason": "反对票（高田创）要求升到 1.5%，理由是通胀已达标、应加快正常化；同时 ETF 出售提速至 3300—8600 亿日元/年",
           "source": "BoJ 声明",
-          "ageDays": 17
+          "ageDays": 21
         },
         "fredRate": {
-          "value": 1.043,
-          "date": "2026-09-01",
+          "value": 1.227,
+          "date": "2026-10-01",
           "cadence": "monthly",
           "series": "IRSTCI01JPM156N"
         },
         "rateProvider": "FRED",
-        "gapBp": 21,
-        "periodMismatch": true,
+        "gapBp": 2,
+        "periodMismatch": false,
         "needsReview": false,
         "status": "ok"
       },
@@ -3973,20 +3973,20 @@
           "vote": "—",
           "reason": "CPI 在 3% 附近、年底预计 3.5%，防止高能源价格扩散传导；Q2 增长 3.3% 强于预期",
           "source": "BoC 声明（2026-11-15 按官方声明原文核验：隔夜利率目标上调 25 个基点至 2.5%，银行利率 2.75%，存款利率 2.45%）",
-          "ageDays": 19
+          "ageDays": 23
         },
         "fredRate": {
           "value": 2.5,
-          "date": "2026-11-12",
+          "date": "2026-11-18",
           "cadence": "daily",
           "series": "V39079",
           "provider": "Bank of Canada Valet",
           "bankRate": {
-            "date": "2026-11-12",
+            "date": "2026-11-18",
             "value": 2.75
           },
           "source": {
-            "label": "Bank of Canada Valet · V39079（2026-11-12）",
+            "label": "Bank of Canada Valet · V39079（2026-11-18）",
             "url": "https://www.bankofcanada.ca/valet/observations/V39079/json"
           }
         },
@@ -4007,7 +4007,7 @@
           "vote": "4 比 3",
           "reason": "Q3 通胀 3.7% 回落低于预期 + 国内需求疲软；但委员会一致同意「很可能需要收紧」，预计 Q4 通胀升到 4.4%",
           "source": "RBNZ 声明",
-          "ageDays": 19
+          "ageDays": 23
         },
         "fredRate": null,
         "rateProvider": null,
@@ -4027,15 +4027,15 @@
     }
   },
   "weeklyBrief": {
-    "asOf": "2026-11-16",
+    "asOf": "2026-11-20",
     "previousAsOf": "2026-11-08",
-    "generatedAt": "2026-11-16T01:32:21.102Z",
-    "title": "观澜宏观周报｜2026-11-16",
+    "generatedAt": "2026-11-20T04:23:45.378Z",
+    "title": "观澜宏观周报｜2026-11-20",
     "core": [
-      "美国利率整体上行：2Y 4.880%（+0.37）、10Y 5.150%（+0.29）。黄金 $3,875.30（-199.60），实际利率与贵金属的反向关系成立。",
-      "DXY 103.452（+1.15）；美元属市场结果，跨境融资条件仍需基差等独立验证。",
+      "美国利率整体上行：2Y 4.760%（+0.25）、10Y 5.040%（+0.18）。黄金 $3,544.50（-530.40），实际利率与贵金属的反向关系成立。",
+      "DXY 103.819（+1.52）；美元属市场结果，跨境融资条件仍需基差等独立验证。",
       "美国通胀：CPI — / —（2026-10）、PCE 3.6% / 3.1%（2026-09）。环比与同比口径不同，不能用单个月份确认趋势反转。",
-      "中国：PMI 49.3 / 49.7（2026年10月份）跌破荣枯线；工业 5.5% 与固投 -9.7% 的背离仍在，生产端与投资端不同步。"
+      "中国：PMI 49.3 / 49.7（2026年10月份）跌破荣枯线；工业 4.8% 与固投 -17.8% 的背离仍在，生产端与投资端不同步。"
     ],
     "macroRows": [
       {
@@ -4044,7 +4044,8 @@
         "previous": "3.4%",
         "period": "2026Q4",
         "change": "年化预测",
-        "available": true
+        "available": true,
+        "unchanged": false
       },
       {
         "label": "非农新增",
@@ -4052,7 +4053,8 @@
         "previous": "165K",
         "period": "2026-10",
         "change": "+0.00K",
-        "available": true
+        "available": true,
+        "unchanged": true
       },
       {
         "label": "失业率",
@@ -4060,7 +4062,8 @@
         "previous": "4.10 / 0.00",
         "period": "2026-10",
         "change": "+0.00",
-        "available": true
+        "available": true,
+        "unchanged": true
       },
       {
         "label": "CPI（同比/核心）",
@@ -4068,7 +4071,8 @@
         "previous": "3.7% / 2.6%",
         "period": "2026-10",
         "change": "—",
-        "available": true
+        "available": true,
+        "unchanged": false
       },
       {
         "label": "PCE（同比/核心）",
@@ -4076,7 +4080,8 @@
         "previous": "3.6% / 3.1%",
         "period": "2026-09",
         "change": "+0.00",
-        "available": true
+        "available": true,
+        "unchanged": true
       },
       {
         "label": "初请 4 周均值",
@@ -4084,7 +4089,8 @@
         "previous": "194.75K",
         "period": "2026-11-07",
         "change": "+0.50K",
-        "available": true
+        "available": true,
+        "unchanged": false
       },
       {
         "label": "续请失业金",
@@ -4092,7 +4098,8 @@
         "previous": "—",
         "period": "—",
         "change": "—",
-        "available": false
+        "available": false,
+        "unchanged": false
       }
     ],
     "cnRows": [
@@ -4102,31 +4109,35 @@
         "previous": "4.6%",
         "period": "2026年第1-3季度",
         "change": "+0.00",
-        "available": true
+        "available": true,
+        "unchanged": true
       },
       {
         "label": "工业增加值（当月同比）",
-        "current": "5.5%",
+        "current": "4.8%",
         "previous": "5.5%",
-        "period": "2026年09月份",
-        "change": "+0.00",
-        "available": true
+        "period": "2026年10月份",
+        "change": "-0.70",
+        "available": true,
+        "unchanged": false
       },
       {
         "label": "社零（当月同比）",
-        "current": "1.1%",
+        "current": "0.4%",
         "previous": "1.1%",
-        "period": "2026年09月份",
-        "change": "+0.00",
-        "available": true
+        "period": "2026年10月份",
+        "change": "-0.70",
+        "available": true,
+        "unchanged": false
       },
       {
         "label": "固定资产投资（当月同比）",
-        "current": "-9.7%",
+        "current": "-17.8%",
         "previous": "-9.7%",
-        "period": "2026年09月份",
-        "change": "+0.00",
-        "available": true
+        "period": "2026年10月份",
+        "change": "-8.15",
+        "available": true,
+        "unchanged": false
       },
       {
         "label": "CPI（同比）",
@@ -4134,7 +4145,8 @@
         "previous": "0.9%",
         "period": "2026年10月份",
         "change": "-0.20",
-        "available": true
+        "available": true,
+        "unchanged": false
       },
       {
         "label": "PPI（同比）",
@@ -4142,7 +4154,8 @@
         "previous": "5.0%",
         "period": "2026年10月份",
         "change": "+0.70",
-        "available": true
+        "available": true,
+        "unchanged": false
       },
       {
         "label": "官方 PMI 制造/非制造",
@@ -4150,23 +4163,26 @@
         "previous": "49.3 / 49.7",
         "period": "2026年10月份",
         "change": "+0.00",
-        "available": true
+        "available": true,
+        "unchanged": true
       },
       {
         "label": "DR007",
-        "current": "1.39%",
+        "current": "1.37%",
         "previous": "1.34%",
-        "period": "2026-11-13",
-        "change": "+0.05",
-        "available": true
+        "period": "2026-11-20",
+        "change": "+0.03",
+        "available": true,
+        "unchanged": false
       },
       {
         "label": "美国商业原油库存",
-        "current": "41.442 亿桶",
+        "current": "4.178 亿桶",
         "previous": "40.976 亿桶",
-        "period": "2026-11-06",
-        "change": "+0.47",
-        "available": true
+        "period": "2026-11-13",
+        "change": "-36.80",
+        "available": true,
+        "unchanged": false
       },
       {
         "label": "SCFIS 欧线",
@@ -4174,101 +4190,113 @@
         "previous": "2304.32",
         "period": "2026-11-02",
         "change": "+0.00",
-        "available": true
+        "available": true,
+        "unchanged": true
       }
     ],
     "marketRows": [
       {
         "label": "黄金",
-        "current": "$3,875.30",
+        "current": "$3,544.50",
         "previous": "$4,074.90",
-        "period": "2026-11-16",
-        "change": "-199.60",
-        "available": true
+        "period": "2026-11-20",
+        "change": "-530.40",
+        "available": true,
+        "unchanged": false
       },
       {
         "label": "白银",
-        "current": "$47.975",
+        "current": "$41.660",
         "previous": "$51.942",
-        "period": "2026-11-16",
-        "change": "-3.97",
-        "available": true
+        "period": "2026-11-20",
+        "change": "-10.28",
+        "available": true,
+        "unchanged": false
       },
       {
         "label": "布伦特",
-        "current": "$95.25",
+        "current": "$90.12",
         "previous": "$98.32",
-        "period": "2026-11-16",
-        "change": "-3.07",
-        "available": true
+        "period": "2026-11-20",
+        "change": "-8.20",
+        "available": true,
+        "unchanged": false
       },
       {
         "label": "DXY",
-        "current": "103.452",
+        "current": "103.819",
         "previous": "102.300",
-        "period": "2026-11-16",
-        "change": "+1.15",
-        "available": true
+        "period": "2026-11-20",
+        "change": "+1.52",
+        "available": true,
+        "unchanged": false
       },
       {
         "label": "美国 2Y",
-        "current": "4.880%",
+        "current": "4.760%",
         "previous": "4.510%",
-        "period": "2026-11-13",
-        "change": "+0.37",
-        "available": true
+        "period": "2026-11-19",
+        "change": "+0.25",
+        "available": true,
+        "unchanged": false
       },
       {
         "label": "美国 10Y",
-        "current": "5.150%",
+        "current": "5.040%",
         "previous": "4.860%",
-        "period": "2026-11-13",
-        "change": "+0.29",
-        "available": true
+        "period": "2026-11-19",
+        "change": "+0.18",
+        "available": true,
+        "unchanged": false
       },
       {
         "label": "10Y TIPS",
-        "current": "2.91%",
+        "current": "2.88%",
         "previous": "2.63%",
-        "period": "2026-11-13",
-        "change": "+0.28",
-        "available": true
+        "period": "2026-11-19",
+        "change": "+0.25",
+        "available": true,
+        "unchanged": false
       },
       {
         "label": "纳指 100",
-        "current": "27,943.74",
+        "current": "26,517.05",
         "previous": "26,989.99",
-        "period": "2026-11-13",
-        "change": "+953.75",
-        "available": true
+        "period": "2026-11-19",
+        "change": "-472.94",
+        "available": true,
+        "unchanged": false
       },
       {
         "label": "费城半导体",
-        "current": "149.30",
+        "current": "137.95",
         "previous": "136.53",
-        "period": "2026-11-13",
-        "change": "+12.77",
-        "available": true
+        "period": "2026-11-19",
+        "change": "+1.42",
+        "available": true,
+        "unchanged": false
       },
       {
         "label": "恒生科技",
-        "current": "3,813.19",
+        "current": "3,534.60",
         "previous": "4,078.23",
-        "period": "2026-11-16",
-        "change": "-265.04",
-        "available": true
+        "period": "2026-11-20",
+        "change": "-543.63",
+        "available": true,
+        "unchanged": false
       },
       {
         "label": "科创 50",
-        "current": "1,248.86",
+        "current": "1,236.38",
         "previous": "1,253.20",
-        "period": "2026-11-16",
-        "change": "-4.34",
-        "available": true
+        "period": "2026-11-20",
+        "change": "-16.82",
+        "available": true,
+        "unchanged": false
       }
     ],
     "centralBanks": {
-      "updatedAt": "2026-11-16T01:32:15.144Z",
+      "updatedAt": "2026-11-20T04:23:39.403Z",
       "source": "人工核验（决议文本）+ 官方日频 / FRED（利率交叉校验）",
       "banks": [
         {
@@ -4282,11 +4310,11 @@
             "vote": "10 比 2",
             "reason": "经济强劲扩张、国内支出有韧性、生产率强、通胀仍高；两张反对票（Cook、Hammack）要求加息 25 基点",
             "source": "FOMC 声明",
-            "ageDays": 19
+            "ageDays": 23
           },
           "fredRate": {
             "value": 4,
-            "date": "2026-11-15",
+            "date": "2026-11-19",
             "cadence": "daily",
             "series": "DFEDTARU"
           },
@@ -4307,11 +4335,11 @@
             "vote": "—",
             "reason": "能源涨价造成「通胀上行风险 + 增长下行风险」两头为难；融资条件已收紧",
             "source": "ECB 声明",
-            "ageDays": 18
+            "ageDays": 22
           },
           "fredRate": {
             "value": 2.5,
-            "date": "2026-11-13",
+            "date": "2026-11-19",
             "cadence": "daily",
             "series": "ECBDFR"
           },
@@ -4332,17 +4360,17 @@
             "vote": "8 比 1",
             "reason": "反对票（高田创）要求升到 1.5%，理由是通胀已达标、应加快正常化；同时 ETF 出售提速至 3300—8600 亿日元/年",
             "source": "BoJ 声明",
-            "ageDays": 17
+            "ageDays": 21
           },
           "fredRate": {
-            "value": 1.043,
-            "date": "2026-09-01",
+            "value": 1.227,
+            "date": "2026-10-01",
             "cadence": "monthly",
             "series": "IRSTCI01JPM156N"
           },
           "rateProvider": "FRED",
-          "gapBp": 21,
-          "periodMismatch": true,
+          "gapBp": 2,
+          "periodMismatch": false,
           "needsReview": false,
           "status": "ok"
         },
@@ -4357,20 +4385,20 @@
             "vote": "—",
             "reason": "CPI 在 3% 附近、年底预计 3.5%，防止高能源价格扩散传导；Q2 增长 3.3% 强于预期",
             "source": "BoC 声明（2026-11-15 按官方声明原文核验：隔夜利率目标上调 25 个基点至 2.5%，银行利率 2.75%，存款利率 2.45%）",
-            "ageDays": 19
+            "ageDays": 23
           },
           "fredRate": {
             "value": 2.5,
-            "date": "2026-11-12",
+            "date": "2026-11-18",
             "cadence": "daily",
             "series": "V39079",
             "provider": "Bank of Canada Valet",
             "bankRate": {
-              "date": "2026-11-12",
+              "date": "2026-11-18",
               "value": 2.75
             },
             "source": {
-              "label": "Bank of Canada Valet · V39079（2026-11-12）",
+              "label": "Bank of Canada Valet · V39079（2026-11-18）",
               "url": "https://www.bankofcanada.ca/valet/observations/V39079/json"
             }
           },
@@ -4391,7 +4419,7 @@
             "vote": "4 比 3",
             "reason": "Q3 通胀 3.7% 回落低于预期 + 国内需求疲软；但委员会一致同意「很可能需要收紧」，预计 Q4 通胀升到 4.4%",
             "source": "RBNZ 声明",
-            "ageDays": 19
+            "ageDays": 23
           },
           "fredRate": null,
           "rateProvider": null,
@@ -4436,10 +4464,10 @@
       }
     ],
     "health": {
-      "fresh": 47,
+      "fresh": 48,
       "stale": 2,
       "missing": 0,
-      "failed": 1,
+      "failed": 0,
       "manual": 1,
       "scheduled": 1
     },
@@ -4447,21 +4475,21 @@
     "notWired": [],
     "stageViews": {
       "week": "2026-W47",
-      "asOf": "2026-11-16",
-      "generatedAt": "2026-11-16T01:32:15.152Z",
+      "asOf": "2026-11-20",
+      "generatedAt": "2026-11-20T04:23:39.413Z",
       "macro": {
         "status": "partial",
-        "headline": "能源领涨、美股科技走弱，但2Y +2bp、10Y +5bp，曲线趋陡",
-        "observation": "2026-11-09 → 2026-11-16（近 7 天）",
+        "headline": "能源领涨、贵金属走弱（日变化，行情截至 2026-11-19；美股为上一交易日收盘，亚洲与商品含当日盘中），但2Y -4bp、10Y -3bp，曲线趋陡",
+        "observation": "2026-11-13 → 2026-11-20（近 7 天）",
         "supports": [
-          "能源领涨，美股科技落后（市场侧，非宏观分项）"
+          "实体经济循环 +1（偏松）"
         ],
         "counters": [
           "长期生产能力 -1（偏紧）",
-          "实体经济循环 -1（偏紧）"
+          "估值与定价 -1（偏紧）"
         ],
         "divergence": [
-          "分项方向相反：偏松侧 1 项（能源领涨，美股科技落后（市场侧，非宏观分项）），偏紧侧 2 项（长期生产能力、实体经济循环）；这正是不能合成单一总分的理由。"
+          "分项方向相反：偏松侧 1 项（实体经济循环），偏紧侧 2 项（长期生产能力、估值与定价）；这正是不能合成单一总分的理由。"
         ],
         "nextCheck": [
           "美国 PCE 物价指数（BEA） · 2026-11-25（官方日程）",
@@ -4471,7 +4499,7 @@
           "黄金 vs 实际利率：>2.4%"
         ],
         "skipped": [
-          "PCE：观察期已 76 天（>75）"
+          "PCE：观察期已 80 天（>75）"
         ],
         "dataRefs": [
           "GDPNow 3.5%（2026Q4）",
@@ -4482,24 +4510,24 @@
       },
       "china": {
         "status": "active",
-        "headline": "PMI 49.3 已跌破荣枯线，工业 5.5% 维持正增，固投 -9.7% 继续收缩；景气与投资同时走弱，内需承压更明确（社零 1.1%、CPI 0.7%、DR007 1.39%）。",
-        "observation": "数据截至 2026-11-16（各项观察期不同，卡片内单独标注）",
+        "headline": "PMI 49.3 已跌破荣枯线，工业 4.8% 维持正增，固投 -17.8% 继续收缩；景气与投资同时走弱，内需承压更明确（社零 0.4%、CPI 0.7%、DR007 1.37%）。",
+        "observation": "数据截至 2026-11-20（各项观察期不同，卡片内单独标注）",
         "supports": [
-          "工业增加值 5.5%（2026年09月份）"
+          "工业增加值 4.8%（2026年10月份）"
         ],
         "counters": [
           "PMI 49.3 / 49.7（2026年10月份） 跌破荣枯线",
-          "固定资产投资 -9.7%（2026年09月份） 仍在收缩",
-          "社零 1.1%（2026年09月份） 增速偏低"
+          "固定资产投资 -17.8%（2026年10月份） 仍在收缩",
+          "社零 0.4%（2026年10月份） 增速偏低"
         ],
         "divergence": [
-          "工业 5.5% 与固投 -9.7% 背离：生产端与投资端不同步，不能用一个「复苏」概括。"
+          "工业 4.8% 与固投 -17.8% 背离：生产端与投资端不同步，不能用一个「复苏」概括。"
         ],
         "nextCheck": [],
         "invalidation": [],
         "skipped": [],
         "external": [
-          "美国商业原油库存（不含 SPR） 41.442 亿桶（2026-11-06）",
+          "美国商业原油库存（不含 SPR） 4.178 亿桶（2026-11-13）",
           "SCFIS 欧线 2304.32（2026-11-02）"
         ]
       }
@@ -4569,84 +4597,20 @@
       },
       "narrative": "制造业 PMI 49.3（环比 -0.8pct）；生产 49.8、新订单 49.4、新出口订单 48.7，供需缺口 -0.4pct（需求弱于供给）；购进价格 56.8 − 出厂价格 51.7 = 剪刀差 5.1pct（上游涨价向下游传导不畅，中下游利润受压）；大型 50.2 / 中型 48.4 / 小型 47.5，大中小落差 2.7pct（大中小企业分化明显）；建筑业 48.0、建筑业新订单仅 40.0，是本月最弱环节之一。"
     },
-    "external": {
-      "items": [
-        {
-          "topic": "美国—伊朗",
-          "stance": "僵持",
-          "confidence": "中等",
-          "evidence": "周初出现卡塔尔斡旋消息；11 月 12 日美方公开表态称结束战争无需与伊朗达成协议；13 日 AP 援引 IAEA 非公开报告称伊方拒绝推进核监测谈判。未取得改变伊朗出口能力的新许可或核查协议。",
-          "counter": "商业人士仍描述部分石油外运增加，说明航道存在通行活动；不证明安全恢复。",
-          "sources": [
-            {
-              "label": "AP",
-              "url": "https://apnews.com/article/5d73a23b5b8647d2515c35b267b36c08"
-            },
-            {
-              "label": "OFAC 伊朗制裁",
-              "url": "https://ofac.treasury.gov/sanctions-programs-and-country-information/iran-sanctions"
-            }
-          ]
-        },
-        {
-          "topic": "沙特—胡塞",
-          "stance": "军事风险上升，生产影响未证实",
-          "confidence": "事件可信、影响可信度不足",
-          "evidence": "利雅得阿美办公楼受损发生于当地 11 月 8 日，9 日有后续报道；胡塞 11 月 12 日宣称袭击输油与延布设施。办公楼损伤有沙方拦截及坠落残骸说明。",
-          "counter": "11 月 12 日设施袭击属胡塞声明，未核实损伤、停产、减产或额外出口损失。",
-          "sources": [
-            {
-              "label": "AP 后续",
-              "url": "https://apnews.com/article/9b6fa963ea4766a08956e53506494468"
-            }
-          ]
-        },
-        {
-          "topic": "霍尔木兹及附近海域",
-          "stance": "安全事件有实证，运输恢复有限",
-          "confidence": "中等",
-          "evidence": "Dominica Prosperity 于 11 月 11 日遇袭，UKMTO 12 日获迟报，记录遭不明弹体击中、船员安全撤离。JMIC 称商业通行仍低于 2025 基线，独立追踪每日个位数至十余艘。",
-          "counter": "美方列约 34 次/日协助通行，两组覆盖不同不能相加；IEA 的 10 月海湾出口恢复构成反向证据。",
-          "sources": [
-            {
-              "label": "JMIC Advisory 113",
-              "url": "https://www.ukmto.org/-/media/ukmto/products/jmic_advisory_update_113_12-nov.pdf"
-            },
-            {
-              "label": "IEA OMR",
-              "url": "https://www.iea.org/reports/oil-market-report-november-2026"
-            }
-          ]
-        },
-        {
-          "topic": "曼德海峡、红海与欧线",
-          "stance": "通航持续，流量低于前期",
-          "confidence": "中等",
-          "evidence": "JMIC 统计 11 月 8—11 日，引 S&P 追踪约 23 艘/日，前一周约 32 艘/日。Hapag-Lloyd 既有公告列 SE3 首班 11 月 13 日计划靠青岛，去程经吉达、苏伊士，返程经苏伊士、塞拉莱。",
-          "counter": "这是单条服务的计划，未核实首班实际过峡，也未取得全网东西向及好望角绕航比例。",
-          "sources": [
-            {
-              "label": "JMIC Advisory 113",
-              "url": "https://www.ukmto.org/-/media/ukmto/products/jmic_advisory_update_113_12-nov.pdf"
-            },
-            {
-              "label": "Hapag-Lloyd SE3 公告",
-              "url": "https://www.hapag-lloyd.com/en/services-information/news/2026/10/far-east---europe--introducing-our-new-se5-service-and-upcoming-.headless.html"
-            }
-          ]
-        }
-      ],
-      "transmission": "油气传导要经过实际装船、交付与保险成本：IEA 称中东至亚洲原油运费仍接近纪录高位，本期未取得可比的船舶战争险报价。EC 的传导要经过欧线实际船期、航程、有效运力及结算运价；霍尔木兹个别船损与曼德海峡商业总流量都不足以量化欧线有效舱位。",
-      "gaps": [
-        "全量通航与 AIS 数据",
-        "船舶战争险报价",
-        "中东实际装船与出口量",
-        "欧线逐航次运力变化"
-      ],
-      "compiledAt": "2026-11-15T17:00:00+08:00"
+    "external": null,
+    "externalSkipped": {
+      "recordedPeriod": "2026-11-15"
     },
-    "externalSkipped": null,
     "archive": [
+      {
+        "asOf": "2026-11-20",
+        "title": "观澜宏观周报｜2026-11-20",
+        "core": [
+          "美国利率整体上行：2Y 4.760%（+0.25）、10Y 5.040%（+0.18）。黄金 $3,541.40（-533.50），实际利率与贵金属的反向关系成立。",
+          "DXY 103.826（+1.53）；美元属市场结果，跨境融资条件仍需基差等独立验证。"
+        ],
+        "generatedAt": "2026-11-20T04:19:26.675Z"
+      },
       {
         "asOf": "2026-11-16",
         "title": "观澜宏观周报｜2026-11-16",

@@ -207,6 +207,14 @@
       "relativeChange": "留存现有快照；各字段以原始数据日期为准",
       "directionChange": "详见当次快照",
       "markdownPath": "/reports/2026-11-16.md"
+    },
+    {
+      "date": "2026-11-20",
+      "mainConflict": "能源领涨、贵金属走弱，但2Y -4bp、10Y -3bp，曲线趋陡",
+      "confidence": "中",
+      "relativeChange": "留存现有快照；各字段以原始数据日期为准",
+      "directionChange": "详见当次快照",
+      "markdownPath": "/reports/2026-11-20.md"
     }
   ]
 }
