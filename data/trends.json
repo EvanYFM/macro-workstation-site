@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T04:19:27.165Z",
+  "generatedAt": "2026-11-21T10:14:03.334Z",
   "source": "public/data/history",
   "series": [
     "trend",
@@ -323,6 +323,11 @@
         "date": "2026-11-19",
         "ust2": 4.76,
         "ust10": 5.04
+      },
+      {
+        "date": "2026-11-20",
+        "ust2": 4.63,
+        "ust10": 4.92
       }
     ],
     "liquidityTrend": [
@@ -762,6 +767,12 @@
         "cccOas": 13.53,
         "bbbOas": 1.16,
         "cccBbbOas": 12.37
+      },
+      {
+        "date": "2026-11-19",
+        "cccOas": 13.61,
+        "bbbOas": 1.17,
+        "cccBbbOas": 12.44
       }
     ],
     "moveTrend": [
@@ -980,6 +991,10 @@
       {
         "date": "2026-11-19",
         "move": 96.04
+      },
+      {
+        "date": "2026-11-20",
+        "move": 106.31
       }
     ],
     "indicatorTrend": [
@@ -1158,6 +1173,14 @@
         "vix": 28.44,
         "brent": 90.11000061035156,
         "ust2": 4.76
+      },
+      {
+        "date": "2026-11-21",
+        "tips10": 2.77,
+        "ust10": 4.92,
+        "vix": 35.89,
+        "brent": 92.56999969482422,
+        "ust2": 4.63
       }
     ]
   },
@@ -1168,9 +1191,9 @@
       "last": "2026-07-20"
     },
     "rateTrend": {
-      "points": 54,
+      "points": 55,
       "first": "2026-08-31",
-      "last": "2026-11-19"
+      "last": "2026-11-20"
     },
     "liquidityTrend": {
       "points": 17,
@@ -1178,19 +1201,19 @@
       "last": "2026-11-18"
     },
     "creditSpreadTrend": {
-      "points": 60,
+      "points": 61,
       "first": "2026-08-27",
-      "last": "2026-11-18"
-    },
-    "moveTrend": {
-      "points": 54,
-      "first": "2026-08-31",
       "last": "2026-11-19"
     },
-    "indicatorTrend": {
-      "points": 22,
-      "first": "2026-09-09",
+    "moveTrend": {
+      "points": 55,
+      "first": "2026-08-31",
       "last": "2026-11-20"
+    },
+    "indicatorTrend": {
+      "points": 23,
+      "first": "2026-09-09",
+      "last": "2026-11-21"
     }
   }
 }

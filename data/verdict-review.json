@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T05:24:12.069Z",
+  "generatedAt": "2026-11-21T10:14:03.466Z",
   "proxies": {
     "gold": "gold",
     "silver": "silver",
@@ -662,26 +662,89 @@
       ],
       "hits": 2,
       "total": 4
+    },
+    {
+      "date": "2026-11-02",
+      "checkDate": "2026-11-21",
+      "rows": [
+        {
+          "asset": "gold",
+          "name": "黄金",
+          "call": "bull",
+          "callLabel": "偏多",
+          "changePct": -10.23,
+          "hit": false,
+          "up": false,
+          "pastUp": true,
+          "callPrev": null
+        },
+        {
+          "asset": "silver",
+          "name": "白银",
+          "call": "bull",
+          "callLabel": "偏多",
+          "changePct": -18.4,
+          "hit": false,
+          "up": false,
+          "pastUp": true,
+          "callPrev": "bear"
+        },
+        {
+          "asset": "oil",
+          "name": "原油",
+          "call": "bear",
+          "callLabel": "中性偏空",
+          "changePct": -16.03,
+          "hit": true,
+          "up": false,
+          "pastUp": false,
+          "callPrev": "bear"
+        },
+        {
+          "asset": "bonds",
+          "name": "债券",
+          "call": "bull",
+          "callLabel": "中性偏多",
+          "changePct": -0.4,
+          "hit": true,
+          "up": true,
+          "pastUp": false,
+          "callPrev": "bull"
+        },
+        {
+          "asset": "usd",
+          "name": "美元",
+          "call": "bear",
+          "callLabel": "中性偏空",
+          "changePct": 1.95,
+          "hit": false,
+          "up": true,
+          "pastUp": false,
+          "callPrev": "bear"
+        }
+      ],
+      "hits": 2,
+      "total": 5
     }
   ],
   "byAsset": {
     "gold": {
       "name": "黄金",
-      "total": 1,
+      "total": 2,
       "hits": 0,
       "hitRate": 0,
       "avgFavorable": null,
-      "avgAdverse": 0.99,
+      "avgAdverse": 5.61,
       "benchmarks": {
         "bull": {
           "hits": 1,
-          "total": 1,
-          "rate": 100
+          "total": 2,
+          "rate": 50
         },
         "bear": {
-          "hits": 0,
-          "total": 1,
-          "rate": 0
+          "hits": 1,
+          "total": 2,
+          "rate": 50
         },
         "persist": {
           "hits": 0,
@@ -690,162 +753,162 @@
         },
         "momentum": {
           "hits": 1,
-          "total": 1,
-          "rate": 100
+          "total": 2,
+          "rate": 50
         }
       },
-      "edgeVsBestBenchmark": -100
+      "edgeVsBestBenchmark": -50
     },
     "silver": {
       "name": "白银",
-      "total": 14,
+      "total": 15,
       "hits": 11,
-      "hitRate": 78.6,
+      "hitRate": 73.3,
       "avgFavorable": 10.37,
-      "avgAdverse": 4.98,
+      "avgAdverse": 8.34,
       "benchmarks": {
         "bull": {
           "hits": 2,
-          "total": 14,
-          "rate": 14.3
+          "total": 15,
+          "rate": 13.3
         },
         "bear": {
-          "hits": 12,
-          "total": 14,
-          "rate": 85.7
+          "hits": 13,
+          "total": 15,
+          "rate": 86.7
         },
         "persist": {
-          "hits": 9,
-          "total": 11,
-          "rate": 81.8
+          "hits": 10,
+          "total": 12,
+          "rate": 83.3
         },
         "momentum": {
           "hits": 7,
-          "total": 13,
-          "rate": 53.8
+          "total": 14,
+          "rate": 50
         }
       },
-      "edgeVsBestBenchmark": -7.1
+      "edgeVsBestBenchmark": -13.4
     },
     "oil": {
       "name": "原油",
-      "total": 14,
-      "hits": 9,
-      "hitRate": 64.3,
-      "avgFavorable": 8.48,
+      "total": 15,
+      "hits": 10,
+      "hitRate": 66.7,
+      "avgFavorable": 9.23,
       "avgAdverse": 5.06,
       "benchmarks": {
         "bull": {
           "hits": 9,
-          "total": 14,
-          "rate": 64.3
+          "total": 15,
+          "rate": 60
         },
         "bear": {
-          "hits": 5,
-          "total": 14,
-          "rate": 35.7
-        },
-        "persist": {
-          "hits": 9,
-          "total": 12,
-          "rate": 75
-        },
-        "momentum": {
-          "hits": 7,
-          "total": 13,
-          "rate": 53.8
-        }
-      },
-      "edgeVsBestBenchmark": -10.7
-    },
-    "bonds": {
-      "name": "债券",
-      "total": 15,
-      "hits": 9,
-      "hitRate": 60,
-      "avgFavorable": 3.22,
-      "avgAdverse": 2.93,
-      "benchmarks": {
-        "bull": {
           "hits": 6,
           "total": 15,
           "rate": 40
         },
+        "persist": {
+          "hits": 10,
+          "total": 13,
+          "rate": 76.9
+        },
+        "momentum": {
+          "hits": 8,
+          "total": 14,
+          "rate": 57.1
+        }
+      },
+      "edgeVsBestBenchmark": -10.2
+    },
+    "bonds": {
+      "name": "债券",
+      "total": 16,
+      "hits": 10,
+      "hitRate": 62.5,
+      "avgFavorable": 2.94,
+      "avgAdverse": 2.93,
+      "benchmarks": {
+        "bull": {
+          "hits": 7,
+          "total": 16,
+          "rate": 43.8
+        },
         "bear": {
           "hits": 9,
-          "total": 15,
-          "rate": 60
+          "total": 16,
+          "rate": 56.3
         },
         "persist": {
-          "hits": 7,
-          "total": 12,
-          "rate": 58.3
+          "hits": 8,
+          "total": 13,
+          "rate": 61.5
         },
         "momentum": {
           "hits": 9,
-          "total": 14,
-          "rate": 64.3
+          "total": 15,
+          "rate": 60
         }
       },
-      "edgeVsBestBenchmark": -4.3
+      "edgeVsBestBenchmark": 1
     },
     "usd": {
       "name": "美元",
-      "total": 3,
+      "total": 4,
       "hits": 1,
-      "hitRate": 33.3,
+      "hitRate": 25,
       "avgFavorable": 1.02,
-      "avgAdverse": 1.59,
+      "avgAdverse": 1.71,
       "benchmarks": {
         "bull": {
-          "hits": 3,
-          "total": 3,
+          "hits": 4,
+          "total": 4,
           "rate": 100
         },
         "bear": {
           "hits": 0,
-          "total": 3,
+          "total": 4,
           "rate": 0
         },
         "persist": {
           "hits": 1,
-          "total": 2,
-          "rate": 50
+          "total": 3,
+          "rate": 33.3
         },
         "momentum": {
           "hits": 1,
-          "total": 3,
-          "rate": 33.3
+          "total": 4,
+          "rate": 25
         }
       },
-      "edgeVsBestBenchmark": -66.7
+      "edgeVsBestBenchmark": -75
     }
   },
   "summary": {
-    "samples": 17,
-    "hits": 30,
-    "total": 47,
-    "hitRate": 63.8,
+    "samples": 18,
+    "hits": 32,
+    "total": 52,
+    "hitRate": 61.5,
     "benchmarks": {
       "bull": {
-        "hits": 21,
-        "total": 47,
-        "rate": 44.7
+        "hits": 23,
+        "total": 52,
+        "rate": 44.2
       },
       "bear": {
-        "hits": 26,
-        "total": 47,
-        "rate": 55.3
+        "hits": 29,
+        "total": 52,
+        "rate": 55.8
       },
       "persist": {
-        "hits": 26,
-        "total": 37,
-        "rate": 70.3
+        "hits": 29,
+        "total": 41,
+        "rate": 70.7
       },
       "momentum": {
-        "hits": 25,
-        "total": 44,
-        "rate": 56.8
+        "hits": 26,
+        "total": 49,
+        "rate": 53.1
       }
     },
     "coverage": {
