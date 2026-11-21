@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T10:14:03.466Z",
+  "generatedAt": "2026-11-21T10:32:32.482Z",
   "proxies": {
     "gold": "gold",
     "silver": "silver",
@@ -7,19 +7,19 @@
     "bonds": "ust10",
     "usd": "dxy"
   },
-  "horizon": 5,
-  "horizonNote": "事后窗口 = 第 5 份快照（快照非逐日连续，不用自然日）",
+  "horizonDays": 7,
+  "horizonNote": "事后窗口 = 判断日后 7 个自然日内的第一份快照（与周报的「较上一份快照」同一周期）",
   "samples": [
     {
       "date": "2026-09-09",
-      "checkDate": "2026-09-21",
+      "checkDate": "2026-09-17",
       "rows": [
         {
           "asset": "silver",
           "name": "白银",
           "call": "bear",
           "callLabel": "中性偏空",
-          "changePct": -0.63,
+          "changePct": -4.27,
           "hit": true,
           "up": false,
           "pastUp": null,
@@ -30,9 +30,9 @@
           "name": "原油",
           "call": "bull",
           "callLabel": "中性偏多",
-          "changePct": -2.25,
-          "hit": false,
-          "up": false,
+          "changePct": 4.61,
+          "hit": true,
+          "up": true,
           "pastUp": null,
           "callPrev": null
         },
@@ -48,11 +48,52 @@
           "callPrev": null
         }
       ],
-      "hits": 2,
+      "hits": 3,
       "total": 3
     },
     {
       "date": "2026-09-14",
+      "checkDate": "2026-09-21",
+      "rows": [
+        {
+          "asset": "silver",
+          "name": "白银",
+          "call": "bear",
+          "callLabel": "中性偏空",
+          "changePct": 3.68,
+          "hit": false,
+          "up": true,
+          "pastUp": false,
+          "callPrev": "bear"
+        },
+        {
+          "asset": "oil",
+          "name": "原油",
+          "call": "bull",
+          "callLabel": "中性偏多",
+          "changePct": -9.03,
+          "hit": false,
+          "up": false,
+          "pastUp": true,
+          "callPrev": "bull"
+        },
+        {
+          "asset": "bonds",
+          "name": "债券",
+          "call": "bear",
+          "callLabel": "中性偏空",
+          "changePct": 1.01,
+          "hit": true,
+          "up": false,
+          "pastUp": true,
+          "callPrev": "bear"
+        }
+      ],
+      "hits": 1,
+      "total": 3
+    },
+    {
+      "date": "2026-09-15",
       "checkDate": "2026-09-22",
       "rows": [
         {
@@ -60,7 +101,7 @@
           "name": "白银",
           "call": "bear",
           "callLabel": "中性偏空",
-          "changePct": 2.28,
+          "changePct": 3.03,
           "hit": false,
           "up": true,
           "pastUp": false,
@@ -71,37 +112,7 @@
           "name": "原油",
           "call": "bull",
           "callLabel": "中性偏多",
-          "changePct": -7.99,
-          "hit": false,
-          "up": false,
-          "pastUp": true,
-          "callPrev": "bull"
-        }
-      ],
-      "hits": 0,
-      "total": 2
-    },
-    {
-      "date": "2026-09-15",
-      "checkDate": "2026-09-23",
-      "rows": [
-        {
-          "asset": "silver",
-          "name": "白银",
-          "call": "bear",
-          "callLabel": "中性偏空",
-          "changePct": 2.74,
-          "hit": false,
-          "up": true,
-          "pastUp": false,
-          "callPrev": "bear"
-        },
-        {
-          "asset": "oil",
-          "name": "原油",
-          "call": "bull",
-          "callLabel": "中性偏多",
-          "changePct": -10.69,
+          "changePct": -7.85,
           "hit": false,
           "up": false,
           "pastUp": false,
@@ -116,7 +127,7 @@
           "hit": false,
           "up": true,
           "pastUp": true,
-          "callPrev": null
+          "callPrev": "bear"
         }
       ],
       "hits": 0,
@@ -165,14 +176,14 @@
     },
     {
       "date": "2026-09-20",
-      "checkDate": "2026-10-08",
+      "checkDate": "2026-09-28",
       "rows": [
         {
           "asset": "silver",
           "name": "白银",
           "call": "bear",
           "callLabel": "中性偏空",
-          "changePct": -8.09,
+          "changePct": -4.13,
           "hit": true,
           "up": false,
           "pastUp": false,
@@ -183,9 +194,9 @@
           "name": "原油",
           "call": "bull",
           "callLabel": "中性偏多",
-          "changePct": 0.46,
-          "hit": true,
-          "up": true,
+          "changePct": -3.46,
+          "hit": false,
+          "up": false,
           "pastUp": false,
           "callPrev": "bull"
         },
@@ -194,26 +205,26 @@
           "name": "债券",
           "call": "bear",
           "callLabel": "中性偏空",
-          "changePct": 5.39,
+          "changePct": 3.19,
           "hit": true,
           "up": false,
           "pastUp": false,
           "callPrev": "bear"
         }
       ],
-      "hits": 3,
+      "hits": 2,
       "total": 3
     },
     {
       "date": "2026-09-21",
-      "checkDate": "2026-10-12",
+      "checkDate": "2026-09-28",
       "rows": [
         {
           "asset": "silver",
           "name": "白银",
           "call": "bear",
           "callLabel": "中性偏空",
-          "changePct": -8.59,
+          "changePct": -7.65,
           "hit": true,
           "up": false,
           "pastUp": true,
@@ -224,7 +235,7 @@
           "name": "原油",
           "call": "bull",
           "callLabel": "中性偏多",
-          "changePct": 6.87,
+          "changePct": 3.32,
           "hit": true,
           "up": true,
           "pastUp": false,
@@ -235,7 +246,7 @@
           "name": "债券",
           "call": "bear",
           "callLabel": "中性偏空",
-          "changePct": 4.59,
+          "changePct": 3.19,
           "hit": true,
           "up": false,
           "pastUp": false,
@@ -247,14 +258,14 @@
     },
     {
       "date": "2026-09-22",
-      "checkDate": "2026-10-19",
+      "checkDate": "2026-10-08",
       "rows": [
         {
           "asset": "silver",
           "name": "白银",
           "call": "bear",
           "callLabel": "中性偏空",
-          "changePct": -12.68,
+          "changePct": -10.24,
           "hit": true,
           "up": false,
           "pastUp": false,
@@ -265,7 +276,7 @@
           "name": "原油",
           "call": "bull",
           "callLabel": "中性偏多",
-          "changePct": 9.28,
+          "changePct": 6.3,
           "hit": true,
           "up": true,
           "pastUp": true,
@@ -276,7 +287,7 @@
           "name": "债券",
           "call": "bear",
           "callLabel": "中性偏空",
-          "changePct": 2.62,
+          "changePct": 6.45,
           "hit": true,
           "up": false,
           "pastUp": false,
@@ -288,14 +299,14 @@
     },
     {
       "date": "2026-09-23",
-      "checkDate": "2026-10-26",
+      "checkDate": "2026-10-08",
       "rows": [
         {
           "asset": "silver",
           "name": "白银",
           "call": "bear",
           "callLabel": "中性偏空",
-          "changePct": -17.36,
+          "changePct": -9.99,
           "hit": true,
           "up": false,
           "pastUp": false,
@@ -306,7 +317,7 @@
           "name": "原油",
           "call": "bull",
           "callLabel": "中性偏多",
-          "changePct": 14.31,
+          "changePct": 9.68,
           "hit": true,
           "up": true,
           "pastUp": false,
@@ -317,7 +328,7 @@
           "name": "债券",
           "call": "bear",
           "callLabel": "中性偏空",
-          "changePct": 0.81,
+          "changePct": 6.45,
           "hit": true,
           "up": false,
           "pastUp": false,
@@ -329,14 +340,14 @@
     },
     {
       "date": "2026-09-28",
-      "checkDate": "2026-10-27",
+      "checkDate": "2026-10-08",
       "rows": [
         {
           "asset": "silver",
           "name": "白银",
           "call": "bear",
           "callLabel": "中性偏空",
-          "changePct": -12.8,
+          "changePct": -4.12,
           "hit": true,
           "up": false,
           "pastUp": false,
@@ -347,7 +358,7 @@
           "name": "原油",
           "call": "bull",
           "callLabel": "中性偏多",
-          "changePct": 8.97,
+          "changePct": 4.06,
           "hit": true,
           "up": true,
           "pastUp": true,
@@ -358,26 +369,26 @@
           "name": "债券",
           "call": "bear",
           "callLabel": "中性偏空",
-          "changePct": -3.29,
-          "hit": false,
-          "up": true,
+          "changePct": 2.13,
+          "hit": true,
+          "up": false,
           "pastUp": true,
           "callPrev": "bear"
         }
       ],
-      "hits": 2,
+      "hits": 3,
       "total": 3
     },
     {
       "date": "2026-10-08",
-      "checkDate": "2026-10-28",
+      "checkDate": "2026-10-19",
       "rows": [
         {
           "asset": "silver",
           "name": "白银",
           "call": "bear",
           "callLabel": "中性偏空",
-          "changePct": -7.87,
+          "changePct": -2.71,
           "hit": true,
           "up": false,
           "pastUp": false,
@@ -388,7 +399,7 @@
           "name": "原油",
           "call": "bull",
           "callLabel": "中性偏多",
-          "changePct": 4.38,
+          "changePct": 2.8,
           "hit": true,
           "up": true,
           "pastUp": true,
@@ -399,7 +410,7 @@
           "name": "债券",
           "call": "bear",
           "callLabel": "中性偏空",
-          "changePct": -5.49,
+          "changePct": -3.6,
           "hit": false,
           "up": true,
           "pastUp": true,
@@ -411,14 +422,14 @@
     },
     {
       "date": "2026-10-12",
-      "checkDate": "2026-10-29",
+      "checkDate": "2026-10-19",
       "rows": [
         {
           "asset": "silver",
           "name": "白银",
           "call": "bear",
           "callLabel": "中性偏空",
-          "changePct": -11.83,
+          "changePct": -5.76,
           "hit": true,
           "up": false,
           "pastUp": true,
@@ -429,7 +440,7 @@
           "name": "原油",
           "call": "bull",
           "callLabel": "中性偏多",
-          "changePct": 6.21,
+          "changePct": 3.43,
           "hit": true,
           "up": true,
           "pastUp": false,
@@ -440,7 +451,7 @@
           "name": "债券",
           "call": "bear",
           "callLabel": "中性偏空",
-          "changePct": -3.63,
+          "changePct": -2.86,
           "hit": false,
           "up": true,
           "pastUp": false,
@@ -452,14 +463,14 @@
     },
     {
       "date": "2026-10-19",
-      "checkDate": "2026-11-01",
+      "checkDate": "2026-10-26",
       "rows": [
         {
           "asset": "silver",
           "name": "白银",
           "call": "bear",
           "callLabel": "中性偏空",
-          "changePct": -14.44,
+          "changePct": -5.63,
           "hit": true,
           "up": false,
           "pastUp": false,
@@ -470,7 +481,7 @@
           "name": "原油",
           "call": "bull",
           "callLabel": "中性偏多",
-          "changePct": 5.24,
+          "changePct": 1.38,
           "hit": true,
           "up": true,
           "pastUp": true,
@@ -481,7 +492,7 @@
           "name": "债券",
           "call": "bear",
           "callLabel": "中性偏空",
-          "changePct": -2.95,
+          "changePct": -1.77,
           "hit": false,
           "up": true,
           "pastUp": false,
@@ -542,14 +553,14 @@
     },
     {
       "date": "2026-10-28",
-      "checkDate": "2026-11-15",
+      "checkDate": "2026-11-08",
       "rows": [
         {
           "asset": "silver",
           "name": "白银",
           "call": "bull",
           "callLabel": "偏多",
-          "changePct": -9.93,
+          "changePct": -4.75,
           "hit": false,
           "up": false,
           "pastUp": true,
@@ -560,9 +571,9 @@
           "name": "债券",
           "call": "bear",
           "callLabel": "中性偏空",
-          "changePct": 3.21,
-          "hit": true,
-          "up": false,
+          "changePct": -2.61,
+          "hit": false,
+          "up": true,
           "pastUp": false,
           "callPrev": "bull"
         },
@@ -571,28 +582,28 @@
           "name": "美元",
           "call": "bull",
           "callLabel": "中性偏多",
-          "changePct": 1.02,
-          "hit": true,
-          "up": true,
+          "changePct": -0.06,
+          "hit": false,
+          "up": false,
           "pastUp": true,
           "callPrev": null
         }
       ],
-      "hits": 2,
+      "hits": 0,
       "total": 3
     },
     {
       "date": "2026-10-29",
-      "checkDate": "2026-11-16",
+      "checkDate": "2026-11-08",
       "rows": [
         {
           "asset": "bonds",
           "name": "债券",
           "call": "bear",
           "callLabel": "中性偏空",
-          "changePct": 1.98,
-          "hit": true,
-          "up": false,
+          "changePct": -3.76,
+          "hit": false,
+          "up": true,
           "pastUp": true,
           "callPrev": "bear"
         },
@@ -601,28 +612,28 @@
           "name": "美元",
           "call": "bear",
           "callLabel": "中性偏空",
-          "changePct": 1.27,
+          "changePct": 0.14,
           "hit": false,
           "up": true,
           "pastUp": false,
           "callPrev": "bull"
         }
       ],
-      "hits": 1,
+      "hits": 0,
       "total": 2
     },
     {
       "date": "2026-11-01",
-      "checkDate": "2026-11-20",
+      "checkDate": "2026-11-08",
       "rows": [
         {
           "asset": "silver",
           "name": "白银",
           "call": "bear",
           "callLabel": "偏空",
-          "changePct": -15.64,
-          "hit": true,
-          "up": false,
+          "changePct": 5.41,
+          "hit": false,
+          "up": true,
           "pastUp": false,
           "callPrev": null
         },
@@ -631,7 +642,7 @@
           "name": "原油",
           "call": "bear",
           "callLabel": "中性偏空",
-          "changePct": -20.56,
+          "changePct": -13.32,
           "hit": true,
           "up": false,
           "pastUp": true,
@@ -642,9 +653,9 @@
           "name": "债券",
           "call": "bull",
           "callLabel": "中性偏多",
-          "changePct": 2.02,
-          "hit": false,
-          "up": false,
+          "changePct": -1.62,
+          "hit": true,
+          "up": true,
           "pastUp": false,
           "callPrev": "bear"
         },
@@ -653,7 +664,7 @@
           "name": "美元",
           "call": "bear",
           "callLabel": "中性偏空",
-          "changePct": 1.91,
+          "changePct": 0.41,
           "hit": false,
           "up": true,
           "pastUp": false,
@@ -665,14 +676,14 @@
     },
     {
       "date": "2026-11-02",
-      "checkDate": "2026-11-21",
+      "checkDate": "2026-11-15",
       "rows": [
         {
           "asset": "gold",
           "name": "黄金",
           "call": "bull",
           "callLabel": "偏多",
-          "changePct": -10.23,
+          "changePct": -0.76,
           "hit": false,
           "up": false,
           "pastUp": true,
@@ -683,7 +694,7 @@
           "name": "白银",
           "call": "bull",
           "callLabel": "偏多",
-          "changePct": -18.4,
+          "changePct": -2.31,
           "hit": false,
           "up": false,
           "pastUp": true,
@@ -694,7 +705,7 @@
           "name": "原油",
           "call": "bear",
           "callLabel": "中性偏空",
-          "changePct": -16.03,
+          "changePct": -13.06,
           "hit": true,
           "up": false,
           "pastUp": false,
@@ -705,9 +716,9 @@
           "name": "债券",
           "call": "bull",
           "callLabel": "中性偏多",
-          "changePct": -0.4,
-          "hit": true,
-          "up": true,
+          "changePct": 4.25,
+          "hit": false,
+          "up": false,
           "pastUp": false,
           "callPrev": "bull"
         },
@@ -716,87 +727,139 @@
           "name": "美元",
           "call": "bear",
           "callLabel": "中性偏空",
-          "changePct": 1.95,
+          "changePct": 1.56,
           "hit": false,
           "up": true,
           "pastUp": false,
           "callPrev": "bear"
         }
       ],
-      "hits": 2,
+      "hits": 1,
       "total": 5
+    },
+    {
+      "date": "2026-11-08",
+      "checkDate": "2026-11-15",
+      "rows": [
+        {
+          "asset": "gold",
+          "name": "黄金",
+          "call": "bear",
+          "callLabel": "偏空",
+          "changePct": -4.63,
+          "hit": true,
+          "up": false,
+          "pastUp": true,
+          "callPrev": "bull"
+        },
+        {
+          "asset": "silver",
+          "name": "白银",
+          "call": "bear",
+          "callLabel": "偏空",
+          "changePct": -5.43,
+          "hit": true,
+          "up": false,
+          "pastUp": true,
+          "callPrev": "bull"
+        },
+        {
+          "asset": "bonds",
+          "name": "债券",
+          "call": "bear",
+          "callLabel": "中性偏空",
+          "changePct": 5.97,
+          "hit": true,
+          "up": false,
+          "pastUp": false,
+          "callPrev": "bull"
+        },
+        {
+          "asset": "usd",
+          "name": "美元",
+          "call": "bull",
+          "callLabel": "中性偏多",
+          "changePct": 1.09,
+          "hit": true,
+          "up": true,
+          "pastUp": true,
+          "callPrev": "bear"
+        }
+      ],
+      "hits": 4,
+      "total": 4
     }
   ],
   "byAsset": {
     "gold": {
       "name": "黄金",
-      "total": 2,
-      "hits": 0,
-      "hitRate": 0,
-      "avgFavorable": null,
-      "avgAdverse": 5.61,
+      "total": 3,
+      "hits": 1,
+      "hitRate": 33.3,
+      "avgFavorable": 4.63,
+      "avgAdverse": 0.88,
       "benchmarks": {
         "bull": {
           "hits": 1,
-          "total": 2,
-          "rate": 50
+          "total": 3,
+          "rate": 33.3
         },
         "bear": {
-          "hits": 1,
-          "total": 2,
-          "rate": 50
+          "hits": 2,
+          "total": 3,
+          "rate": 66.7
         },
         "persist": {
           "hits": 0,
-          "total": 0,
-          "rate": null
+          "total": 1,
+          "rate": 0
         },
         "momentum": {
           "hits": 1,
-          "total": 2,
-          "rate": 50
+          "total": 3,
+          "rate": 33.3
         }
       },
-      "edgeVsBestBenchmark": -50
+      "edgeVsBestBenchmark": -33.4
     },
     "silver": {
       "name": "白银",
-      "total": 15,
+      "total": 16,
       "hits": 11,
-      "hitRate": 73.3,
-      "avgFavorable": 10.37,
-      "avgAdverse": 8.34,
+      "hitRate": 68.8,
+      "avgFavorable": 5.82,
+      "avgAdverse": 3.84,
       "benchmarks": {
         "bull": {
-          "hits": 2,
-          "total": 15,
-          "rate": 13.3
+          "hits": 3,
+          "total": 16,
+          "rate": 18.8
         },
         "bear": {
           "hits": 13,
-          "total": 15,
-          "rate": 86.7
+          "total": 16,
+          "rate": 81.3
         },
         "persist": {
           "hits": 10,
-          "total": 12,
-          "rate": 83.3
+          "total": 13,
+          "rate": 76.9
         },
         "momentum": {
-          "hits": 7,
-          "total": 14,
-          "rate": 50
+          "hits": 6,
+          "total": 15,
+          "rate": 40
         }
       },
-      "edgeVsBestBenchmark": -13.4
+      "edgeVsBestBenchmark": -12.5
     },
     "oil": {
       "name": "原油",
       "total": 15,
       "hits": 10,
       "hitRate": 66.7,
-      "avgFavorable": 9.23,
-      "avgAdverse": 5.06,
+      "avgFavorable": 6.2,
+      "avgAdverse": 4.94,
       "benchmarks": {
         "bull": {
           "hits": 9,
@@ -809,107 +872,112 @@
           "rate": 40
         },
         "persist": {
-          "hits": 10,
+          "hits": 9,
           "total": 13,
-          "rate": 76.9
+          "rate": 69.2
         },
         "momentum": {
-          "hits": 8,
+          "hits": 9,
           "total": 14,
-          "rate": 57.1
+          "rate": 64.3
         }
       },
-      "edgeVsBestBenchmark": -10.2
+      "edgeVsBestBenchmark": -2.5
     },
     "bonds": {
       "name": "债券",
-      "total": 16,
-      "hits": 10,
-      "hitRate": 62.5,
-      "avgFavorable": 2.94,
-      "avgAdverse": 2.93,
+      "total": 18,
+      "hits": 11,
+      "hitRate": 61.1,
+      "avgFavorable": 3.67,
+      "avgAdverse": 2.72,
       "benchmarks": {
         "bull": {
-          "hits": 7,
-          "total": 16,
-          "rate": 43.8
+          "hits": 8,
+          "total": 18,
+          "rate": 44.4
         },
         "bear": {
-          "hits": 9,
-          "total": 16,
-          "rate": 56.3
+          "hits": 10,
+          "total": 18,
+          "rate": 55.6
         },
         "persist": {
           "hits": 8,
-          "total": 13,
-          "rate": 61.5
+          "total": 16,
+          "rate": 50
         },
         "momentum": {
           "hits": 9,
-          "total": 15,
-          "rate": 60
+          "total": 17,
+          "rate": 52.9
         }
       },
-      "edgeVsBestBenchmark": 1
+      "edgeVsBestBenchmark": 5.5
     },
     "usd": {
       "name": "美元",
-      "total": 4,
+      "total": 5,
       "hits": 1,
-      "hitRate": 25,
-      "avgFavorable": 1.02,
-      "avgAdverse": 1.71,
+      "hitRate": 20,
+      "avgFavorable": 1.09,
+      "avgAdverse": 0.54,
       "benchmarks": {
         "bull": {
           "hits": 4,
-          "total": 4,
-          "rate": 100
+          "total": 5,
+          "rate": 80
         },
         "bear": {
-          "hits": 0,
-          "total": 4,
-          "rate": 0
+          "hits": 1,
+          "total": 5,
+          "rate": 20
         },
         "persist": {
           "hits": 1,
-          "total": 3,
-          "rate": 33.3
+          "total": 4,
+          "rate": 25
         },
         "momentum": {
           "hits": 1,
-          "total": 4,
-          "rate": 25
+          "total": 5,
+          "rate": 20
         }
       },
-      "edgeVsBestBenchmark": -75
+      "edgeVsBestBenchmark": -60
     }
   },
   "summary": {
-    "samples": 18,
-    "hits": 32,
-    "total": 52,
-    "hitRate": 61.5,
+    "samples": 19,
+    "hits": 34,
+    "total": 57,
+    "hitRate": 59.6,
     "benchmarks": {
       "bull": {
-        "hits": 23,
-        "total": 52,
-        "rate": 44.2
+        "hits": 25,
+        "total": 57,
+        "rate": 43.9
       },
       "bear": {
-        "hits": 29,
-        "total": 52,
-        "rate": 55.8
+        "hits": 32,
+        "total": 57,
+        "rate": 56.1
       },
       "persist": {
-        "hits": 29,
-        "total": 41,
-        "rate": 70.7
+        "hits": 28,
+        "total": 47,
+        "rate": 59.6
       },
       "momentum": {
         "hits": 26,
-        "total": 49,
-        "rate": 53.1
+        "total": 54,
+        "rate": 48.1
       }
+    },
+    "windowDays": {
+      "median": 8,
+      "min": 7,
+      "max": 16
     },
     "coverage": {
       "judgedAssets": 5,
