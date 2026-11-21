@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T10:32:32.482Z",
+  "generatedAt": "2026-11-21T12:34:22.080Z",
   "proxies": {
     "gold": "gold",
     "silver": "silver",
@@ -21,6 +21,9 @@
           "callLabel": "中性偏空",
           "changePct": -4.27,
           "hit": true,
+          "labCall": "neutral",
+          "labHit": null,
+          "labPercentile": null,
           "up": false,
           "pastUp": null,
           "callPrev": null
@@ -32,6 +35,9 @@
           "callLabel": "中性偏多",
           "changePct": 4.61,
           "hit": true,
+          "labCall": "neutral",
+          "labHit": null,
+          "labPercentile": null,
           "up": true,
           "pastUp": null,
           "callPrev": null
@@ -43,6 +49,9 @@
           "callLabel": "中性偏空",
           "changePct": 4.37,
           "hit": true,
+          "labCall": "neutral",
+          "labHit": null,
+          "labPercentile": null,
           "up": false,
           "pastUp": null,
           "callPrev": null
@@ -62,6 +71,9 @@
           "callLabel": "中性偏空",
           "changePct": 3.68,
           "hit": false,
+          "labCall": "neutral",
+          "labHit": null,
+          "labPercentile": null,
           "up": true,
           "pastUp": false,
           "callPrev": "bear"
@@ -73,6 +85,9 @@
           "callLabel": "中性偏多",
           "changePct": -9.03,
           "hit": false,
+          "labCall": "neutral",
+          "labHit": null,
+          "labPercentile": null,
           "up": false,
           "pastUp": true,
           "callPrev": "bull"
@@ -84,6 +99,9 @@
           "callLabel": "中性偏空",
           "changePct": 1.01,
           "hit": true,
+          "labCall": "neutral",
+          "labHit": null,
+          "labPercentile": null,
           "up": false,
           "pastUp": true,
           "callPrev": "bear"
@@ -103,6 +121,9 @@
           "callLabel": "中性偏空",
           "changePct": 3.03,
           "hit": false,
+          "labCall": "neutral",
+          "labHit": null,
+          "labPercentile": null,
           "up": true,
           "pastUp": false,
           "callPrev": "bear"
@@ -114,6 +135,9 @@
           "callLabel": "中性偏多",
           "changePct": -7.85,
           "hit": false,
+          "labCall": "neutral",
+          "labHit": null,
+          "labPercentile": null,
           "up": false,
           "pastUp": false,
           "callPrev": "bull"
@@ -125,6 +149,9 @@
           "callLabel": "中性偏空",
           "changePct": -0.2,
           "hit": false,
+          "labCall": "neutral",
+          "labHit": null,
+          "labPercentile": null,
           "up": true,
           "pastUp": true,
           "callPrev": "bear"
@@ -144,6 +171,9 @@
           "callLabel": "中性偏空",
           "changePct": -4.13,
           "hit": true,
+          "labCall": "neutral",
+          "labHit": null,
+          "labPercentile": null,
           "up": false,
           "pastUp": true,
           "callPrev": "bear"
@@ -155,6 +185,9 @@
           "callLabel": "中性偏多",
           "changePct": -3.46,
           "hit": false,
+          "labCall": "neutral",
+          "labHit": null,
+          "labPercentile": null,
           "up": false,
           "pastUp": false,
           "callPrev": "bull"
@@ -166,6 +199,9 @@
           "callLabel": "中性偏空",
           "changePct": 3.19,
           "hit": true,
+          "labCall": "neutral",
+          "labHit": null,
+          "labPercentile": null,
           "up": false,
           "pastUp": true,
           "callPrev": "bear"
@@ -185,6 +221,9 @@
           "callLabel": "中性偏空",
           "changePct": -4.13,
           "hit": true,
+          "labCall": "neutral",
+          "labHit": null,
+          "labPercentile": null,
           "up": false,
           "pastUp": false,
           "callPrev": "bear"
@@ -196,6 +235,9 @@
           "callLabel": "中性偏多",
           "changePct": -3.46,
           "hit": false,
+          "labCall": "neutral",
+          "labHit": null,
+          "labPercentile": null,
           "up": false,
           "pastUp": false,
           "callPrev": "bull"
@@ -207,6 +249,9 @@
           "callLabel": "中性偏空",
           "changePct": 3.19,
           "hit": true,
+          "labCall": "neutral",
+          "labHit": null,
+          "labPercentile": null,
           "up": false,
           "pastUp": false,
           "callPrev": "bear"
@@ -226,6 +271,9 @@
           "callLabel": "中性偏空",
           "changePct": -7.65,
           "hit": true,
+          "labCall": "neutral",
+          "labHit": null,
+          "labPercentile": null,
           "up": false,
           "pastUp": true,
           "callPrev": "bear"
@@ -237,6 +285,9 @@
           "callLabel": "中性偏多",
           "changePct": 3.32,
           "hit": true,
+          "labCall": "neutral",
+          "labHit": null,
+          "labPercentile": null,
           "up": true,
           "pastUp": false,
           "callPrev": "bull"
@@ -248,6 +299,9 @@
           "callLabel": "中性偏空",
           "changePct": 3.19,
           "hit": true,
+          "labCall": "neutral",
+          "labHit": null,
+          "labPercentile": null,
           "up": false,
           "pastUp": false,
           "callPrev": "bear"
@@ -267,6 +321,9 @@
           "callLabel": "中性偏空",
           "changePct": -10.24,
           "hit": true,
+          "labCall": "neutral",
+          "labHit": null,
+          "labPercentile": null,
           "up": false,
           "pastUp": false,
           "callPrev": "bear"
@@ -278,6 +335,9 @@
           "callLabel": "中性偏多",
           "changePct": 6.3,
           "hit": true,
+          "labCall": "neutral",
+          "labHit": null,
+          "labPercentile": null,
           "up": true,
           "pastUp": true,
           "callPrev": "bull"
@@ -289,6 +349,9 @@
           "callLabel": "中性偏空",
           "changePct": 6.45,
           "hit": true,
+          "labCall": "neutral",
+          "labHit": null,
+          "labPercentile": null,
           "up": false,
           "pastUp": false,
           "callPrev": "bear"
@@ -308,6 +371,9 @@
           "callLabel": "中性偏空",
           "changePct": -9.99,
           "hit": true,
+          "labCall": "neutral",
+          "labHit": null,
+          "labPercentile": 0.563,
           "up": false,
           "pastUp": false,
           "callPrev": "bear"
@@ -319,6 +385,9 @@
           "callLabel": "中性偏多",
           "changePct": 9.68,
           "hit": true,
+          "labCall": "neutral",
+          "labHit": null,
+          "labPercentile": null,
           "up": true,
           "pastUp": false,
           "callPrev": "bull"
@@ -330,6 +399,9 @@
           "callLabel": "中性偏空",
           "changePct": 6.45,
           "hit": true,
+          "labCall": "neutral",
+          "labHit": null,
+          "labPercentile": 0.313,
           "up": false,
           "pastUp": false,
           "callPrev": "bear"
@@ -349,6 +421,9 @@
           "callLabel": "中性偏空",
           "changePct": -4.12,
           "hit": true,
+          "labCall": "bear",
+          "labHit": true,
+          "labPercentile": 0.944,
           "up": false,
           "pastUp": false,
           "callPrev": "bear"
@@ -360,6 +435,9 @@
           "callLabel": "中性偏多",
           "changePct": 4.06,
           "hit": true,
+          "labCall": "neutral",
+          "labHit": null,
+          "labPercentile": null,
           "up": true,
           "pastUp": true,
           "callPrev": "bull"
@@ -371,6 +449,9 @@
           "callLabel": "中性偏空",
           "changePct": 2.13,
           "hit": true,
+          "labCall": "bull",
+          "labHit": false,
+          "labPercentile": 0.944,
           "up": false,
           "pastUp": true,
           "callPrev": "bear"
@@ -390,6 +471,9 @@
           "callLabel": "中性偏空",
           "changePct": -2.71,
           "hit": true,
+          "labCall": "bear",
+          "labHit": true,
+          "labPercentile": 0.95,
           "up": false,
           "pastUp": false,
           "callPrev": "bear"
@@ -401,6 +485,9 @@
           "callLabel": "中性偏多",
           "changePct": 2.8,
           "hit": true,
+          "labCall": "neutral",
+          "labHit": null,
+          "labPercentile": null,
           "up": true,
           "pastUp": true,
           "callPrev": "bull"
@@ -412,6 +499,9 @@
           "callLabel": "中性偏空",
           "changePct": -3.6,
           "hit": false,
+          "labCall": "bull",
+          "labHit": true,
+          "labPercentile": 0.95,
           "up": true,
           "pastUp": true,
           "callPrev": "bear"
@@ -431,6 +521,9 @@
           "callLabel": "中性偏空",
           "changePct": -5.76,
           "hit": true,
+          "labCall": "bear",
+          "labHit": true,
+          "labPercentile": 0.864,
           "up": false,
           "pastUp": true,
           "callPrev": "bear"
@@ -442,6 +535,9 @@
           "callLabel": "中性偏多",
           "changePct": 3.43,
           "hit": true,
+          "labCall": "neutral",
+          "labHit": null,
+          "labPercentile": null,
           "up": true,
           "pastUp": false,
           "callPrev": "bull"
@@ -453,6 +549,9 @@
           "callLabel": "中性偏空",
           "changePct": -2.86,
           "hit": false,
+          "labCall": "bull",
+          "labHit": true,
+          "labPercentile": 0.864,
           "up": true,
           "pastUp": false,
           "callPrev": "bear"
@@ -472,6 +571,9 @@
           "callLabel": "中性偏空",
           "changePct": -5.63,
           "hit": true,
+          "labCall": "neutral",
+          "labHit": null,
+          "labPercentile": 0.708,
           "up": false,
           "pastUp": false,
           "callPrev": "bear"
@@ -483,6 +585,9 @@
           "callLabel": "中性偏多",
           "changePct": 1.38,
           "hit": true,
+          "labCall": "neutral",
+          "labHit": null,
+          "labPercentile": null,
           "up": true,
           "pastUp": true,
           "callPrev": "bull"
@@ -494,6 +599,9 @@
           "callLabel": "中性偏空",
           "changePct": -1.77,
           "hit": false,
+          "labCall": "neutral",
+          "labHit": null,
+          "labPercentile": 0.708,
           "up": true,
           "pastUp": false,
           "callPrev": "bear"
@@ -513,6 +621,9 @@
           "callLabel": "中性偏空",
           "changePct": 0.89,
           "hit": false,
+          "labCall": "neutral",
+          "labHit": null,
+          "labPercentile": null,
           "up": true,
           "pastUp": true,
           "callPrev": "bull"
@@ -532,6 +643,9 @@
           "callLabel": "中性偏空",
           "changePct": 0.99,
           "hit": false,
+          "labCall": "neutral",
+          "labHit": null,
+          "labPercentile": 0.429,
           "up": true,
           "pastUp": true,
           "callPrev": null
@@ -543,6 +657,9 @@
           "callLabel": "中性偏多",
           "changePct": -2.8,
           "hit": true,
+          "labCall": "neutral",
+          "labHit": null,
+          "labPercentile": 0.429,
           "up": true,
           "pastUp": false,
           "callPrev": null
@@ -562,6 +679,9 @@
           "callLabel": "偏多",
           "changePct": -4.75,
           "hit": false,
+          "labCall": "neutral",
+          "labHit": null,
+          "labPercentile": 0.367,
           "up": false,
           "pastUp": true,
           "callPrev": null
@@ -573,6 +693,9 @@
           "callLabel": "中性偏空",
           "changePct": -2.61,
           "hit": false,
+          "labCall": "neutral",
+          "labHit": null,
+          "labPercentile": 0.367,
           "up": true,
           "pastUp": false,
           "callPrev": "bull"
@@ -584,6 +707,9 @@
           "callLabel": "中性偏多",
           "changePct": -0.06,
           "hit": false,
+          "labCall": "bear",
+          "labHit": true,
+          "labPercentile": 0.9,
           "up": false,
           "pastUp": true,
           "callPrev": null
@@ -603,6 +729,9 @@
           "callLabel": "中性偏空",
           "changePct": -3.76,
           "hit": false,
+          "labCall": "neutral",
+          "labHit": null,
+          "labPercentile": 0.719,
           "up": true,
           "pastUp": true,
           "callPrev": "bear"
@@ -614,6 +743,9 @@
           "callLabel": "中性偏空",
           "changePct": 0.14,
           "hit": false,
+          "labCall": "neutral",
+          "labHit": null,
+          "labPercentile": 0.781,
           "up": true,
           "pastUp": false,
           "callPrev": "bull"
@@ -633,6 +765,9 @@
           "callLabel": "偏空",
           "changePct": 5.41,
           "hit": false,
+          "labCall": "bull",
+          "labHit": true,
+          "labPercentile": 0.147,
           "up": true,
           "pastUp": false,
           "callPrev": null
@@ -644,6 +779,9 @@
           "callLabel": "中性偏空",
           "changePct": -13.32,
           "hit": true,
+          "labCall": "neutral",
+          "labHit": null,
+          "labPercentile": null,
           "up": false,
           "pastUp": true,
           "callPrev": null
@@ -655,6 +793,9 @@
           "callLabel": "中性偏多",
           "changePct": -1.62,
           "hit": true,
+          "labCall": "bear",
+          "labHit": false,
+          "labPercentile": 0.088,
           "up": true,
           "pastUp": false,
           "callPrev": "bear"
@@ -666,6 +807,9 @@
           "callLabel": "中性偏空",
           "changePct": 0.41,
           "hit": false,
+          "labCall": "neutral",
+          "labHit": null,
+          "labPercentile": 0.618,
           "up": true,
           "pastUp": false,
           "callPrev": "bear"
@@ -685,6 +829,9 @@
           "callLabel": "偏多",
           "changePct": -0.76,
           "hit": false,
+          "labCall": "bull",
+          "labHit": false,
+          "labPercentile": 0.167,
           "up": false,
           "pastUp": true,
           "callPrev": null
@@ -696,6 +843,9 @@
           "callLabel": "偏多",
           "changePct": -2.31,
           "hit": false,
+          "labCall": "bull",
+          "labHit": false,
+          "labPercentile": 0.167,
           "up": false,
           "pastUp": true,
           "callPrev": "bear"
@@ -707,6 +857,9 @@
           "callLabel": "中性偏空",
           "changePct": -13.06,
           "hit": true,
+          "labCall": "neutral",
+          "labHit": null,
+          "labPercentile": null,
           "up": false,
           "pastUp": false,
           "callPrev": "bear"
@@ -718,6 +871,9 @@
           "callLabel": "中性偏多",
           "changePct": 4.25,
           "hit": false,
+          "labCall": "bear",
+          "labHit": true,
+          "labPercentile": 0.111,
           "up": false,
           "pastUp": false,
           "callPrev": "bull"
@@ -729,6 +885,9 @@
           "callLabel": "中性偏空",
           "changePct": 1.56,
           "hit": false,
+          "labCall": "neutral",
+          "labHit": null,
+          "labPercentile": 0.583,
           "up": true,
           "pastUp": false,
           "callPrev": "bear"
@@ -748,6 +907,9 @@
           "callLabel": "偏空",
           "changePct": -4.63,
           "hit": true,
+          "labCall": "neutral",
+          "labHit": null,
+          "labPercentile": 0.368,
           "up": false,
           "pastUp": true,
           "callPrev": "bull"
@@ -759,6 +921,9 @@
           "callLabel": "偏空",
           "changePct": -5.43,
           "hit": true,
+          "labCall": "neutral",
+          "labHit": null,
+          "labPercentile": 0.368,
           "up": false,
           "pastUp": true,
           "callPrev": "bull"
@@ -770,6 +935,9 @@
           "callLabel": "中性偏空",
           "changePct": 5.97,
           "hit": true,
+          "labCall": "bear",
+          "labHit": true,
+          "labPercentile": 0.079,
           "up": false,
           "pastUp": false,
           "callPrev": "bull"
@@ -781,6 +949,9 @@
           "callLabel": "中性偏多",
           "changePct": 1.09,
           "hit": true,
+          "labCall": "bear",
+          "labHit": false,
+          "labPercentile": 0.868,
           "up": true,
           "pastUp": true,
           "callPrev": "bear"
@@ -796,6 +967,11 @@
       "total": 3,
       "hits": 1,
       "hitRate": 33.3,
+      "lab": {
+        "hits": 0,
+        "total": 1,
+        "rate": 0
+      },
       "avgFavorable": 4.63,
       "avgAdverse": 0.88,
       "benchmarks": {
@@ -827,6 +1003,11 @@
       "total": 16,
       "hits": 11,
       "hitRate": 68.8,
+      "lab": {
+        "hits": 4,
+        "total": 5,
+        "rate": 80
+      },
       "avgFavorable": 5.82,
       "avgAdverse": 3.84,
       "benchmarks": {
@@ -858,6 +1039,11 @@
       "total": 15,
       "hits": 10,
       "hitRate": 66.7,
+      "lab": {
+        "hits": 0,
+        "total": 0,
+        "rate": null
+      },
       "avgFavorable": 6.2,
       "avgAdverse": 4.94,
       "benchmarks": {
@@ -889,6 +1075,11 @@
       "total": 18,
       "hits": 11,
       "hitRate": 61.1,
+      "lab": {
+        "hits": 4,
+        "total": 6,
+        "rate": 66.7
+      },
       "avgFavorable": 3.67,
       "avgAdverse": 2.72,
       "benchmarks": {
@@ -920,6 +1111,11 @@
       "total": 5,
       "hits": 1,
       "hitRate": 20,
+      "lab": {
+        "hits": 1,
+        "total": 2,
+        "rate": 50
+      },
       "avgFavorable": 1.09,
       "avgAdverse": 0.54,
       "benchmarks": {
@@ -952,6 +1148,11 @@
     "hits": 34,
     "total": 57,
     "hitRate": 59.6,
+    "lab": {
+      "hits": 9,
+      "total": 14,
+      "rate": 64.3
+    },
     "benchmarks": {
       "bull": {
         "hits": 25,
