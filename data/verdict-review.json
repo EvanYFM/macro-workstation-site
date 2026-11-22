@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T12:34:22.080Z",
+  "generatedAt": "2026-11-22T13:20:01.775Z",
   "proxies": {
     "gold": "gold",
     "silver": "silver",
@@ -959,6 +959,42 @@
       ],
       "hits": 4,
       "total": 4
+    },
+    {
+      "date": "2026-11-15",
+      "checkDate": "2026-11-22",
+      "rows": [
+        {
+          "asset": "bonds",
+          "name": "债券",
+          "call": "bear",
+          "callLabel": "中性偏空",
+          "changePct": -4.47,
+          "hit": false,
+          "labCall": "bull",
+          "labHit": true,
+          "labPercentile": 0.825,
+          "up": true,
+          "pastUp": true,
+          "callPrev": "bear"
+        },
+        {
+          "asset": "usd",
+          "name": "美元",
+          "call": "bull",
+          "callLabel": "中性偏多",
+          "changePct": 0.39,
+          "hit": true,
+          "labCall": "bear",
+          "labHit": false,
+          "labPercentile": 0.975,
+          "up": true,
+          "pastUp": true,
+          "callPrev": "bull"
+        }
+      ],
+      "hits": 1,
+      "total": 2
     }
   ],
   "byAsset": {
@@ -1072,107 +1108,107 @@
     },
     "bonds": {
       "name": "债券",
-      "total": 18,
+      "total": 19,
       "hits": 11,
-      "hitRate": 61.1,
+      "hitRate": 57.9,
       "lab": {
-        "hits": 4,
-        "total": 6,
-        "rate": 66.7
+        "hits": 5,
+        "total": 7,
+        "rate": 71.4
       },
       "avgFavorable": 3.67,
-      "avgAdverse": 2.72,
+      "avgAdverse": 2.94,
       "benchmarks": {
         "bull": {
-          "hits": 8,
-          "total": 18,
-          "rate": 44.4
+          "hits": 9,
+          "total": 19,
+          "rate": 47.4
         },
         "bear": {
           "hits": 10,
-          "total": 18,
-          "rate": 55.6
+          "total": 19,
+          "rate": 52.6
         },
         "persist": {
           "hits": 8,
-          "total": 16,
-          "rate": 50
+          "total": 17,
+          "rate": 47.1
         },
         "momentum": {
-          "hits": 9,
-          "total": 17,
-          "rate": 52.9
+          "hits": 10,
+          "total": 18,
+          "rate": 55.6
         }
       },
-      "edgeVsBestBenchmark": 5.5
+      "edgeVsBestBenchmark": 2.3
     },
     "usd": {
       "name": "美元",
-      "total": 5,
-      "hits": 1,
-      "hitRate": 20,
+      "total": 6,
+      "hits": 2,
+      "hitRate": 33.3,
       "lab": {
         "hits": 1,
-        "total": 2,
-        "rate": 50
+        "total": 3,
+        "rate": 33.3
       },
-      "avgFavorable": 1.09,
+      "avgFavorable": 0.74,
       "avgAdverse": 0.54,
       "benchmarks": {
         "bull": {
-          "hits": 4,
-          "total": 5,
-          "rate": 80
+          "hits": 5,
+          "total": 6,
+          "rate": 83.3
         },
         "bear": {
           "hits": 1,
-          "total": 5,
-          "rate": 20
+          "total": 6,
+          "rate": 16.7
         },
         "persist": {
-          "hits": 1,
-          "total": 4,
-          "rate": 25
+          "hits": 2,
+          "total": 5,
+          "rate": 40
         },
         "momentum": {
-          "hits": 1,
-          "total": 5,
-          "rate": 20
+          "hits": 2,
+          "total": 6,
+          "rate": 33.3
         }
       },
-      "edgeVsBestBenchmark": -60
+      "edgeVsBestBenchmark": -50
     }
   },
   "summary": {
-    "samples": 19,
-    "hits": 34,
-    "total": 57,
-    "hitRate": 59.6,
+    "samples": 20,
+    "hits": 35,
+    "total": 59,
+    "hitRate": 59.3,
     "lab": {
-      "hits": 9,
-      "total": 14,
-      "rate": 64.3
+      "hits": 10,
+      "total": 16,
+      "rate": 62.5
     },
     "benchmarks": {
       "bull": {
-        "hits": 25,
-        "total": 57,
-        "rate": 43.9
+        "hits": 27,
+        "total": 59,
+        "rate": 45.8
       },
       "bear": {
         "hits": 32,
-        "total": 57,
-        "rate": 56.1
+        "total": 59,
+        "rate": 54.2
       },
       "persist": {
-        "hits": 28,
-        "total": 47,
-        "rate": 59.6
+        "hits": 29,
+        "total": 49,
+        "rate": 59.2
       },
       "momentum": {
-        "hits": 26,
-        "total": 54,
-        "rate": 48.1
+        "hits": 28,
+        "total": 56,
+        "rate": 50
       }
     },
     "windowDays": {
