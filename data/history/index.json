@@ -239,6 +239,14 @@
       "relativeChange": "留存现有快照；各字段以原始数据日期为准",
       "directionChange": "详见当次快照",
       "markdownPath": "/reports/2026-11-23.md"
+    },
+    {
+      "date": "2026-11-24",
+      "mainConflict": "美股科技领涨、能源走弱（日变化，行情截至 2026-11-23；美股为上一交易日收盘，亚洲与商品含当日盘中），但2Y 持平、10Y 持平，曲线基本平行移动",
+      "confidence": "中",
+      "relativeChange": "留存现有快照；各字段以原始数据日期为准",
+      "directionChange": "详见当次快照",
+      "markdownPath": "/reports/2026-11-24.md"
     }
   ]
 }
