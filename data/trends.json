@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T04:26:17.462Z",
+  "generatedAt": "2026-11-25T04:12:11.475Z",
   "source": "public/data/history",
   "series": [
     "trend",
@@ -333,6 +333,11 @@
         "date": "2026-11-23",
         "ust2": 4.63,
         "ust10": 4.92
+      },
+      {
+        "date": "2026-11-24",
+        "ust2": 4.63,
+        "ust10": 4.91
       }
     ],
     "liquidityTrend": [
@@ -784,6 +789,12 @@
         "cccOas": 14.02,
         "bbbOas": 1.22,
         "cccBbbOas": 12.8
+      },
+      {
+        "date": "2026-11-23",
+        "cccOas": 13.87,
+        "bbbOas": 1.2,
+        "cccBbbOas": 12.67
       }
     ],
     "moveTrend": [
@@ -1010,6 +1021,10 @@
       {
         "date": "2026-11-23",
         "move": 100.91
+      },
+      {
+        "date": "2026-11-24",
+        "move": 98.84
       }
     ],
     "indicatorTrend": [
@@ -1220,6 +1235,14 @@
         "vix": 26.62,
         "brent": 86.31999969482422,
         "ust2": 4.63
+      },
+      {
+        "date": "2026-11-25",
+        "tips10": 2.79,
+        "ust10": 4.91,
+        "vix": 26.36,
+        "brent": 87.5,
+        "ust2": 4.63
       }
     ]
   },
@@ -1230,9 +1253,9 @@
       "last": "2026-07-20"
     },
     "rateTrend": {
-      "points": 56,
+      "points": 57,
       "first": "2026-08-31",
-      "last": "2026-11-23"
+      "last": "2026-11-24"
     },
     "liquidityTrend": {
       "points": 17,
@@ -1240,19 +1263,19 @@
       "last": "2026-11-18"
     },
     "creditSpreadTrend": {
-      "points": 62,
+      "points": 63,
       "first": "2026-08-27",
-      "last": "2026-11-20"
-    },
-    "moveTrend": {
-      "points": 56,
-      "first": "2026-08-31",
       "last": "2026-11-23"
     },
-    "indicatorTrend": {
-      "points": 26,
-      "first": "2026-09-09",
+    "moveTrend": {
+      "points": 57,
+      "first": "2026-08-31",
       "last": "2026-11-24"
+    },
+    "indicatorTrend": {
+      "points": 27,
+      "first": "2026-09-09",
+      "last": "2026-11-25"
     }
   }
 }

@@ -247,6 +247,14 @@
       "relativeChange": "留存现有快照；各字段以原始数据日期为准",
       "directionChange": "详见当次快照",
       "markdownPath": "/reports/2026-11-24.md"
+    },
+    {
+      "date": "2026-11-25",
+      "mainConflict": "贵金属领涨、美股科技走弱（日变化，行情截至 2026-11-24；美股为上一交易日收盘，亚洲与商品含当日盘中），但2Y 持平、10Y -1bp，曲线趋平",
+      "confidence": "中",
+      "relativeChange": "留存现有快照；各字段以原始数据日期为准",
+      "directionChange": "详见当次快照",
+      "markdownPath": "/reports/2026-11-25.md"
     }
   ]
 }
